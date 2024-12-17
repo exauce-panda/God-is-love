@@ -1,0 +1,60 @@
+.bob{
+    color: white;
+  }
+.titre{
+    display: flex;
+    color: white;
+    opacity: 100%;
+    padding: 20px;
+    font-size: x-large;
+    height:630px;
+    background-image: url('/godislove/public/logoGilc.png');
+    background-size: cover;
+    background-position: center;
+      
+}
+.cent{ 
+    display:flex;
+    margin-left: 40px;
+}
+.tritre_n_un {
+    max-width: max-content;
+  }
+  
+.god,
+.is,
+.love_center { /* Maintient l'alignement justifié pour chaque ligne */
+    margin: 0; /* Facultatif : pour éviter des marges inattendues */
+    font-size: 90px;
+}
+  .titre_n_deux{
+    padding: 60px;
+    margin-right: 120px;
+    margin-top: 95px;
+    max-width: max-content;
+}
+.mini_titre{
+    display: flex;
+    padding: 20px;
+    margin-left: 100px;
+    justify-content: center;
+}
+.desc{
+  margin-left: 150px;
+}
+.verset{
+  display: flex;
+  padding: 20px;
+  margin-right: 30px;
+  justify-content: center;
+}
+.reseaux{
+  display: flex;
+  justify-content: center;
+}
+.reseaux_deux{
+  display: flex;
+  max-width: max-content;
+  background-color:aqua;
+}
+ 

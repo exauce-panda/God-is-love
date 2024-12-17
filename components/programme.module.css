@@ -1,0 +1,21 @@
+.bob{
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.table_pg{
+    display: flex;
+    justify-content: center;
+}
+.pg_un{
+    background-color: blue;
+    padding: 20px;
+}
+.pg_deux{
+    background-color:bisque;
+    padding: 20px;
+}
+.pg_trois{
+    background-color:aqua;
+    padding: 20px;
+}
