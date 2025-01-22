@@ -1,0 +1,19 @@
+.bob {
+    background-color: aliceblue;
+    color: black;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+    padding: 30px;
+}
+.logo {
+    display: flex;
+    gap: 30px;
+}
+.auteur {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}

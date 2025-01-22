@@ -1,14 +1,9 @@
-import Image from "next/image";
-import Description from "@/components/Description";
-import styles from "./page.module.css"
+import Home from './home'
 
-export default function Home() {
+export default function Page() {
   return (
        <div>
-        <div>
-        <Description/>
-        </div>
-       
+        <Home/>
        </div>
   );
 }

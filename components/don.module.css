@@ -1,0 +1,23 @@
+.bob{
+    padding-top: 80px;
+    text-align: center;
+}
+.verset{
+    font-size:x-large;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.text{
+    font-size: x-large;
+    padding-bottom: 80px;
+}
+.paiements{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.m_paiement{
+    display: block;
+    padding: 20px;
+    font-size: large;
+}

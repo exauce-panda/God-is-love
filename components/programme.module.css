@@ -1,21 +1,46 @@
 .bob{
     display: flex;
     justify-content: center;
-    padding: 70px;
+}
+.bob h1 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 .table_pg{
     display: flex;
     justify-content: center;
 }
 .pg_un{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    color: black;
     padding: 20px;
+    min-width: 400px;
+    max-width: 400px;
 }
 .pg_deux{
-    background-color:bisque;
+    background-color:rgb(62, 60, 83);
     padding: 20px;
+    min-width: 400px;
+    max-width: 400px;
 }
 .pg_trois{
-    background-color:aqua;
+    background-color:rgb(255, 63, 4);
     padding: 20px;
+    min-width: 400px;
+    max-width: 400px;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+}
+.p2{
+    padding: 12px;
+}
+.p3{
+    margin-left: 12px;
+    padding: 10px;
+}
+.p4{
+    padding-top:10px;
 }
