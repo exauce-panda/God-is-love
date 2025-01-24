@@ -43,7 +43,7 @@ export default function menuNav() {
         </li>
         <li>
           <Link href="/visitez_nous" className={pathname === '/visitez_nous' ? `text-success` : 'nav-item'}>
-              visitez_nous
+              Nos Eglises
           </Link>
         </li>
             </ul>
