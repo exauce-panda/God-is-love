@@ -1,11 +1,13 @@
 .bob{
     display: flex;
     justify-content: center;
+    background-color:rgb(116, 78, 126);
 }
 .bob h1 {
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: bisque;
 }
 .table_pg{
     display: flex;

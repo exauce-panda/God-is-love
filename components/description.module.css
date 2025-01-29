@@ -8,7 +8,7 @@
     padding: 20px;
     font-size: x-large;
     height:630px;
-    background-image: url('/godislove/public/logoGilc.png');
+    background-image: url('/logos/facebook.png');
     background-size: cover;
     background-position: center;
       
@@ -19,6 +19,7 @@
 }
 .tritre_n_un {
     max-width: max-content;
+    color: rgb(255, 30, 0);
   }
   
 .god,
@@ -51,10 +52,19 @@
 .reseaux{
   display: flex;
   justify-content: center;
+  color:bisque;
+  background-color:rgb(250, 81, 30);
 }
 .reseaux_deux{
-  display: flex;
+  text-align: center;
   max-width: max-content;
-  background-color:aqua;
+  font-size: x-large;
+  padding: 40px;
+}
+.lien{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
 }
  

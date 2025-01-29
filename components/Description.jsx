@@ -1,5 +1,10 @@
 import styles from "./description.module.css"
 import Programme from "./Programme.jsx"
+import Image from "next/legacy/image";
+import logo_un from "@/public/logos/facebook.png"
+import logo_deux from "@/public/logos/instagram.png"
+import logo_trois from "@/public/logos/youtube.png"
+import logo_quatre from "@/public/logos/spotify.png"
 export default function Description() {
     return(
      <div className={styles.bob}>
@@ -25,7 +30,13 @@ export default function Description() {
         </div>     
         <div className={styles.reseaux}>
             <div className={`${styles.reseaux_deux} gap-4`}>
-                <div>Youtube</div><div>Facebook</div><div>Instagram</div>
+                <div>SUIVEZ-NOUS SUR NOS RESEAUX</div>
+                <div className={styles.lien}>
+                <Image src={logo_un} alt="logo facebook" width={40} height={40} />
+                <Image src={logo_deux} alt="logo instagram" width={40} height={40} />
+                <Image src={logo_trois} alt="logo youtube" width={40} height={40} />
+                <Image src={logo_quatre} alt="logo spotify" width={40} height={40} />
+                </div>
             </div>
         </div>  
         <div>

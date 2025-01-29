@@ -16,33 +16,23 @@ export default function menuNav() {
             </div>
             <ul className={styles.navigation}>
         {/* Liste des liens de navigation */}
-        <li>
-          <Link href="/" className={pathname === '/' ? `text-success` : 'nav-item'}>
+        <li className={styles.lien}>
+          <Link href="/" className={pathname === '/' ? `text-warning` : 'nav-item'}>
               Accueil
           </Link>
         </li>
-        <li>
-          <Link href="/don" className={pathname === '/don' ? `text-success` : 'nav-item'}>
+        <li className={styles.lien}>
+          <Link href="/don" className={pathname === '/don' ? `text-warning` : 'nav-item'}>
               Don
           </Link>
         </li>
-        <li>
-          <Link href="/evenements" className={pathname === '/evenements' ? `text-success` : 'nav-item'}>
+        <li className={styles.lien}>
+          <Link href="/evenements" className={pathname === '/evenements' ? `text-warning` : 'nav-item'}>
               Evenements
           </Link>
         </li>
-        <li>
-          <Link href="/ministere" className={pathname === '/ministere' ? `text-success` : 'nav-item'}>
-              Ministere
-          </Link>
-        </li>
-        <li>
-          <Link href="/predications" className={pathname === '/predications' ? `text-success` : 'nav-item'}>
-              Predications
-          </Link>
-        </li>
-        <li>
-          <Link href="/visitez_nous" className={pathname === '/visitez_nous' ? `text-success` : 'nav-item'}>
+        <li className={styles.lien}>
+          <Link href="/visitez_nous" className={pathname === '/visitez_nous' ? `text-warning` : 'nav-item'}>
               Nos Eglises
           </Link>
         </li>
