@@ -18,16 +18,24 @@ export default function Footer(){
             </div>
             <div className={styles.logo}>
             <div className={styles.image}>
+                <a href="https://www.facebook.com/Godislovecenter?locale=fr_CA" target="_blank">
                 <Image src={logo_un} alt="logo facebook" width={40} height={40} />
+                </a>
             </div>
             <div className={styles.image}>
+            <a href="https://www.instagram.com/god_is_lovecenter?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
                 <Image src={logo_deux} alt="logo instagram" width={40} height={40} />
+                </a>
             </div>
             <div className={styles.image}>
+            <a href="https://youtube.com/@gilctv4549?si=l13vyKqNc89xk2_T" target="_blank">
                 <Image src={logo_trois} alt="logo youtube" width={40} height={40} />
+                </a>
             </div>
-            <div className={styles.image}>
-                <Image src={logo_quatre} alt="logo spotify" width={40} height={40} />
+            <div>
+            <a href="https://www.tiktok.com/@gilc_ottawa?_t=ZM-8so4Bh7Mcx4&_r=1" target="_blank">
+                <Image src={logo_quatre} alt="logo TIKTOK" width={40} height={40} />
+            </a>
             </div>
             </div>
         </div>

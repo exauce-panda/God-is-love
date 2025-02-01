@@ -8,10 +8,10 @@
     padding: 20px;
     font-size: x-large;
     height:630px;
-    background-image: url('/logos/facebook.png');
+    background-color: aliceblue;
+    background-image: url('/images/bg_image_un.jpg');
     background-size: cover;
     background-position: center;
-      
 }
 .cent{ 
     display:flex;

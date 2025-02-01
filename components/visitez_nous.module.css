@@ -1,9 +1,25 @@
 .bob{
-    display: flex;
-    justify-content: center;
-    font-size:xx-large;
+    text-align: center;
     padding-top: 190px;
+    padding-left: 200px;
 }
 .eglise{
     display: flex;
+    padding-bottom: 40px;
+}
+.description{
+    text-align:justify;
+    padding-left: 20px;
+}
+.pasteur{
+    font-weight: bolder;
+    font-size:x-large;
+    padding-bottom: 30px;
+}
+.type_eglise{
+    font-size:large;
+    padding-bottom: 30px;
+}
+.adresse{
+    font-size:larger;
 }

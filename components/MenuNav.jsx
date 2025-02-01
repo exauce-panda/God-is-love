@@ -36,6 +36,11 @@ export default function menuNav() {
               Nos Eglises
           </Link>
         </li>
+        <li className={styles.lien}>
+          <Link href="/contact" className={pathname === '/contact' ? `text-warning` : 'nav-item'}>
+              Contactez-nous
+          </Link>
+        </li>
             </ul>
         </nav>
         </div>
