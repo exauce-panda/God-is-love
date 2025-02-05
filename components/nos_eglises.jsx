@@ -1,7 +1,7 @@
-import styles from "./visitez_nous.module.css"
+import styles from "./nos_eglises.module.css"
 import Image from "next/legacy/image";
 import pasteur from "@/public/images/pasteur.jpg"
-export default function visitez_nous(){
+export default function nos_eglises(){
     return(
         <div className={styles.bob}>
             <div className={styles.eglise}>
