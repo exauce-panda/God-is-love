@@ -31,24 +31,6 @@ export default function nos_eglises(){
                 <div className={styles.adresse}>adresse</div>
                 </div>
             </div>
-            <div className={styles.eglise}>
-                <Image src={pasteur} alt="Image de l'Apôtre Eric Kaloyi" width={450} height={500} />
-                <div className={styles.description}>
-                <div className={styles.pasteur}>pasteur</div>
-                <div className={styles.type_eglise}>Eglise 4</div>
-                <div className={styles.adresse}>adresse</div>
-                <div className={styles.adresse}>adresse</div>
-                </div>
-            </div>
-            <div className={styles.eglise}>
-                <Image src={pasteur} alt="Image de l'Apôtre Eric Kaloyi" width={450} height={500} />
-                <div className={styles.description}>
-                <div className={styles.pasteur}>pasteur</div>
-                <div className={styles.type_eglise}>Eglise 5</div>
-                <div className={styles.adresse}>adresse</div>
-                <div className={styles.adresse}>adresse</div>
-                </div>
-            </div>
         </div>
     );
 }

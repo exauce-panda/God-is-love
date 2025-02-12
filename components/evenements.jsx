@@ -1,4 +1,5 @@
 import styles from "@/components/evenements.module.css"
+import LatestVideos from "@/components/LatestVideo.jsx";
 
 export default function evenements (){
     return(
@@ -11,6 +12,12 @@ export default function evenements (){
             <div>Evement 2</div>
             <div>Evement 3</div>
             <div>Evement 4</div>
+            </div>
+            <div>
+            <div>Nos dernieres videos</div>
+            <div>
+                 <LatestVideos/>
+            </div>
             </div>
         </div>
     );

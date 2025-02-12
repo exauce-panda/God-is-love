@@ -32,7 +32,7 @@ export default function menuNav() {
           </Link>
         </li>
         <li className={styles.lien}>
-          <Link href="/visitez_nous" className={pathname === '/visitez_nous' ? `text-warning` : 'nav-item'}>
+          <Link href="/nos_eglises" className={pathname === '/nos_eglises' ? `text-warning` : 'nav-item'}>
               Nos Eglises
           </Link>
         </li>
