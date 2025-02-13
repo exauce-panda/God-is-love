@@ -12,10 +12,9 @@ export default function LatestVideos() {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div className="d-flex gap-4">
       {videos.map((video) => (
-        <div key={video.id.videoId} className="p-4 border rounded-lg">
-          <h3 className="text-lg font-bold">{video.snippet.title}</h3>
+        <div key={video.id.videoId} className="p-4 rounded-lg">
           <a href={`https://www.youtube.com/watch?v=${video.id.videoId}`} target="_blank" rel="noopener noreferrer">
             <img src={video.snippet.thumbnails.medium.url} alt={video.snippet.title} className="w-full" />
           </a>

@@ -57,7 +57,8 @@ export default function contact() {
        //emailjs.sendForm("service_f9b84ft","template_54sxywe",e.target,"eYc5_rW7DCei_jHAY");
     };
     return (
-        <>
+        <div className={`${styles.bob} text-white`}>
+            <div>g</div> {/*a corriger pour je ne sais quel raison la bar noir disparait uniquement si il y'a un ecrit ici*/}
             <div className={`${styles.pageContact} container`}>
                 {/* Affichage conditionnel du message de succès */}
                 {showSuccessMessage && (
@@ -67,23 +68,23 @@ export default function contact() {
                 )}
                 <div className="row mt-5">
                     <div className="col-md-6">
-                        <div className="text-white p-4 rounded">
+                        <div className="text-black p-4 rounded">
                             <h2 className='mb-5'>Envoyez-nous un message</h2>
                             <form onSubmit={handleSubmit}>
                                 {/* Champs du formulaire avec gestion des erreurs */}
                                 <div className={`mb-3 ${styles.forumId}`}>
                                     <label htmlFor="nom" className="form-label text-warning">Nom</label>
-                                    <input name="nom_mail" type="text" className={`form-control text-white bg-dark ${errorNom ? 'is-invalid' : ''}`} id="nom" value={nom} onChange={(e) => { setNom(e.target.value); validateField('nom', e.target.value); }} />
+                                    <input name="nom_mail" type="text" className={`form-control text-black bg-white ${errorNom ? 'is-invalid' : ''}`} id="nom" value={nom} onChange={(e) => { setNom(e.target.value); validateField('nom', e.target.value); }} />
                                     {errorNom && <div className="invalid-feedback">{errorNom}</div>}
                                 </div>
                                 <div className={`mb-3 ${styles.forumId}`}>
                                     <label htmlFor="email" className="form-label text-warning">Adresse e-mail</label>
-                                    <input name="email_mail" type="email" className={`form-control text-white bg-dark ${errorEmail ? 'is-invalid' : ''}`} id="email" value={email} onChange={(e) => { setEmail(e.target.value); validateField('email', e.target.value); }} />
+                                    <input name="email_mail" type="email" className={`form-control text-black bg-white ${errorEmail ? 'is-invalid' : ''}`} id="email" value={email} onChange={(e) => { setEmail(e.target.value); validateField('email', e.target.value); }} />
                                     {errorEmail && <div className="invalid-feedback">{errorEmail}</div>}
                                 </div>
                                 <div className={`mb-3 ${styles.forumMessage}`}>
                                     <label htmlFor="message" className="form-label text-warning">Message</label>
-                                    <textarea name="message_mail" className={`form-control text-white bg-dark ${errorMessage ? 'is-invalid' : ''}`} id="message" rows="5" value={message} onChange={(e) => { setMessage(e.target.value); validateField('message', e.target.value); }}></textarea>
+                                    <textarea name="message_mail" className={`form-control text-black bg-white ${errorMessage ? 'is-invalid' : ''}`} id="message" rows="5" value={message} onChange={(e) => { setMessage(e.target.value); validateField('message', e.target.value); }}></textarea>
                                     {errorMessage && <div className="invalid-feedback">{errorMessage}</div>}
                                 </div>
                                 <button type="submit" className="btn btn-success">Envoyer</button>
@@ -92,7 +93,7 @@ export default function contact() {
                     </div>
                     <div className="col-md-6">
                         {/* Informations de contact */}
-                        <div className="text-white p-4 rounded">
+                        <div className="text-black p-4 rounded">
                             <h2 className='mb-5'>Coordonnées</h2>
                             <p className="text-warning">Voici aussi comment vous pouvez nous joindre :</p>
                             <ul>
@@ -103,6 +104,6 @@ export default function contact() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

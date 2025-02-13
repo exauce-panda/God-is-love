@@ -3,15 +3,15 @@
   }
 .titre{
     display: flex;
-    color: white;
+    color: black;
     opacity: 100%;
     padding: 20px;
     font-size: x-large;
     height:630px;
     background-color: aliceblue;
-    background-image: url('/images/bg_image_un.jpg');
+    /*background-image: url('/images/bg_image_un.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
 }
 .cent{ 
     display:flex;

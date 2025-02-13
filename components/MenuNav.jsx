@@ -12,32 +12,34 @@ export default function menuNav() {
         <div className={styles.bob}>
         <nav className={styles.nav}>
             <div className={styles.image}>
+                <Link href="/" className={pathname === '/' ? `${styles.test}` : 'nav-item'}>
                 <Image src={logo} alt="logo GILC" width={90} height={90} />
+                </Link>
             </div>
             <ul className={styles.navigation}>
         {/* Liste des liens de navigation */}
         <li className={styles.lien}>
-          <Link href="/" className={pathname === '/' ? `text-warning` : 'nav-item'}>
+          <Link href="/" className={pathname === '/' ? `${styles.test}` : 'nav-item'}>
               Accueil
           </Link>
         </li>
         <li className={styles.lien}>
-          <Link href="/don" className={pathname === '/don' ? `text-warning` : 'nav-item'}>
+          <Link href="/don" className={pathname === '/don' ? `${styles.test}` : 'nav-item'}>
               Don
           </Link>
         </li>
         <li className={styles.lien}>
-          <Link href="/evenements" className={pathname === '/evenements' ? `text-warning` : 'nav-item'}>
+          <Link href="/evenements" className={pathname === '/evenements' ? `${styles.test}` : 'nav-item'}>
               Evenements
           </Link>
         </li>
         <li className={styles.lien}>
-          <Link href="/nos_eglises" className={pathname === '/nos_eglises' ? `text-warning` : 'nav-item'}>
+          <Link href="/nos_eglises" className={pathname === '/nos_eglises' ? `${styles.test}` : 'nav-item'}>
               Nos Eglises
           </Link>
         </li>
         <li className={styles.lien}>
-          <Link href="/contact" className={pathname === '/contact' ? `text-warning` : 'nav-item'}>
+          <Link href="/contact" className={pathname === '/contact' ? `${styles.test}` : 'nav-item'}>
               Contactez-nous
           </Link>
         </li>

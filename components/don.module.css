@@ -1,6 +1,8 @@
 .bob{
     padding-top: 80px;
     text-align: center;
+    color: black;
+    background-color: aliceblue;
 }
 .verset{
     font-size:x-large;

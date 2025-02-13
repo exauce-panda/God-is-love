@@ -1,9 +1,7 @@
 import styles from "@/components/evenements.module.css"
-import LatestVideos from "@/components/LatestVideo.jsx";
-
 export default function evenements (){
     return(
-        <div className={styles.titre}>
+        <div className={styles.bob}>
             <h1>NOS EVENEMENTS</h1>
             <div className={styles.presentation}>Nous vous encourageons à vous abonnez sur nos réseaux sociaux afin d'être au courant de toutes les activités que nos Eglises organisent.</div>
             <div className={styles.titre_un}>ne manqez pas nos événements:</div>
@@ -14,10 +12,7 @@ export default function evenements (){
             <div>Evement 4</div>
             </div>
             <div>
-            <div>Nos dernieres videos</div>
-            <div>
-                 <LatestVideos/>
-            </div>
+            <div>Nos dernieres videos</div>          
             </div>
         </div>
     );

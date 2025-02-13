@@ -5,6 +5,7 @@ import logo_un from "@/public/logos/facebook.png"
 import logo_deux from "@/public/logos/instagram.png"
 import logo_trois from "@/public/logos/youtube.png"
 import logo_quatre from "@/public/logos/spotify.png"
+import LatestVideos from "@/components/LatestVideo.jsx"
 export default function Description() {
     return(
      <div className={styles.bob}>
@@ -45,6 +46,10 @@ export default function Description() {
                 <Image src={logo_quatre} alt="logo TIKTOK" width={40} height={40} />
                 </a>
                 </div>
+                <div>
+                    <div>Nos dernieres publications</div>
+                 <LatestVideos/>
+            </div>
             </div>
         </div>  
         <div>

@@ -1,4 +1,8 @@
 /* Définition des styles pour le composant Contact */
+.bob{
+    background-color: aliceblue;
+    color:aliceblue;
+}
 /* Styles pour l'identifiant du formulaire */
 .forumId {
     height: 7rem; /* Définit la hauteur des conteneurs des champs du formulaire (nom et email) pour assurer une uniformité visuelle */
