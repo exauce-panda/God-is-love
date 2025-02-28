@@ -39,6 +39,11 @@ export default function menuNav() {
           </Link>
         </li>
         <li className={styles.lien}>
+          <Link href="/service" className={pathname === '/service' ? `${styles.test}` : 'nav-item'}>
+              Servir
+          </Link>
+        </li>
+        <li className={styles.lien}>
           <Link href="/contact" className={pathname === '/contact' ? `${styles.test}` : 'nav-item'}>
               Contactez-nous
           </Link>
