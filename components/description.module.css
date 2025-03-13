@@ -2,51 +2,35 @@
     color: white;
   }
 .titre{
-    display: flex;
     color: black;
     opacity: 100%;
     padding: 20px;
     font-size: x-large;
-    height:630px;
     background-color: aliceblue;
     /*background-image: url('/images/bg_image_un.jpg');
     background-size: cover;
     background-position: center;*/
 }
-.cent{ 
-    display:flex;
-    margin-left: 40px;
-}
 .tritre_n_un {
-    max-width: max-content;
+  font-size: 90px;
+    display: flex;
+    justify-content: center;
     color: rgb(255, 30, 0);
   }
-  
-.god,
-.is,
-.love_center { /* Maintient l'alignement justifié pour chaque ligne */
-    margin: 0; /* Facultatif : pour éviter des marges inattendues */
-    font-size: 90px;
-}
-  .titre_n_deux{
-    padding: 60px;
-    margin-right: 120px;
-    margin-top: 95px;
-    max-width: max-content;
+.titre_n_deux{
+    padding: 20px;
 }
 .mini_titre{
     display: flex;
     padding: 20px;
-    margin-left: 100px;
     justify-content: center;
 }
 .desc{
-  margin-left: 150px;
+  text-align: center;
 }
 .verset{
   display: flex;
   padding: 20px;
-  margin-right: 30px;
   justify-content: center;
 }
 .reseaux{
@@ -66,5 +50,10 @@
   justify-content: center;
   padding: 20px;
   gap: 20px;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
 }
  

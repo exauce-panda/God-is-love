@@ -25,3 +25,6 @@
 .bgcolor li{
     list-style-type: none;
 }
+.text_color{
+    color:rgb(255, 30, 0);
+}

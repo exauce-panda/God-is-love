@@ -82,17 +82,17 @@ export default function medias() {
                            <form onSubmit={handleSubmit}>
                                {/* Champs du formulaire avec gestion des erreurs */}
                                <div className={`mb-3 ${styles.forumId}`}>
-                                   <label htmlFor="nom" className="form-label text-warning">Nom</label>
+                                   <label htmlFor="nom" className={`form-label ${styles.text_color}`}>Nom</label>
                                    <input name="nom_mail" type="text" className={`form-control text-black bg-white ${errorNom ? 'is-invalid' : ''}`} id="nom" value={nom} onChange={(e) => { setNom(e.target.value); validateField('nom', e.target.value); }} />
                                    {errorNom && <div className="invalid-feedback">{errorNom}</div>}
                                </div>
                                <div className={`mb-3 ${styles.forumId}`}>
-                                   <label htmlFor="email" className="form-label text-warning">Adresse e-mail</label>
+                                   <label htmlFor="email" className={`form-label ${styles.text_color}`}>Adresse e-mail</label>
                                    <input name="email_mail" type="email" className={`form-control text-black bg-white ${errorEmail ? 'is-invalid' : ''}`} id="email" value={email} onChange={(e) => { setEmail(e.target.value); validateField('email', e.target.value); }} />
                                    {errorEmail && <div className="invalid-feedback">{errorEmail}</div>}
                                </div>
                                <div className={`mb-3 ${styles.forumId}`}>
-                                   <label htmlFor="telephone" className="form-label text-warning">Telephone</label>
+                                   <label htmlFor="telephone" className={`form-label ${styles.text_color}`}>Telephone</label>
                                    <input name="num_telephone" type="number" className={`form-control text-black bg-white ${errorTelephone ? 'is-invalid' : ''}`} id="telephone" value={telephone} onChange={(e) => { const valeur = e.target.value; setTelephone(valeur); validateTelephone(valeur); }} />
                                    {errorTelephone && <div className="invalid-feedback">{errorTelephone}</div>}
                                </div>

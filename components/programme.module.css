@@ -9,7 +9,7 @@
     font-weight: bolder;
     font-size:60px;
     padding: 20px;
-    color: bisque;
+    color: rgb(255, 63, 4);
 }
 .table_pg{
     display: flex;
@@ -36,6 +36,27 @@
     font-size:x-large;
     min-width: 400px;
     max-width: 400px;
+}
+.p_1{
+    display: flex;
+    justify-content: center; 
+    font-weight: bolder;
+}
+.p_2{
+    font-weight: bold;
+    padding: 12px;
+    margin-bottom: 70px;
+}
+.p_3{
+    font-weight: bold;
+    margin-left: 12px;
+    padding: 10px;
+    margin-bottom: 69px;
+}
+.p_4{
+    font-weight: bold;
+    padding-top:10px;
+    color:rgb(255, 63, 4);
 }
 .p1{
     display: flex;

@@ -21,5 +21,15 @@
 .m_paiement{
     display: block;
     padding: 20px;
-    font-size: large;
+    font-size: xx-large;
+}
+.interac{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    padding-left: 12px;
+}
+.txt{
+    color: rgb(255, 30, 0);
 }

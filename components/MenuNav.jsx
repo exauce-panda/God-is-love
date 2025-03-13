@@ -11,11 +11,6 @@ export default function menuNav() {
     return(
         <div className={styles.bob}>
         <nav className={styles.nav}>
-            <div className={styles.image}>
-                <Link href="/" className={pathname === '/' ? `${styles.test}` : 'nav-item'}>
-                <Image src={logo} alt="logo GILC" width={90} height={90} />
-                </Link>
-            </div>
             <ul className={styles.navigation}>
         {/* Liste des liens de navigation */}
         <li className={styles.lien}>

@@ -73,21 +73,21 @@ export default function contact() {
                             <form onSubmit={handleSubmit}>
                                 {/* Champs du formulaire avec gestion des erreurs */}
                                 <div className={`mb-3 ${styles.forumId}`}>
-                                    <label htmlFor="nom" className="form-label text-warning">Nom</label>
+                                    <label htmlFor="nom" className={`form-label ${styles.text_color}`}>Nom</label>
                                     <input name="nom_mail" type="text" className={`form-control text-black bg-white ${errorNom ? 'is-invalid' : ''}`} id="nom" value={nom} onChange={(e) => { setNom(e.target.value); validateField('nom', e.target.value); }} />
                                     {errorNom && <div className="invalid-feedback">{errorNom}</div>}
                                 </div>
                                 <div className={`mb-3 ${styles.forumId}`}>
-                                    <label htmlFor="email" className="form-label text-warning">Adresse e-mail</label>
+                                    <label htmlFor="email" className={`form-label ${styles.text_color}`}>Adresse e-mail</label>
                                     <input name="email_mail" type="email" className={`form-control text-black bg-white ${errorEmail ? 'is-invalid' : ''}`} id="email" value={email} onChange={(e) => { setEmail(e.target.value); validateField('email', e.target.value); }} />
                                     {errorEmail && <div className="invalid-feedback">{errorEmail}</div>}
                                 </div>
                                 <div className={`mb-3 ${styles.forumMessage}`}>
-                                    <label htmlFor="message" className="form-label text-warning">Message</label>
-                                    <textarea name="message_mail" className={`form-control text-black bg-white ${errorMessage ? 'is-invalid' : ''}`} id="message" rows="5" value={message} onChange={(e) => { setMessage(e.target.value); validateField('message', e.target.value); }}></textarea>
+                                    <label htmlFor="message" className={`form-label ${styles.text_color}`}>Message</label>
+                                    <textarea name="message_mail" className={`form-control bg-white ${errorMessage ? 'is-invalid' : ''}`} id="message" rows="5" value={message} onChange={(e) => { setMessage(e.target.value); validateField('message', e.target.value); }}></textarea>
                                     {errorMessage && <div className="invalid-feedback">{errorMessage}</div>}
                                 </div>
-                                <button type="submit" className="btn btn-success">Envoyer</button>
+                                <button type="submit" className="btn">Envoyer</button>
                             </form>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ export default function contact() {
                         {/* Informations de contact */}
                         <div className="text-black p-4 rounded">
                             <h2 className='mb-5'>Coordonnées</h2>
-                            <p className="text-warning">Voici aussi comment vous pouvez nous joindre :</p>
+                            <p className={`form-label ${styles.text_color}`}>Voici aussi comment vous pouvez nous joindre :</p>
                             <ul>
                                 <li>Téléphone : (613) 291-7607</li>
                                 <li>Email : godislovecenter@gmail.com</li>

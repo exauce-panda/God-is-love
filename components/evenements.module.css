@@ -10,3 +10,6 @@
     height: 700px;
     object-fit: cover; /* Garde une bonne mise en page */
 }
+.titre{
+    color: rgb(255, 30, 0);
+}

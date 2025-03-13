@@ -19,24 +19,24 @@ export default function  service(){
         {/* Liste des liens de navigation */}
         <div className={`${styles.liste}`}>
           <Link href="/medias" className={pathname === '/medias' ? `${styles.text}` : ''}>
-          <div className={`${styles.lien} h1 p-5`}> Medias</div>
+          <div className={`h1 p-5`}> Medias</div>
           </Link>
         </div>
 
         <div className={`${styles.liste}`}>
           <Link href="/protocola" className={pathname === '/protocola' ? `${styles.text}` : ''}>
-          <div className={`${styles.lien} h1 p-5`}> Protocola</div>
+          <div className={`h1 p-5`}> Protocola</div>
           </Link>
         </div>
           <div className={`${styles.liste}`}>
           <Link href="/musique" className={pathname === '/musique' ? `${styles.text}` : ''}>
-          <div className={`${styles.lien} h1 p-5`}> Musique</div>
+          <div className={`h1 p-5`}> Musique</div>
           </Link>
         </div>
 
         <div className={`${styles.liste}`}>
           <Link href="/jeunesse" className={pathname === '/jeunesse' ? `${styles.text}` : 'nav-item'}>
-          <div className={`${styles.lien} h1 p-5`}> Jeunesse</div>
+          <div className={`h1 p-5`}> Jeunesse</div>
           </Link>
         </div>
         </div>

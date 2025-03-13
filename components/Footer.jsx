@@ -3,7 +3,7 @@ import Image from "next/legacy/image";
 import logo_un from "@/public/logos/facebook.png"
 import logo_deux from "@/public/logos/instagram.png"
 import logo_trois from "@/public/logos/youtube.png"
-import logo_quatre from "@/public/logos/spotify.png"
+import logo_quatre from "@/public/logos/tiktok.png"
 /*credit du logo youtube " https://www.flaticon.com/fr/icones-gratuites/youtube title="youtube icônes">Youtube icônes créées par Rakib Hassan Rahim - Flaticon "*/
 /*credit du logo instagram " https://www.flaticon.com/fr/icone-gratuite/instagram_2111463?term=instagram&page=1&position=4&origin=search&related_id=2111463 " */
 /*credit du logo facebook " https://www.flaticon.com/fr/icone-gratuite/facebook_174848" */ 
@@ -42,6 +42,10 @@ export default function Footer(){
         <div className={styles.auteur}>
             {/* Affichage du copyright avec l'année en cours dynamiquement et les noms des développeurs */}
             &copy; {new Date().getFullYear()} by GILC-MEDIA <br/>
+        </div>
+        <div className={styles.auteur}>
+         icons by&nbsp;
+        <a href="https://icones8.fr/app/figma" className={styles.icon}> icons8</a>
         </div>
         </div>
     )
