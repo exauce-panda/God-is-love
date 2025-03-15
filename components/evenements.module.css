@@ -13,3 +13,24 @@
 .titre{
     color: rgb(255, 30, 0);
 }
+.line {
+    width: 100%;  /* Modifier la longueur en pourcentage ou pixels */
+    height: 1.5px;  /* Épaisseur de la ligne */
+    background-color: black; /* Couleur de la ligne */
+    border: none; /* Supprime la bordure par défaut */
+    margin: 20px auto; /* Centrer la ligne */
+}
+.line_un {
+    width: 100%;  /* Modifier la longueur en pourcentage ou pixels */
+    height: 1.5px;  /* Épaisseur de la ligne */
+    background-color: black; /* Couleur de la ligne */
+    border: none; /* Supprime la bordure par défaut */
+    margin: 20px auto; /* Centrer la ligne */
+    margin-bottom: 90px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 50px;
+}

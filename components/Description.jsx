@@ -5,7 +5,7 @@ import logo_un from "@/public/logos/facebook.png"
 import logo_deux from "@/public/logos/instagram.png"
 import logo_trois from "@/public/logos/youtube.png"
 import logo_quatre from "@/public/logos/tiktok.png"
-import logo from "@/public/logos/logoGilc.png"
+import logo from "@/public/logos/logoGilc.jpg"
 import LatestVideos from "@/components/LatestVideo.jsx"
 import Link from 'next/link'; // Importation du composant Link de Next.js pour la navigation
 import { usePathname } from 'next/navigation'; // Importation du hook usePathname pour obtenir le chemin d'accès actuel

@@ -1,7 +1,5 @@
 'use client'
 import styles from "./menuNav.module.css"
-import Image from "next/legacy/image";
-import logo from "@/public/logos/logoGilc.png"
 import Link from 'next/link'; // Importation du composant Link de Next.js pour la navigation
 import { usePathname } from 'next/navigation'; // Importation du hook usePathname pour obtenir le chemin d'accès actuel
 // Définition du composant fonctionnel MenuNav

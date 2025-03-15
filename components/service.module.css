@@ -17,11 +17,18 @@
     gap : 40px;
     list-style: none;
 }
+
+.text_primaire{
+   font-size: x-large;
+}
 .text{
     color:rgb(255, 63, 4);
 }
 .titre{
-    padding-bottom: 190px;
+    padding-top: 30px;
+    color:rgb(255, 63, 4);
+    padding-bottom: 90px;
+    font-size: xx-large;
 }
 .liste {
     display: flex;

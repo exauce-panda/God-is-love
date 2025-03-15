@@ -4,11 +4,9 @@ import pasteur from "@/public/images/pasteur.jpg"
 export default function nos_eglises(){
     return(
         <div className={styles.bob}>
-            <h1>
-                 NOTRE MINISTERE
-            </h1>
             <div className={styles.slogan_primaire}>
             <div className={styles.slogan_secondaire}>
+            <div className={styles.titre}>NOTRE MINISTERE</div>
             <div className={styles.slogan}>" TRANSFORMÉ PAR L'AMOUR DE DIEU POUR TRANSFORMER LE MONDE, CAR IL N'Y A QUE L'AMOUR QUI TRANSFORME."</div>
             </div>
             </div>

@@ -8,10 +8,9 @@ export default function  service(){
   // Rendu du composant
   return(
     <div className={`${styles.bob}`}>
-      <div>
+      <div className={styles.text_primaire}>
         Vous pouvez servir dans differents groupes choisissez celui qui vous conviendra le mieux 
       </div>
-      
       <div className={`${styles.titre}`}>
         Rejoinez une equipe
       </div>

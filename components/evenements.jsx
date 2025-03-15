@@ -20,6 +20,8 @@ export default function evenements() {
 
   return (
     <div className={`text-black container py-5`}>
+      <div className={`text-black ${styles.top}`}> ICI VOUS POURREZ VOIR NOS EVEMENTS ACTUELLE ET A VENIR</div>
+      <div className={styles.line_un}></div>
       <div className="row">
         {/* Mapping sur la liste d'événements pour les afficher */}
         {currentEvents.map((event) => (
@@ -34,6 +36,7 @@ export default function evenements() {
           </div>
         ))}
       </div>
+      <div className={styles.line}></div>
     </div>
   );
 }
