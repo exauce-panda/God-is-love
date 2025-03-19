@@ -1,3 +1,13 @@
 .text_color{
     color: rgb(255, 30, 0);
 }
+.line_un {
+    height: 440px;  /* Épaisseur de la ligne */
+    border-left: 1px solid black; /* Bordure très fine */
+    margin: 0 10px; /* Optionnel : espace autour de la ligne */
+}
+.desc{
+    color: black;
+    margin-top: 90px;
+    padding: 40px;
+}

@@ -75,7 +75,7 @@ export default function Jeunesse() {
                        Votre Message a été soumis avec succès.
                    </div>
                )}
-               <div className="row mt-5">
+               <div className="row mt-5 d-flex">
                    <div className="col-md-6">
                        <div className="text-black p-4 rounded">
                            <h2 className='mb-5'>Veillez entrez vos coordonnées</h2>
@@ -100,10 +100,11 @@ export default function Jeunesse() {
                            </form>
                        </div>
                    </div>
-                   <div className="col-md-6">
+                   <div className="col-md-6 d-flex">
+                   <div className={styles.line_un}></div>
                        {/* Informations de Musique */}
-                       <div className="text-black p-4 rounded">
-                           Ces informations ne seront utiliser uniquement que pour prendre contact avec vous 
+                       <div className={`${styles.desc}`}>
+                       description  description  description  description  description  description  description  description  description  description  description  description  description  description  description  description  description  description  
                        </div>
                    </div>
                </div>

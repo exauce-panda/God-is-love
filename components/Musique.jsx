@@ -100,12 +100,13 @@ export default function Musique() {
                             </form>
                         </div>
                     </div>
-                    <div className="col-md-6">
-                        {/* Informations de Musique */}
-                        <div className="text-black p-4 rounded">
-                            Ces informations ne seront utiliser uniquement que pour prendre contact avec vous 
-                        </div>
-                    </div>
+                    <div className="col-md-6 d-flex">
+                   <div className={styles.line_un}></div>
+                       {/* Informations de Musique */}
+                       <div className={`${styles.desc}`}>
+                       description  description  description  description  description  description  description  description  description  description  description  description  description  description  description  description  description  description  
+                       </div>
+                   </div>
                 </div>
             </div>
         </div>

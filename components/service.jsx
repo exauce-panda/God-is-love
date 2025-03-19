@@ -14,28 +14,42 @@ export default function  service(){
       <div className={`${styles.titre}`}>
         Rejoinez une equipe
       </div>
-      <div className="d-flex justify-content-center gap-5">
-        {/* Liste des liens de navigation */}
-        <div className={`${styles.liste}`}>
-          <Link href="/medias" className={pathname === '/medias' ? `${styles.text}` : ''}>
-          <div className={`h1 p-5`}> Medias</div>
+      <div className={`${styles.contenant}`}>
+        <div className="p-5">
+      <div className={styles.titre_desc}>MEDIA</div>    
+      <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
+      <Link href="/medias" className={pathname === '/medias' ? `${styles.text}` : ''}>
+        {/* lien des liens de navigation */}
+        <div className={`${styles.lien}`}>
+          <div>REJOINDRE</div>
+          </div>  
           </Link>
         </div>
-
-        <div className={`${styles.liste}`}>
-          <Link href="/protocola" className={pathname === '/protocola' ? `${styles.text}` : ''}>
-          <div className={`h1 p-5`}> Protocola</div>
+        <div className="p-5">
+        <div className={styles.titre_desc}>PROTOCOLA</div> 
+        <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
+        <Link href="/protocola" className={pathname === '/protocola' ? `${styles.text}` : ''}>
+        <div className={`${styles.lien}`}>
+          <div>REJOINDRE</div>
+          </div>
           </Link>
         </div>
-          <div className={`${styles.liste}`}>
-          <Link href="/musique" className={pathname === '/musique' ? `${styles.text}` : ''}>
-          <div className={`h1 p-5`}> Musique</div>
-          </Link>
+        <div className="p-5">
+        <div className={styles.titre_desc}>CHORALE</div> 
+        <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
+        <Link href="/musique" className={pathname === '/musique' ? `${styles.text}` : ''}>
+          <div className={`${styles.lien}`}>
+          <div>REJOINDRE</div>
+          </div>
+          </Link>       
         </div>
-
-        <div className={`${styles.liste}`}>
+        <div className="p-5">
+        <div className={styles.titre_desc}>JEUNESSE</div> 
+        <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
           <Link href="/jeunesse" className={pathname === '/jeunesse' ? `${styles.text}` : 'nav-item'}>
-          <div className={`h1 p-5`}> Jeunesse</div>
+          <div className={`${styles.lien}`}>
+          <div>REJOINDRE</div>
+          </div>
           </Link>
         </div>
         </div>
