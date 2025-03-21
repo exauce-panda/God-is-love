@@ -32,7 +32,6 @@ export default function Description() {
         </div>     
         <div className={styles.reseaux}>
             <div className={`${styles.reseaux_deux} gap-4`}>
-                <div>NOS RESEAUX</div>
                 <div className={styles.lien}>
                 <a href="https://www.facebook.com/Godislovecenter?locale=fr_CA" target="_blank">
                 <Image src={logo_un} alt="logo facebook" width={60} height={60} />

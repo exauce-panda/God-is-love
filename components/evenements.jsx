@@ -20,7 +20,8 @@ export default function evenements() {
 
   return (
     <div className={`text-black container py-5`}>
-      <div className={`text-black ${styles.top}`}> ICI VOUS POURREZ VOIR NOS EVEMENTS ACTUELLE ET A VENIR</div>
+      <div className={`${styles.top}`}>NOS EVEMENTS ACTUELLE ET A VENIR</div>
+      <div className={`text-black ${styles.sous_top}`}>N'hesitez pas à nous suivre sur les reseaux pour etre tout le temp à l'affut des futurs evenenment</div>
       <div className={styles.line_un}></div>
       <div className="row">
         {/* Mapping sur la liste d'événements pour les afficher */}

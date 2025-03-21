@@ -9,5 +9,5 @@
     padding-left: 0; /* Enlève le padding gauche pour aligner le contenu avec les bords */
     padding-right: 0; /* Enlève le padding droit pour aligner le contenu avec les bords */
     padding-bottom: 0; /* Enlève le padding bas pour éviter un espace inutile en bas de l'élément */
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }

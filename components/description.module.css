@@ -6,7 +6,7 @@
     opacity: 100%;
     padding: 20px;
     font-size: x-large;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     /*background-image: url('/images/bg_image_un.jpg');
     background-size: cover;
     background-position: center;*/
@@ -15,7 +15,7 @@
   font-size: 90px;
     display: flex;
     justify-content: center;
-    color: rgb(255, 30, 0);
+    color: rgba(209,145,44,255);
   }
 .titre_n_deux{
     padding: 20px;
@@ -36,8 +36,8 @@
 .reseaux{
   display: flex;
   justify-content: center;
-  color:bisque;
-  background-color:rgb(250, 81, 30);
+  color:rgb(0, 0, 0);
+  background-color:rgb(255, 255, 255);
 }
 .reseaux_deux{
   text-align: center;

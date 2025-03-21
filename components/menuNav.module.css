@@ -1,6 +1,6 @@
 .bob{
     color:white;
-    background-color:aliceblue;
+    background-color:rgb(255, 255, 255);
 }
 .nav{
     display: flex;
@@ -27,5 +27,5 @@
     color:rgb(248, 179, 52);
 }
 .test{
-    color:rgb(255, 63, 4);
+    color:rgba(209,145,44,255);
 }

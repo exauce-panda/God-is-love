@@ -8,15 +8,17 @@ export default function  service(){
   // Rendu du composant
   return(
     <div className={`${styles.bob}`}>
+      <div className={`${styles.titre}`}>
+        Rejoignez une equipe
+      </div>
       <div className={styles.text_primaire}>
         Vous pouvez servir dans differents groupes choisissez celui qui vous conviendra le mieux 
       </div>
-      <div className={`${styles.titre}`}>
-        Rejoinez une equipe
-      </div>
       <div className={`${styles.contenant}`}>
-        <div className="p-5">
-      <div className={styles.titre_desc}>MEDIA</div>    
+
+      <div className={styles.type_service}>
+      <div className={styles.titre_desc}>MEDIA</div>   
+      <div className="d-block">
       <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
       <Link href="/medias" className={pathname === '/medias' ? `${styles.text}` : ''}>
         {/* lien des liens de navigation */}
@@ -24,8 +26,10 @@ export default function  service(){
           <div>REJOINDRE</div>
           </div>  
           </Link>
+          </div>
         </div>
-        <div className="p-5">
+
+        <div className={styles.type_service}>
         <div className={styles.titre_desc}>PROTOCOLA</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
         <Link href="/protocola" className={pathname === '/protocola' ? `${styles.text}` : ''}>
@@ -34,7 +38,8 @@ export default function  service(){
           </div>
           </Link>
         </div>
-        <div className="p-5">
+
+        <div className={styles.type_service}>
         <div className={styles.titre_desc}>CHORALE</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
         <Link href="/musique" className={pathname === '/musique' ? `${styles.text}` : ''}>
@@ -43,7 +48,8 @@ export default function  service(){
           </div>
           </Link>       
         </div>
-        <div className="p-5">
+        
+        <div className={styles.type_service}>
         <div className={styles.titre_desc}>JEUNESSE</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
           <Link href="/jeunesse" className={pathname === '/jeunesse' ? `${styles.text}` : 'nav-item'}>

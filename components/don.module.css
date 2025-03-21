@@ -2,7 +2,7 @@
     padding-top: 80px;
     text-align: center;
     color: black;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 .verset{
     font-size:x-large;
@@ -45,7 +45,7 @@
 .line {
     width: 50%;  /* Modifier la longueur en pourcentage ou pixels */
     height: 2px;  /* Épaisseur de la ligne */
-    background-color: black; /* Couleur de la ligne */
+    background-color: rgba(209,145,44,255); /* Couleur de la ligne */
     border: none; /* Supprime la bordure par défaut */
     margin: 20px auto; /* Centrer la ligne */
 }

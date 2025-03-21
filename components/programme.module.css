@@ -1,7 +1,7 @@
 .bob{
     display: flex;
     justify-content: center;
-    background-color:aliceblue;
+    background-color:rgb(255, 255, 255);
 }
 .bob h1 {
     display: flex;
@@ -9,14 +9,14 @@
     font-weight: bolder;
     font-size:60px;
     padding: 20px;
-    color: rgb(255, 63, 4);
+    color: rgba(209,145,44,255);
 }
 .table_pg{
     display: flex;
     justify-content: center;
 }
 .pg_un{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(252, 250, 237);
     color:rgb(35, 34, 53);
     font-size:x-large;
     padding: 20px;

@@ -11,15 +11,20 @@
     text-align: center;
 }
 .titre{
-    padding-top: 90px;
-    color:rgb(255, 63, 4);
+    padding-top: 10px;
+    color: rgba(209,145,44,255);
     font-size: xx-large;
     padding-bottom: 40px;
 }
 .contenant{
+    display: block;
+    gap: 5px;
+}
+.type_service{
     display: flex;
     justify-content: center;
-    gap: 5px;
+    width: 300px;
+    padding: 40px;
 }
 .lien {
     display: flex;

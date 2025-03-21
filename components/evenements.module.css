@@ -1,5 +1,5 @@
 .bob{
-    color: black;
+    color: rgba(209,145,44,255);
 }
 .imgDiv{
     max-width: 100%;
@@ -16,14 +16,14 @@
 .line {
     width: 100%;  /* Modifier la longueur en pourcentage ou pixels */
     height: 1.5px;  /* Épaisseur de la ligne */
-    background-color: black; /* Couleur de la ligne */
+    background-color: rgba(209,145,44,255); /* Couleur de la ligne */
     border: none; /* Supprime la bordure par défaut */
     margin: 20px auto; /* Centrer la ligne */
 }
 .line_un {
     width: 100%;  /* Modifier la longueur en pourcentage ou pixels */
     height: 1.5px;  /* Épaisseur de la ligne */
-    background-color: black; /* Couleur de la ligne */
+    background-color: rgba(209,145,44,255); /* Couleur de la ligne */
     border: none; /* Supprime la bordure par défaut */
     margin: 20px auto; /* Centrer la ligne */
     margin-bottom: 90px;
@@ -33,4 +33,9 @@
     justify-content: center;
     font-size: xx-large;
     margin-top: 50px;
+    color: rgba(209,145,44,255);
+}
+.sous_top{
+    display: flex;
+    justify-content: center;
 }
