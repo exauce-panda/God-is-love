@@ -16,14 +16,21 @@
     font-size: xx-large;
     padding-bottom: 40px;
 }
+.line_un {
+    width: 80%;  /* Modifier la longueur en pourcentage ou pixels */
+    height: 1.5px;  /* Épaisseur de la ligne */
+    background-color: rgba(209,145,44,255); /* Couleur de la ligne */
+    border: none; /* Supprime la bordure par défaut */
+    margin: 20px auto; /* Centrer la ligne */
+    margin-bottom: 90px;
+}
 .contenant{
-    display: block;
+    display: grid;
+    place-items: center;
     gap: 5px;
 }
 .type_service{
     display: flex;
-    justify-content: center;
-    width: 300px;
     padding: 40px;
 }
 .lien {
@@ -39,9 +46,8 @@
     border: 2px solid rgb(255, 63, 4);
 }
 .titre_desc{
-    text-align: justify;
     margin-left: 20px;
-    font-size: x-large;
+    border-radius: 30px; 
 }
 .description{
     padding-top: 28px;

@@ -1,9 +1,9 @@
 .text_color{
-    color: rgb(255, 30, 0);
+    color: rgb(201, 145, 61);
 }
 .line_un {
     height: 440px;  /* Épaisseur de la ligne */
-    border-left: 1px solid black; /* Bordure très fine */
+    border-left: 1px solid rgb(201, 145, 61); /* Bordure très fine */
     margin: 0 10px; /* Optionnel : espace autour de la ligne */
 }
 .desc{

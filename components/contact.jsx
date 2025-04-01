@@ -91,9 +91,11 @@ export default function contact() {
                             </form>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    
+                    <div className="col-md-6 d-flex">
+                        <div className={styles.line}>dsfsdf</div>
                         {/* Informations de contact */}
-                        <div className="text-black p-4 rounded">
+                       <div className="text-black p-4">
                             <h2 className='mb-5'>Coordonnées</h2>
                             <p className={`form-label ${styles.text_color}`}>Voici aussi comment vous pouvez nous joindre :</p>
                             <ul>
