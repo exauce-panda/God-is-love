@@ -96,7 +96,7 @@ export default function Protocola() {
                                    <input name="num_telephone" type="number" className={`form-control text-black bg-white ${errorTelephone ? 'is-invalid' : ''}`} id="telephone" value={telephone} onChange={(e) => { const valeur = e.target.value; setTelephone(valeur); validateTelephone(valeur); }} />
                                    {errorTelephone && <div className="invalid-feedback">{errorTelephone}</div>}
                                </div>
-                               <button type="submit" className="btn btn-success">Envoyer</button>
+                               <button type="submit" className={`${styles.btn_envoyer}`}>Envoyer</button>
                            </form>
                        </div>
                    </div>

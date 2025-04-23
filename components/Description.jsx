@@ -14,7 +14,7 @@ export default function Description() {
     return(
      <div className={styles.bob}>
          <div className={styles.image}>
-                <Image src={logo} alt="logo GILC" width={350} height={350}/>               
+                <Image src={logo} alt="logo GILC" width={250} height={250}/>               
             </div>
         <div className={styles.titre}>
          <div className={styles.tritre_n_un}>

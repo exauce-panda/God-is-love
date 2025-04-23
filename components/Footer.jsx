@@ -13,15 +13,12 @@ export default function Footer(){
         <div className={styles.bob}>
         <div className={styles.foot}>
             <div className={styles.adresse}>
-            <div className="p-4">GILC</div>   
             <div className="p-4">
             <div>GODISLOVECENTER@GMAIL.COM</div>
             <div>2285 BLVD ST-LAURENT UNIT-D18</div>
+            
+            <div>OTTAWA, ONTARIO, CANADA</div>
             </div> 
-            <div className="p-4">
-            <div>OTTAWA, ONTARIO</div>
-            <div>Canada</div>
-            </div>
             </div>
             <div className={styles.logo}>
             <div className={styles.image}>

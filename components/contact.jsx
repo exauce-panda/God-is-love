@@ -1,7 +1,7 @@
 'use client'
 // Assure que ce composant s'exécute uniquement côté client, permettant l'accès à des APIs telles que localStorage.
 import { useState } from 'react'; // Importe useState de React pour créer des états locaux.
-import styles from './Contact.module.css'; // Importe les styles spécifiques au composant Contact.
+import styles from './contact.module.css'; // Importe les styles spécifiques au composant Contact.
 //import emailjs from '@emailjs/browser';
 export default function contact() {
     // Déclaration des états pour stocker les valeurs des champs du formulaire et les messages d'erreur/validation.
@@ -87,17 +87,16 @@ export default function contact() {
                                     <textarea name="message_mail" className={`form-control bg-white ${errorMessage ? 'is-invalid' : ''}`} id="message" rows="5" value={message} onChange={(e) => { setMessage(e.target.value); validateField('message', e.target.value); }}></textarea>
                                     {errorMessage && <div className="invalid-feedback">{errorMessage}</div>}
                                 </div>
-                                <button type="submit" className="btn">Envoyer</button>
+                                <button type="submit" className={`${styles.btn_envoyer}`}>Envoyer</button>
                             </form>
                         </div>
                     </div>
                     
                     <div className="col-md-6 d-flex">
-                        <div className={styles.line}>dsfsdf</div>
                         {/* Informations de contact */}
-                       <div className="text-black p-4">
-                            <h2 className='mb-5'>Coordonnées</h2>
-                            <p className={`form-label ${styles.text_color}`}>Voici aussi comment vous pouvez nous joindre :</p>
+                        <div className={styles.line}></div>
+                       <div className={styles.coordonee}>
+                            <p className={`${styles.text_color}`}>Voici aussi comment vous pouvez nous joindre :</p>
                             <ul>
                                 <li>Téléphone : (613) 291-7607</li>
                                 <li>Email : godislovecenter@gmail.com</li>

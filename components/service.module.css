@@ -42,8 +42,8 @@
     transition: 0.3s ease-in-out; 
 }
 .lien:hover{
-    color:rgb(255, 63, 4);
-    border: 2px solid rgb(255, 63, 4);
+    color:rgb(201, 145, 61);
+    border: 2px solid rgb(201, 145, 61);
 }
 .titre_desc{
     margin-left: 20px;

@@ -3,7 +3,10 @@ import styles from "@/components/service.module.css"
 import Link from 'next/link'; // Importation du composant Link de Next.js pour la navigation
 import { usePathname } from 'next/navigation'; // Importation du hook usePathname pour obtenir le chemin d'accès actuel
 import Image from "next/legacy/image";
-import logo from "@/public/logos/logoGilc.jpg"
+import logo_media from "@/public/images/service/logo_media.png"
+import logo_chorale from "@/public/images/service/logo_chorale.png"
+import logo_jeunesse from "@/public/images/service/logo_jeunesse.png"
+import logo_protocola from "@/public/images/service/logo_protocola.png"
 // Définition du composant fonctionnel MenuNav
 export default function  service(){
   const pathname = usePathname(); // Utilisation de usePathname pour déterminer le chemin d'accès actif
@@ -20,7 +23,7 @@ export default function  service(){
 
       <div className={`${styles.contenant}`}>
       <div className={styles.type_service}>
-      <Image className={styles.titre_desc} src={logo} alt="logo GILC" width={230} height={30}/> 
+      <Image className={styles.titre_desc} src={logo_media} alt="logo media" width={230} height={30}/> 
       <div className="d-block p-5 text-start">
       <div>MEDIA</div> 
       <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
@@ -34,7 +37,7 @@ export default function  service(){
         </div>
 
         <div className={styles.type_service}>
-        <Image className={styles.titre_desc} src={logo} alt="logo GILC" width={230} height={30}/>
+        <Image className={styles.titre_desc} src={logo_protocola} alt="logo protocola" width={230} height={10}/>
         <div className="d-block p-5 text-start">
         <div>PROTOCOLA</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
@@ -47,7 +50,7 @@ export default function  service(){
         </div>
 
         <div className={styles.type_service}>
-        <Image className={styles.titre_desc} src={logo} alt="logo GILC" width={230} height={30}/>
+        <Image className={styles.titre_desc} src={logo_chorale} alt="logo chorale" width={230} height={30}/>
         <div className="d-block p-5 text-start">
         <div>CHORALE</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
@@ -60,7 +63,7 @@ export default function  service(){
         </div>
         
         <div className={styles.type_service}>
-        <Image className={styles.titre_desc} src={logo} alt="logo GILC" width={230} height={10}/>
+        <Image className={styles.titre_desc} src={logo_jeunesse} alt="logo jeunesse" width={230} height={30}/>
         <div className="d-block p-5 text-start">
         <div>JEUNESSE</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>

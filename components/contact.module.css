@@ -26,8 +26,29 @@
     list-style-type: none;
 }
 .text_color{
-    color:rgb(255, 30, 0);
+    color:black;
 }
 .line{
-    color: black;
+    height: 570px;  /* Épaisseur de la ligne */
+    border-left: 1px solid rgb(201, 145, 61); /* Bordure très fine */
+    margin: 0 10px; /* Optionnel : espace autour de la ligne */
+}
+.coordonee{
+    color:black;
+    margin-top: 220px ;
+    margin-left: 40px;
+    font-size: x-large;
+}
+.btn_envoyer{
+    color: white;
+    background-color: black;
+    border: 2px solid rgb(122, 122, 122);
+    border-radius: 4px;
+    padding: 9px;
+    transition: transform 0.1s ease;
+}
+.btn_envoyer:active{
+    transform: scale(0.95);
+    color: rgb(201, 145, 61);
+    border: 2px solid rgb(201, 145, 61);
 }
