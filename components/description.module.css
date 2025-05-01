@@ -18,6 +18,8 @@
     color: rgba(209,145,44,255);
   }
 .titre_n_deux{
+    display: flex;
+    justify-content: center;
     padding: 20px;
 }
 .mini_titre{
@@ -27,6 +29,7 @@
 }
 .desc{
   text-align: center;
+  max-width: 800px;
 }
 .verset{
   display: flex;

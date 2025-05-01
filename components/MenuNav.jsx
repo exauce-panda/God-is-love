@@ -23,7 +23,7 @@ export default function menuNav() {
         </li>
         <li className={styles.lien}>
           <Link href="/evenements" className={pathname === '/evenements' ? `${styles.test}` : 'nav-item'}>
-              Evenements
+          Evénements
           </Link>
         </li>
         <li className={styles.lien}>

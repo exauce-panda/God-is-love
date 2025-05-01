@@ -2,7 +2,14 @@
 import { useState } from 'react'; // Importation du hook d'état de React.
 import Image from 'next/image'; // Importation du composant Image de Next.js pour l'optimisation des images.
 import allEvents from '@/public/evenData/allEvents.json'; // Importation des données des événements depuis un fichier JSON local.
-import styles from "@/components/evenements.module.css"
+import styles from "@/components/evenements.module.css";
+import { EB_Garamond } from 'next/font/google';
+
+const ebGaramond = EB_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '700'], // facultatif
+  variable: '--font-eb-garamond', // optionnel pour CSS variable
+})
 
 // Définition du composant fonctionnel Events.
 export default function evenements() {
@@ -20,8 +27,8 @@ export default function evenements() {
 
   return (
     <div className={`text-black container py-5`}>
-      <div className={`${styles.top}`}>NOS EVEMENTS ACTUELLE ET A VENIR</div>
-      <div className={`text-black ${styles.sous_top}`}>N'hesitez pas à nous suivre sur les reseaux pour etre tout le temp à l'affut des futurs evenenment</div>
+      <div className={`${styles.top} ${ebGaramond.className}`}>NOS EVEMENTS ACTUELLE ET A VENIR</div>
+      <div className={`text-black ${styles.sous_top}`}>N'hésitez pas à nous suivre sur les réseaux pour être tout le temps à l'affût des futurs événements.</div>
       <div className={styles.line_un}></div>
       <div className="row">
         {/* Mapping sur la liste d'événements pour les afficher */}
@@ -30,7 +37,7 @@ export default function evenements() {
             <div className={` ${styles.imgDiv} mx-auto`}>
                   <Image src={event.image} alt={`Image for ${event.title}`} className={`mb-5 ${styles.imgEv}`} priority={event.priority} width="550" height="700" sizes="(max-width: 425px) 400px"  />
             </div>
-            <h2 className={`${styles.titre}`}>
+            <h2 className={`${styles.titre} ${ebGaramond.className}`}>
                 {event.title}
             </h2>
             <p className={`${styles.dateEven}`}>{event.date}</p>  

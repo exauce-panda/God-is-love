@@ -2,6 +2,13 @@
 // Assure que ce composant s'exécute uniquement côté client, permettant l'accès à des APIs telles que localStorage.
 import { useState } from 'react'; // Importe useState de React pour créer des états locaux.
 import styles from './contact.module.css'; // Importe les styles spécifiques au composant Contact.
+import { EB_Garamond } from 'next/font/google';
+
+const ebGaramond = EB_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '700'], // facultatif
+  variable: '--font-eb-garamond', // optionnel pour CSS variable
+})
 //import emailjs from '@emailjs/browser';
 export default function contact() {
     // Déclaration des états pour stocker les valeurs des champs du formulaire et les messages d'erreur/validation.
@@ -69,21 +76,21 @@ export default function contact() {
                 <div className="row mt-5">
                     <div className="col-md-6">
                         <div className="text-black p-4 rounded">
-                            <h2 className='mb-5'>Envoyez-nous un message</h2>
+                            <h2 className={`mb-5 h1`}>Envoyez-nous un message</h2>
                             <form onSubmit={handleSubmit}>
                                 {/* Champs du formulaire avec gestion des erreurs */}
                                 <div className={`mb-3 ${styles.forumId}`}>
-                                    <label htmlFor="nom" className={`form-label ${styles.text_color}`}>Nom</label>
+                                    <label htmlFor="nom" className={`form-label h4 ${styles.text_color} ${ebGaramond.className}`}>Nom</label>
                                     <input name="nom_mail" type="text" className={`form-control text-black bg-white ${errorNom ? 'is-invalid' : ''}`} id="nom" value={nom} onChange={(e) => { setNom(e.target.value); validateField('nom', e.target.value); }} />
                                     {errorNom && <div className="invalid-feedback">{errorNom}</div>}
                                 </div>
                                 <div className={`mb-3 ${styles.forumId}`}>
-                                    <label htmlFor="email" className={`form-label ${styles.text_color}`}>Adresse e-mail</label>
+                                    <label htmlFor="email" className={`form-label h4 ${styles.text_color} ${ebGaramond.className}`}>Adresse e-mail</label>
                                     <input name="email_mail" type="email" className={`form-control text-black bg-white ${errorEmail ? 'is-invalid' : ''}`} id="email" value={email} onChange={(e) => { setEmail(e.target.value); validateField('email', e.target.value); }} />
                                     {errorEmail && <div className="invalid-feedback">{errorEmail}</div>}
                                 </div>
                                 <div className={`mb-3 ${styles.forumMessage}`}>
-                                    <label htmlFor="message" className={`form-label ${styles.text_color}`}>Message</label>
+                                    <label htmlFor="message" className={`form-label h4 ${styles.text_color} ${ebGaramond.className}`}>Message</label>
                                     <textarea name="message_mail" className={`form-control bg-white ${errorMessage ? 'is-invalid' : ''}`} id="message" rows="5" value={message} onChange={(e) => { setMessage(e.target.value); validateField('message', e.target.value); }}></textarea>
                                     {errorMessage && <div className="invalid-feedback">{errorMessage}</div>}
                                 </div>
@@ -96,7 +103,7 @@ export default function contact() {
                         {/* Informations de contact */}
                         <div className={styles.line}></div>
                        <div className={styles.coordonee}>
-                            <p className={`${styles.text_color}`}>Voici aussi comment vous pouvez nous joindre :</p>
+                            <p className={`h4 ${styles.text_color} ${ebGaramond.className}`}>Vous pouvez nous joindre avec ces coordonées :</p>
                             <ul>
                                 <li>Téléphone : (613) 291-7607</li>
                                 <li>Email : godislovecenter@gmail.com</li>

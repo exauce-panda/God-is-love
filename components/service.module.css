@@ -4,7 +4,7 @@
     padding-top: 90px;
 }
 .text_primaire{
-   font-size: x-large;
+   font-size:large;
 }
 .text{
     color:rgb(255, 63, 4);
@@ -13,8 +13,7 @@
 .titre{
     padding-top: 10px;
     color: rgba(209,145,44,255);
-    font-size: xx-large;
-    padding-bottom: 40px;
+    font-size: 60px;
 }
 .line_un {
     width: 80%;  /* Modifier la longueur en pourcentage ou pixels */
@@ -53,4 +52,9 @@
     padding-top: 28px;
     text-align: justify;
     padding-bottom: 16px;
+}
+.mini_titre{
+    color:rgb(201, 145, 61);
+    font-weight: bold;
+    font-size: x-large;
 }

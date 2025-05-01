@@ -9,6 +9,20 @@ import logo from "@/public/logos/logoGilc.jpg"
 import LatestVideos from "@/components/LatestVideo.jsx"
 import Link from 'next/link'; // Importation du composant Link de Next.js pour la navigation
 import { usePathname } from 'next/navigation'; // Importation du hook usePathname pour obtenir le chemin d'accès actuel
+import { Lexend } from 'next/font/google';
+import { EB_Garamond } from 'next/font/google';
+
+const lexend = Lexend({
+  subsets: ['latin'],
+  weight: ['400', '700'], // facultatif
+  variable: '--font-lexend', // optionnel pour CSS variable
+})
+
+const ebGaramond = EB_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '700'], // facultatif
+  variable: '--font-eb-garamond', // optionnel pour CSS variable
+})
 export default function Description() {
     const pathname = usePathname(); // Utilisation de usePathname pour déterminer le chemin d'accès actif
     return(
@@ -18,15 +32,15 @@ export default function Description() {
             </div>
         <div className={styles.titre}>
          <div className={styles.tritre_n_un}>
-           <div>GOD IS LOVE CENTER</div>
+           <div className={ebGaramond.className}>GOD IS LOVE CENTER</div>
         </div>
-        <div className={styles.mini_titre}>UNE SEUL GRANDE FAMILLE</div> 
+        <div className={`${styles.mini_titre} ${ebGaramond.className}`}>UNE SEUL GRANDE FAMILLE</div> 
         <div className={styles.titre_n_deux}>           
         <div className={styles.desc}>
-            <div>
+            <div className={lexend.className}>
             À l'église God is Love Center (GILC), nous sommes une seule et grande famille. Nous expérimentons l'amour de Dieu, car il nous aime plus que tout. Nous reconnaissons que Jésus-Christ est Dieu et qu'il est mort pour nos péchés. 
             </div>
-            <div className={styles.verset}>Ephesiens 3:15</div>
+            <div className={`${styles.verset} ${lexend.className}`}>Ephesiens 3:15</div>
         </div>  
         </div>              
         </div>     
@@ -47,7 +61,7 @@ export default function Description() {
                 </a>
                 </div>
                 <div>
-                    <div>Nos dernieres publications youtube</div>
+                    <div className={lexend.className}>Nos dernières publications YouTube</div>
                  <LatestVideos/>
             </div>
             </div>

@@ -31,7 +31,7 @@
 .top{
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-size: 60px;
     margin-top: 50px;
     color: rgba(209,145,44,255);
 }
