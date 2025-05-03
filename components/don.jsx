@@ -30,7 +30,7 @@ return(
             <Image src={logo} alt="logo interac" width={50} height={50} />               
         </div>
         </div>
-        <div className={`${styles.mail}`}>GODISLOVE084@GMAIL.COM</div>
+        <div className={`${styles.mail}`}>GILCBATISSE@GMAIL.COM</div>
         </div>
         </div>
     </div>

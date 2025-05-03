@@ -21,7 +21,7 @@ export default function nos_eglises(){
             </div>
         <div className={styles.composant}>
             <div className={styles.eglise}>
-                <Image src={pasteur_erick} alt="Image de l'Apôtre Eric Kaloyi" width={370} height={500} />
+                <Image className={styles.img} src={pasteur_erick} alt="Image de l'Apôtre Eric Kaloyi" width={370} height={500} />
                 <div className={styles.description}>
                 <div className={`${styles.pasteur} ${ebGaramond.className}`}>Apôtre Éric Kaloyi Muboyayi</div>
                 <div className={styles.type_eglise}>Eglise principale</div>

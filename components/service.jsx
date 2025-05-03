@@ -30,7 +30,9 @@ export default function  service(){
 
       <div className={`${styles.contenant}`}>
       <div className={styles.type_service}>
-      <Image className={styles.titre_desc} src={logo_media} alt="logo media" width={230} height={30}/> 
+      <div className={styles.titre_desc_top}>
+      <Image className={styles.titre_desc}src={logo_media} alt="logo media" width={230} height={230}/> 
+      </div>
       <div className="d-block p-5 text-start">
       <div className={`${styles.mini_titre}  ${ebGaramond.className}`}>MEDIA</div> 
       <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
@@ -44,7 +46,9 @@ export default function  service(){
         </div>
 
         <div className={styles.type_service}> 
-        <Image className={styles.titre_desc} src={logo_protocola} alt="logo protocola" width={230} height={10}/>
+        <div className={styles.titre_desc_top}>
+        <Image className={styles.titre_desc}src={logo_protocola} alt="logo protocola" width={230} height={230}/> 
+        </div>
         <div className="d-block p-5 text-start">
         <div className={`${styles.mini_titre}  ${ebGaramond.className}`}>PROTOCOLA</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
@@ -54,10 +58,12 @@ export default function  service(){
           </div>
           </Link>
           </div>
-        </div>
+          </div>
 
         <div className={styles.type_service}>
-        <Image className={styles.titre_desc} src={logo_chorale} alt="logo chorale" width={230} height={30}/>
+        <div className={styles.titre_desc_top}>
+        <Image className={styles.titre_desc}src={logo_chorale} alt="logo chorale" width={230} height={230}/> 
+        </div>
         <div className="d-block p-5 text-start">
         <div className={`${styles.mini_titre}  ${ebGaramond.className}`}>CHORALE</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
@@ -70,7 +76,9 @@ export default function  service(){
         </div>
         
         <div className={styles.type_service}>
-        <Image className={styles.titre_desc} src={logo_jeunesse} alt="logo jeunesse" width={230} height={30}/>
+        <div className={styles.titre_desc_top}>
+        <Image className={styles.titre_desc}src={logo_jeunesse} alt="logo jeunesse" width={230} height={230}/> 
+        </div>
         <div className="d-block p-5 text-start">
         <div className={`${styles.mini_titre}  ${ebGaramond.className}`}>JEUNESSE</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
@@ -82,6 +90,6 @@ export default function  service(){
           </div>
         </div>
         </div>
-    </div>
+        </div>
 )
 }

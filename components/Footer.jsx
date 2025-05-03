@@ -13,7 +13,7 @@ export default function Footer(){
         <div className={styles.bob}>
         <div className={styles.foot}>
             <div className={styles.adresse}>
-            <div className="p-4">
+            <div className={styles.text}>
             <div>GODISLOVECENTER@GMAIL.COM</div>
             <div>2285 BLVD ST-LAURENT UNIT-D18</div>
             
@@ -36,7 +36,7 @@ export default function Footer(){
                 <Image src={logo_trois} alt="logo youtube" width={40} height={40} />
                 </a>
             </div>
-            <div>
+            <div className={styles.image}>
             <a href="https://www.tiktok.com/@gilc_ottawa?_t=ZM-8so4Bh7Mcx4&_r=1" target="_blank">
                 <Image src={logo_quatre} alt="logo TIKTOK" width={40} height={40} />
             </a>

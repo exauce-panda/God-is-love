@@ -11,9 +11,29 @@
     padding: 20px;
     color: black;
 }
+@media (max-width: 670px) {
+    /* Ajustement des styles sur des écrans très étroits */
+    .bob h1{
+        font-size: xx-large;
+  }
+}
 .table_pg{
     display: flex;
     justify-content: center;
+}
+@media (max-width: 970px) {
+    /* Ajustement des styles sur des écrans très étroits */
+    .table_pg{
+        display: block;
+        margin-left: 90px;
+  }
+}
+@media (max-width: 670px) {
+    /* Ajustement des styles sur des écrans très étroits */
+    .table_pg{
+        display: block;
+        margin-right: 90px;
+  }
 }
 .pg_un{
     background-color: rgb(252, 250, 237);

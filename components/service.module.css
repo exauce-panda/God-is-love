@@ -44,6 +44,9 @@
     color:rgb(201, 145, 61);
     border: 2px solid rgb(201, 145, 61);
 }
+.titre_desc_top{
+    display: block;
+}
 .titre_desc{
     margin-left: 20px;
     border-radius: 30px; 
@@ -57,4 +60,9 @@
     color:rgb(201, 145, 61);
     font-weight: bold;
     font-size: x-large;
+}
+@media (max-width: 760px){
+    .titre_desc_top{
+        display: none;
+    }
 }

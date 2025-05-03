@@ -30,7 +30,7 @@ export default function evenements() {
       <div className={`${styles.top} ${ebGaramond.className}`}>NOS EVEMENTS ACTUELLE ET A VENIR</div>
       <div className={`text-black ${styles.sous_top}`}>N'hésitez pas à nous suivre sur les réseaux pour être tout le temps à l'affût des futurs événements.</div>
       <div className={styles.line_un}></div>
-      <div className="row">
+      <div className={`row ${styles.affichage_img}`}>
         {/* Mapping sur la liste d'événements pour les afficher */}
         {currentEvents.map((event) => (
           <div className={`col-sm-6 mb-5 text-center ${styles.divEvent}`} key={event.id}>

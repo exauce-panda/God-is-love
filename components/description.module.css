@@ -12,10 +12,21 @@
     background-position: center;*/
 }
 .tritre_n_un {
-  font-size: 90px;
+    text-align: center;
+    font-size: 90px;
     display: flex;
     justify-content: center;
     color: rgba(209,145,44,255);
+  }
+  @media (max-width: 670px) {
+    /* Ajustement des styles sur des écrans très étroits */
+    .tritre_n_un{
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgba(209,145,44,255);
+    }
   }
 .titre_n_deux{
     display: flex;

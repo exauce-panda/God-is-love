@@ -1,5 +1,6 @@
 'use client'
 import { useEffect, useState } from "react";
+import styles from './LatestVideo.module.css'
 
 export default function LatestVideos() {
   const [videos, setVideos] = useState([]);
@@ -12,7 +13,7 @@ export default function LatestVideos() {
   }, []);
 
   return (
-    <div className="d-flex gap-4">
+    <div className={styles.affichage}>
       {videos.map((video) => (
         <div key={video.id.videoId} className="p-4 rounded-lg">
           <a href={`https://www.youtube.com/watch?v=${video.id.videoId}`} target="_blank" rel="noopener noreferrer">

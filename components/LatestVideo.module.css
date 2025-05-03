@@ -1,0 +1,10 @@
+.affichage{
+    display: flex;
+    gap: 4px;
+}
+@media (max-width: 670px) {
+    /* Ajustement des styles sur des écrans très étroits */
+    .affichage{
+        display: block;
+  }
+}
