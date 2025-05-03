@@ -1,48 +1,58 @@
 'use client'
 import styles from "./menuNav.module.css"
-import Link from 'next/link'; // Importation du composant Link de Next.js pour la navigation
-import { usePathname } from 'next/navigation'; // Importation du hook usePathname pour obtenir le chemin d'accès actuel
-// Définition du composant fonctionnel MenuNav
-export default function menuNav() {
-    const pathname = usePathname(); // Utilisation de usePathname pour déterminer le chemin d'accès actif
-    // Rendu du composant de navigation
-    return(
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+import { useState } from 'react'
+
+export default function MenuNav() {
+    const pathname = usePathname()
+    const [isOpen, setIsOpen] = useState(false)
+
+    // Ferme le menu après clic sur un lien
+    const handleLinkClick = () => {
+        setIsOpen(false)
+    }
+
+    return (
         <div className={styles.bob}>
-        <nav className={styles.nav}>
-            <ul className={styles.navigation}>
-        {/* Liste des liens de navigation */}
-        <li className={styles.lien}>
-          <Link href="/" className={pathname === '/' ? `${styles.test}` : 'nav-item'}>
-              Accueil
-          </Link>
-        </li>
-        <li className={styles.lien}>
-          <Link href="/don" className={pathname === '/don' ? `${styles.test}` : 'nav-item'}>
-              Don
-          </Link>
-        </li>
-        <li className={styles.lien}>
-          <Link href="/evenements" className={pathname === '/evenements' ? `${styles.test}` : 'nav-item'}>
-          Evénements
-          </Link>
-        </li>
-        <li className={styles.lien}>
-          <Link href="/nos_eglises" className={pathname === '/nos_eglises' ? `${styles.test}` : 'nav-item'}>
-              Nos Eglises
-          </Link>
-        </li>
-        <li className={styles.lien}>
-          <Link href="/service" className={pathname === '/service' ? `${styles.test}` : 'nav-item'}>
-              Servir
-          </Link>
-        </li>
-        <li className={styles.lien}>
-          <Link href="/contact" className={pathname === '/contact' ? `${styles.test}` : 'nav-item'}>
-              Contactez-nous
-          </Link>
-        </li>
-            </ul>
-        </nav>
+            {/* Bouton burger mobile */}
+           <button
+            className={`${styles.burger} ${isOpen ? styles.open : ''}`}
+            onClick={() => setIsOpen(!isOpen)}
+            aria-label="Menu">
+           <span></span>
+           <span></span>
+           <span></span>
+           </button>
+
+            {/* Menu navigation */}
+            <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
+                <ul className={styles.navigation}>
+                    <li className={styles.lien}>
+                        <Link href="/" onClick={handleLinkClick} className={pathname === '/' ? styles.test : ''}>Accueil</Link>
+                        <div className={styles.ligne}></div>
+                    </li>
+                    <li className={styles.lien}>
+                        <Link href="/don" onClick={handleLinkClick} className={pathname === '/don' ? styles.test : ''}>Don</Link>
+                        <div className={styles.ligne}></div>
+                    </li>
+                    <li className={styles.lien}>
+                        <Link href="/evenements" onClick={handleLinkClick} className={pathname === '/evenements' ? styles.test : ''}>Événements</Link>
+                        <div className={styles.ligne}></div>
+                    </li>
+                    <li className={styles.lien}>
+                        <Link href="/nos_eglises" onClick={handleLinkClick} className={pathname === '/nos_eglises' ? styles.test : ''}>Nos Églises</Link>
+                        <div className={styles.ligne}></div>
+                    </li>
+                    <li className={styles.lien}>
+                        <Link href="/service" onClick={handleLinkClick} className={pathname === '/service' ? styles.test : ''}>Servir</Link>
+                        <div className={styles.ligne}></div>
+                    </li>
+                    <li className={styles.lien}>
+                        <Link href="/contact" onClick={handleLinkClick} className={pathname === '/contact' ? styles.test : ''}>Contactez-nous</Link>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    );
+    )
 }
