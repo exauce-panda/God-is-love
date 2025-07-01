@@ -16,7 +16,6 @@ export default function nos_eglises(){
             <div className={styles.slogan_secondaire}>
             <div className={`${styles.titre} ${ebGaramond.className}`}>NOTRE MINISTERE</div>
             <div className={styles.slogan}>" TRANSFORMÉ PAR L'AMOUR DE DIEU POUR TRANSFORMER LE MONDE, CAR IL N'Y A QUE L'AMOUR QUI TRANSFORME."</div>
-            <div className={styles.line_un}></div>
             </div>
             </div>
         <div className={styles.composant}>

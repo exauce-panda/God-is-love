@@ -1,15 +1,18 @@
 .bob {
     background-color: rgb(252, 250, 237);
     position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
 }
 
 /* NAVIGATION */
 .nav {
-    display: flex;
-    justify-content: center;
+    background-color: rgb(252, 250, 237);
+    border-radius:12px ;
+    position: fixed;
     align-items: center;
-    padding: 10px;
-    height: 100px;
+    padding: 17px;
 }
 .navigation {
     display: flex;

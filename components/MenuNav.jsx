@@ -41,11 +41,11 @@ export default function MenuNav() {
                         <div className={styles.ligne}></div>
                     </li>
                     <li className={styles.lien}>
-                        <Link href="/nos_eglises" onClick={handleLinkClick} className={pathname === '/nos_eglises' ? styles.test : ''}>Nos Églises</Link>
+                        <Link href="/nos_eglises" onClick={handleLinkClick} className={pathname === '/nos_eglises' ? styles.test : ''}>Ministere</Link>
                         <div className={styles.ligne}></div>
                     </li>
                     <li className={styles.lien}>
-                        <Link href="/service" onClick={handleLinkClick} className={pathname === '/service' ? styles.test : ''}>Servir</Link>
+                        <Link href="/service" onClick={handleLinkClick} className={pathname === '/service' ? styles.test : ''}>Départements</Link>
                         <div className={styles.ligne}></div>
                     </li>
                     <li className={styles.lien}>

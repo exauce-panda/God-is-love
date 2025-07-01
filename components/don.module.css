@@ -1,12 +1,30 @@
 .bob{
-    padding-top: 80px;
     text-align: center;
     color: black;
-    background-color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+.merci{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 240, 208);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    font-size: xx-large;
+    font-weight: bold;
+    z-index: 2;
+    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
 }
 .verset{
+    color: rgb(255, 97, 97);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.titre_verset{
     font-size:x-large;
-    padding-top: 40px;
     padding-bottom: 20px;
 }
 .text{
@@ -14,38 +32,43 @@
     padding-bottom: 20px;
 }
 .paiements{
-    display: flex;
-    justify-content: center;
     padding: 20px;
+    background-color: rgb(255, 240, 208);
 }
 .m_paiement{
-    display: block;
+    color: white;
+    display: flex;
     padding: 20px;
     font-size: xx-large;
+    gap: 30px;
 }
 .interac{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(250, 142, 142);
+    min-width: 450px;
+    min-height: 300px;
+    padding-top: 50px;
+    padding: 30px;
 }
 .image{
     padding-left: 12px;
 }
 .txt{
-    color: rgb(255, 30, 0);
+    color: rgb(250, 0, 0);
 }
 .batiment{
+    display: flex;
+    justify-content: center;
     font-size: x-large;
-    margin-top: 90px;
+    margin-top: 20px;
     padding-bottom: 40px;
 }
 .mail{
+    font-size: x-large;
+    font-weight:900;
     margin-top: 30px;
     padding-bottom: 50px;
-}
-.line {
-    width: 50%;  /* Modifier la longueur en pourcentage ou pixels */
-    height: 2px;  /* Épaisseur de la ligne */
-    background-color: rgba(209,145,44,255); /* Couleur de la ligne */
-    border: none; /* Supprime la bordure par défaut */
-    margin: 20px auto; /* Centrer la ligne */
+    text-decoration: underline;
 }

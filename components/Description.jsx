@@ -29,11 +29,14 @@ export default function Description() {
     return(
      <div className={styles.bob}>
         <div className={styles.image}>
+          <div className={styles.image_bg}></div>
+          <div className={styles.image_content}>
                 <Image src={logo} alt="logo GILC"width={280}height={30}/>   
                 <div className={styles.tritre_n_un}>
         <div className={`text-center`}><div className={`h2`}>BIENVENUE A</div><div className={`text-center`}>GOD IS LOVE</div><div className={`text-center`}>CENTER</div></div>
-        </div>            
-            </div>
+        </div>  
+        </div>          
+        </div>
         <div className={styles.titre}>
         <div className={`${styles.mini_titre} ${ebGaramond.className}`}>UNE SEUL GRANDE FAMILLE</div> 
         <div className={styles.titre_n_deux}>           
@@ -44,19 +47,22 @@ export default function Description() {
             <div className={`${styles.verset} ${lexend.className}`}>Ephesiens 3:15</div>
         <Link href="/nos_eglises">
           <div>
-          <div className={`${styles.rejoindre} h6`}>REJOINDRE</div>
+          <div className={`${styles.rejoindre} h6`}>Nos Eglises</div>
           </div>
         </Link>
         </div>  
         </div>              
         </div>     
         <div className={styles.reseaux}>
+          <div className={styles.reseaux_bg}></div>
+          <div className={styles.reseaux_content}>
             <div className={`${styles.reseaux_deux} gap-4`}>
                 <div>
                     <div className={lexend.className}>Nos derniers lives</div>
                  <LatestVideos/>
             </div>
             </div>
+          </div>
         </div> 
         <div>
                 <div className={styles.lien}>
