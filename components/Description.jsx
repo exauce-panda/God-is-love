@@ -81,17 +81,19 @@ export default function Description() {
                 </div>
         </div>
         <div>
-                <div className={styles.eglise}>
-                <div className={styles.eglise_bg}></div>   
+              
                 <div className={styles.eglise_content}>
-                <Image className={styles.img} src={pasteur_erick} alt="Image de l'Apôtre Eric Kaloyi" width={370} height={500} />
+                <div className={styles.img_content}>
+                <div className={styles.img_pasteur}>
+                <Image src={pasteur_erick} alt="Image de l'Apôtre Eric Kaloyi" width={370} height={500} />
+                </div>
+                </div>
                 <div className={styles.description}>
-                <div className={`${styles.pasteur} ${ebGaramond.className}`}>Apôtre Éric Kaloyi Muboyayi</div>
-                <div className={`${styles.pasteur} ${ebGaramond.className}`}>Pasteur Principal</div>
+                <div className={`${styles.nom_pasteur} ${ebGaramond.className}`}>Apôtre Éric Kaloyi Muboyayi</div>
+                <div className={`${styles.nom_pasteur} ${ebGaramond.className}`}>Pasteur Principal</div>
                 <div className={styles.desc_eglise}>L'Église GILC est née de la vision que Dieu a confiée à son serviteur, l'Apôtre Éric Kaloyi. Dès sa jeunesse, il a été appelé par le Seigneur. En tant que Pasteur consacré depuis plus de vingt ans, ses messages reflètent un profond amour pour Dieu, qu'il s'efforce de partager avec ferveur. Il est devenu un père pour de nombreux fidèles, laissant une empreinte indélébile dans leur vie.</div>
                 </div>
                 </div>
-            </div>
         </div>
         <div>
             <Programme/>

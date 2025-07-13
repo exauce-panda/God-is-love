@@ -94,17 +94,17 @@
   position: relative;
   padding-top: 90px;
   padding-bottom: 30px; 
-  overflow: hidden;
+  overflow:hidden;
   border-bottom-left-radius: 50px;
   border-bottom-right-radius: 50px;   
 }
 .image_bg{
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;  
-  background-image: url('/images/bg_image_un.jpg');
+  background-image: url('/images/bg_acceuil_1.jpg');
   background-size: cover;
   background-position: center;
-  filter: blur(5px);
+  filter:blur(1px);
   z-index: 0;
 }
 .image_content{
@@ -120,35 +120,30 @@
   border-radius: 60px;
   background-color: black;
 }
-.eglise{
-    position: relative;
-    display: flex;
-    color: rgb(255, 255, 255);
-    overflow: hidden;
-}
-.eglise_bg{
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-image: url('/images/bg_image_un.jpg');
-    background-size: cover;
-    background-position: center;   
-    filter: blur(5px);
-    z-index: 0;
-}
 .eglise_content{
     display: flex;
     position: relative;
-    padding: 80px;
-    padding-bottom: 40px;
-    gap: 130px;
+    color: black;
+    background-color: rgb(252, 250, 237);
     z-index: 1;
+}
+.img_pasteur{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 150px;
+  padding-right: 50px;
+}
+.img_content{
+  background-color: rgb(252, 250, 237);
 }
 .description{
   vertical-align: middle;
   text-align:justify;
-  padding-left: 20px;
+  padding-top: 140px;
+  padding-left: 100px;
+  margin-right: 40px;
 }
-.pasteur{
+.nom_pasteur{
     font-weight: bolder;
     font-size:40px;
 }
@@ -158,9 +153,6 @@
     padding-bottom: 30px;
     font-size:23px;
     max-width: 700px;
-}
-.img{
-    display: none;
 }
 
 
