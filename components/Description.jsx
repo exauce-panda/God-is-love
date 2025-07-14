@@ -41,7 +41,7 @@ export default function Description() {
         <div className={`${styles.mini_titre}`}>UNE SEUL GRANDE FAMILLE</div> 
         <div className={styles.titre_n_deux}>           
         <div className={styles.desc}>
-            <div className={lexend.className}>
+            <div>
             À l&apos;église God is Love Center (GILC), nous sommes une seule et grande famille. Nous expérimentons l&apos;amour de Dieu, car il nous aime plus que tout. Nous reconnaissons que Jésus-Christ est Dieu et qu&apos;il est mort pour nos péchés. 
             </div>
             <div className={`${styles.verset}`}>Ephesiens 3:15</div>
