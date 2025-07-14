@@ -61,8 +61,7 @@
   background-image: url('/images/bg_image_un.jpg');
   background-size: cover;
   background-position: center;
-  filter: blur(5px);
-
+  filter:blur(5px);
   z-index: 0;
 }
 .reseaux_content{
@@ -101,10 +100,10 @@
 .image_bg{
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;  
-  background-image: url('/images/bg_acceuil_1.jpg');
+  background-image: url('/images/bg_acceuil_1.jpg ');
   background-size: cover;
   background-position: center;
-  filter:blur(1px);
+  filter: grayscale(1) blur(3px);
   z-index: 0;
 }
 .image_content{

@@ -59,7 +59,6 @@ export default function Description() {
             <div className={`${styles.reseaux_deux} gap-4`}>
                 <div>
                     <div>Nos derniers lives</div>
-
             </div>
             </div>
           </div>
