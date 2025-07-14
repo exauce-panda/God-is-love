@@ -1,6 +1,6 @@
 /*export default async function handler(req, res) {
     const API_KEY = process.env.YOUTUBE_API_KEY;
-    const CHANNEL_ID = "UCB_M5HGXSDBAOe98IoHUI5A"; 
+    const CHANNEL_ID = process.env.CHANNEL_ID; 
     const MAX_RESULTS = 3;
   
     const url = `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${CHANNEL_ID}&part=snippet&type=video&order=date&maxResults=${MAX_RESULTS}`;
@@ -19,13 +19,10 @@
     }
   }
 */
-  /*id utilisateur : B_M5HGXSDBAOe98IoHUI5A
-id de la chaine: UCB_M5HGXSDBAOe98IoHUI5A
-cle api : AIzaSyBU9vjvgMM-F_6hPXsANjTVwVZHRhm5AWA */
 export default async function handler(req, res) {
   try {
     const apiKey = process.env.YOUTUBE_API_KEY;
-    const channelId = "UCB_M5HGXSDBAOe98IoHUI5A";
+    const channelId = process.env.CHANNEL_ID;
     const maxResults = 3;
 
     const response = await fetch(
