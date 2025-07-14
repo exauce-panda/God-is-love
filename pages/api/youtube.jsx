@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+/*export default async function handler(req, res) {
     const API_KEY = process.env.YOUTUBE_API_KEY;
     const CHANNEL_ID = "UCB_M5HGXSDBAOe98IoHUI5A"; 
     const MAX_RESULTS = 3;
@@ -18,8 +18,28 @@ export default async function handler(req, res) {
       res.status(500).json({ error: error.message });
     }
   }
-
+*/
   /*id utilisateur : B_M5HGXSDBAOe98IoHUI5A
 id de la chaine: UCB_M5HGXSDBAOe98IoHUI5A
 cle api : AIzaSyBU9vjvgMM-F_6hPXsANjTVwVZHRhm5AWA */
-  
+export default async function handler(req, res) {
+  try {
+    const apiKey = process.env.YOUTUBE_API_KEY;
+    const channelId = "UCB_M5HGXSDBAOe98IoHUI5A";
+    const maxResults = 3;
+
+    const response = await fetch(
+      `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=${maxResults}`
+    );
+
+    if (!response.ok) {
+      throw new Error(`YouTube API error: ${response.status}`);
+    }
+
+    const data = await response.json();
+    res.status(200).json(data.items);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: error.message });
+  }
+}
