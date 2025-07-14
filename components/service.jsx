@@ -15,7 +15,7 @@ const ebGaramond = EB_Garamond({
   variable: '--font-eb-garamond', // optionnel pour CSS variable
 })
 // Définition du composant fonctionnel MenuNav
-export default function  service(){
+export default function  Service(){
   const pathname = usePathname(); // Utilisation de usePathname pour déterminer le chemin d'accès actif
   // Rendu du composant
   return(

@@ -10,7 +10,7 @@ const ebGaramond = EB_Garamond({
   variable: '--font-eb-garamond', // optionnel pour CSS variable
 })
 //import emailjs from '@emailjs/browser';
-export default function contact() {
+export default function Contact() {
     // Déclaration des états pour stocker les valeurs des champs du formulaire et les messages d'erreur/validation.
     const [nom, setNom] = useState('');
     const [email, setEmail] = useState('');

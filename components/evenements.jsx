@@ -16,7 +16,7 @@ const ebGaramond = EB_Garamond({
 })
 
 // Définition du composant fonctionnel Events.
-export default function evenements() {
+export default function Evenements() {
   // Hook d'état pour contrôler la pagination.
   const [currentPage, setCurrentPage] = useState(1);
   const eventsPerPage = 4; // Définit le nombre d'événements à afficher par page.
@@ -32,7 +32,7 @@ export default function evenements() {
   return (
     <div className={styles.bob}>
       <div className={`${styles.top}`}>Nos evenements actuelle et a venir</div>
-      <div className={styles.sous_top}>N'hesitez pas a nous suivre sur nos reseaux pour etre au courant des futurs annonces</div>
+      <div className={styles.sous_top}>N&apos;hesitez pas a nous suivre sur nos reseaux pour etre au courant des futurs annonces</div>
               <div>
                 <div className={styles.lien}>
                 <a className={styles.sousLien} href="https://www.facebook.com/Godislovecenter?locale=fr_CA" target="_blank">

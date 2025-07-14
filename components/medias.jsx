@@ -3,7 +3,7 @@
 import { useState } from 'react'; // Importe useState de React pour créer des états locaux.
 import styles from './medias.module.css'; // Importe les styles spécifiques au composant Media.
 //import emailjs from '@emailjs/browser';
-export default function medias() {
+export default function Medias() {
    // Déclaration des états pour stocker les valeurs des champs du formulaire et les Messages d'erreur/validation.
    const [nom, setNom] = useState('');
    const [email, setEmail] = useState('');

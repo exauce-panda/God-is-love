@@ -42,7 +42,7 @@ export default function Description() {
         <div className={styles.titre_n_deux}>           
         <div className={styles.desc}>
             <div className={lexend.className}>
-            À l'église God is Love Center (GILC), nous sommes une seule et grande famille. Nous expérimentons l'amour de Dieu, car il nous aime plus que tout. Nous reconnaissons que Jésus-Christ est Dieu et qu'il est mort pour nos péchés. 
+            À l&apos;église God is Love Center (GILC), nous sommes une seule et grande famille. Nous expérimentons l&apos;amour de Dieu, car il nous aime plus que tout. Nous reconnaissons que Jésus-Christ est Dieu et qu&apos;il est mort pour nos péchés. 
             </div>
             <div className={`${styles.verset} ${lexend.className}`}>Ephesiens 3:15</div>
         <Link href="/nos_eglises">
@@ -91,7 +91,7 @@ export default function Description() {
                 <div className={styles.description}>
                 <div className={`${styles.nom_pasteur} ${ebGaramond.className}`}>Apôtre Éric Kaloyi Muboyayi</div>
                 <div className={`${styles.nom_pasteur} ${ebGaramond.className}`}>Pasteur Principal</div>
-                <div className={styles.desc_eglise}>L'Église GILC est née de la vision que Dieu a confiée à son serviteur, l'Apôtre Éric Kaloyi. Dès sa jeunesse, il a été appelé par le Seigneur. En tant que Pasteur consacré depuis plus de vingt ans, ses messages reflètent un profond amour pour Dieu, qu'il s'efforce de partager avec ferveur. Il est devenu un père pour de nombreux fidèles, laissant une empreinte indélébile dans leur vie.</div>
+                <div className={styles.desc_eglise}>L&apos;Église GILC est née de la vision que Dieu a confiée à son serviteur, l&apos;Apôtre Éric Kaloyi. Dès sa jeunesse, il a été appelé par le Seigneur. En tant que Pasteur consacré depuis plus de vingt ans, ses messages reflètent un profond amour pour Dieu, qu&apos;il s&apos;efforce de partager avec ferveur. Il est devenu un père pour de nombreux fidèles, laissant une empreinte indélébile dans leur vie.</div>
                 </div>
                 </div>
         </div>
