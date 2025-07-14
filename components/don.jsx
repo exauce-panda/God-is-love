@@ -1,13 +1,13 @@
 import styles from "./don.module.css"
 import logo from "@/public/logos/interac_logo.png"
 import Image from "next/legacy/image";
-import { EB_Garamond } from 'next/font/google';
+//import { EB_Garamond } from 'next/font/google';
 
-const ebGaramond = EB_Garamond({
+/*const ebGaramond = EB_Garamond({
   subsets: ['latin'],
   weight: ['400', '700'], // facultatif
   variable: '--font-eb-garamond', // optionnel pour CSS variable
-})
+})*/
 export default function Don(){
 return(
     <div className={styles.bob}>  

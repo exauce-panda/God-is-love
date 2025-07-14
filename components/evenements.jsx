@@ -3,17 +3,17 @@ import { useState } from 'react'; // Importation du hook d'état de React.
 import Image from 'next/image'; // Importation du composant Image de Next.js pour l'optimisation des images.
 import allEvents from '@/public/evenData/allEvents.json'; // Importation des données des événements depuis un fichier JSON local.
 import styles from "@/components/evenements.module.css";
-import { EB_Garamond } from 'next/font/google';
+//import { EB_Garamond } from 'next/font/google';
 import logo_un from "@/public/logos/facebook.png";
 import logo_deux from "@/public/logos/instagram.png";
 import logo_trois from "@/public/logos/youtube.png";
 import logo_quatre from "@/public/logos/tiktok.png";
 
-const ebGaramond = EB_Garamond({
+/*const ebGaramond = EB_Garamond({
   subsets: ['latin'],
   weight: ['400', '700'], // facultatif
   variable: '--font-eb-garamond', // optionnel pour CSS variable
-})
+})*/
 
 // Définition du composant fonctionnel Events.
 export default function Evenements() {

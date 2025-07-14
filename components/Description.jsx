@@ -1,3 +1,5 @@
+//import { Lexend } from 'next/font/google';
+//import { EB_Garamond } from 'next/font/google';
 import styles from "./description.module.css"
 import Programme from "./Programme.jsx"
 import Image from "next/legacy/image";
@@ -9,11 +11,9 @@ import logo from "@/public/logos/logoGilc.png"
 import LatestVideos from "@/components/LatestVideo.jsx"
 import Link from 'next/link'; // Importation du composant Link de Next.js pour la navigation
 import { usePathname } from 'next/navigation'; // Importation du hook usePathname pour obtenir le chemin d'accès actuel
-import { Lexend } from 'next/font/google';
-import { EB_Garamond } from 'next/font/google';
-import pasteur_erick from "@/public/images/pasteurs/p_erick_photo.jpg"
+import pasteur_erick from "@/public/images/pasteurs/p_erick_photo.jpg";
 
-const lexend = Lexend({
+/*const lexend = Lexend({
   subsets: ['latin'],
   weight: ['400', '700'], // facultatif
   variable: '--font-lexend', // optionnel pour CSS variable
@@ -23,7 +23,7 @@ const ebGaramond = EB_Garamond({
   subsets: ['latin'],
   weight: ['400', '700'], // facultatif
   variable: '--font-eb-garamond', // optionnel pour CSS variable
-})
+})*/
 export default function Description() {
     const pathname = usePathname(); // Utilisation de usePathname pour déterminer le chemin d'accès actif
     return(
@@ -38,13 +38,13 @@ export default function Description() {
         </div>          
         </div>
         <div className={styles.titre}>
-        <div className={`${styles.mini_titre} ${ebGaramond.className}`}>UNE SEUL GRANDE FAMILLE</div> 
+        <div className={`${styles.mini_titre}`}>UNE SEUL GRANDE FAMILLE</div> 
         <div className={styles.titre_n_deux}>           
         <div className={styles.desc}>
             <div className={lexend.className}>
             À l&apos;église God is Love Center (GILC), nous sommes une seule et grande famille. Nous expérimentons l&apos;amour de Dieu, car il nous aime plus que tout. Nous reconnaissons que Jésus-Christ est Dieu et qu&apos;il est mort pour nos péchés. 
             </div>
-            <div className={`${styles.verset} ${lexend.className}`}>Ephesiens 3:15</div>
+            <div className={`${styles.verset}`}>Ephesiens 3:15</div>
         <Link href="/nos_eglises">
           <div>
           <div className={`${styles.rejoindre} h6`}>Nos Eglises</div>
@@ -58,7 +58,7 @@ export default function Description() {
           <div className={styles.reseaux_content}>
             <div className={`${styles.reseaux_deux} gap-4`}>
                 <div>
-                    <div className={lexend.className}>Nos derniers lives</div>
+                    <div>Nos derniers lives</div>
                  <LatestVideos/>
             </div>
             </div>
@@ -89,8 +89,8 @@ export default function Description() {
                 </div>
                 </div>
                 <div className={styles.description}>
-                <div className={`${styles.nom_pasteur} ${ebGaramond.className}`}>Apôtre Éric Kaloyi Muboyayi</div>
-                <div className={`${styles.nom_pasteur} ${ebGaramond.className}`}>Pasteur Principal</div>
+                <div className={`${styles.nom_pasteur}`}>Apôtre Éric Kaloyi Muboyayi</div>
+                <div className={`${styles.nom_pasteur}`}>Pasteur Principal</div>
                 <div className={styles.desc_eglise}>L&apos;Église GILC est née de la vision que Dieu a confiée à son serviteur, l&apos;Apôtre Éric Kaloyi. Dès sa jeunesse, il a été appelé par le Seigneur. En tant que Pasteur consacré depuis plus de vingt ans, ses messages reflètent un profond amour pour Dieu, qu&apos;il s&apos;efforce de partager avec ferveur. Il est devenu un père pour de nombreux fidèles, laissant une empreinte indélébile dans leur vie.</div>
                 </div>
                 </div>
