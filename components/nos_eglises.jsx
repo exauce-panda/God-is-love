@@ -12,7 +12,7 @@ export default function Nos_eglises(){
     return(
     <div className={styles.bob}>
     <div className={`${styles.titre}`}>Notre ministere</div>
-    <div className={styles.slogan}>" Transfomer par l&apos;amour de Dieu pour transfomer le monde, car il n&apos;y a que l&apos;amour qui transforme."</div>            
+    <div className={styles.slogan}>&quot; Transfomer par l&apos;amour de Dieu pour transfomer le monde, car il n&apos;y a que l&apos;amour qui transforme.&quot;</div>            
         <div className={styles.composant}>
             <div className={styles.histoire}>
                 <Image className={styles.img} src={pasteur_erick} alt="Image de l'Apôtre Eric Kaloyi" width={500} height={300} />
