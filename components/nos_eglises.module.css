@@ -34,8 +34,7 @@
     display: flex;
     padding-bottom: 40px;
     padding: 50px;
-    padding-left: 200px;
-    gap:100px;
+    padding-left: 50px;
     background-color: white;
 }
 .description{
@@ -45,7 +44,7 @@
 .pasteur{
     font-weight: bolder;
     font-size:50px;
-    padding-bottom: 30px;
+    padding-top: 90px;
 }
 .type_eglise{
     font-size:large;
