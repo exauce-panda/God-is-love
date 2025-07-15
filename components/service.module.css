@@ -1,21 +1,32 @@
 .bob{
     color: black;
     text-align: center;
-    padding-top: 90px;
+    background-color: rgb(243, 243, 243);
 }
 .text_primaire{
-   font-size:large;
+    font-size:large;
+    padding-top: 60px;
+    padding-bottom: 90px;
 }
 .text{
     color:rgb(255, 63, 4);
     text-align: center;
 }
 .titre{
-    padding-top: 10px;
-    color: rgba(209,145,44,255);
-    font-size: 60px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 240, 208);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    font-size: xx-large;
+    font-weight: bold;
+    z-index: 2;
+    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
 }
-.line_un {
+.line_un { /*faire une ligne*/
     width: 80%;  /* Modifier la longueur en pourcentage ou pixels */
     height: 1.5px;  /* Épaisseur de la ligne */
     background-color: rgba(209,145,44,255); /* Couleur de la ligne */
@@ -27,6 +38,7 @@
     display: grid;
     place-items: center;
     gap: 5px;
+    background-color: white;
 }
 .type_service{
     display: flex;

@@ -1,7 +1,7 @@
 .bob{
     text-align: center;
     color: black;
-    background-color: transparent;
+    background-color: rgb(243, 243, 243);
 }
 
 .merci{
@@ -32,8 +32,12 @@
     padding-bottom: 20px;
 }
 .paiements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
     padding: 20px;
-    background-color: rgb(255, 240, 208);
+    background-color: white;
 }
 .m_paiement{
     color: white;
@@ -47,8 +51,8 @@
     align-items: center;
     border-radius: 20px;
     background-color: rgb(250, 142, 142);
-    min-width: 450px;
-    min-height: 300px;
+    max-width: 450px;
+    max-height: 800px;
     padding-top: 50px;
     padding: 30px;
 }
@@ -71,4 +75,17 @@
     margin-top: 30px;
     padding-bottom: 50px;
     text-decoration: underline;
+}
+.don_materiel{
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(255, 240, 208);
+    max-width: 500px;
+    min-height: 300px;
+    padding-top: 50px;
+    padding: 30px;    
+}
+.don_materiel p {
+    padding-top: 30px;
+    font-size: x-large;
 }

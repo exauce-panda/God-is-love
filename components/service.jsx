@@ -26,8 +26,6 @@ export default function  Service(){
       <div className={styles.text_primaire}>
         Vous pouvez servir dans différents groupes, choisissez celui qui vous conviendra le mieux.
       </div>
-      <div className={styles.line_un}></div>
-
       <div className={`${styles.contenant}`}>
       <div className={styles.type_service}>
       <div className={styles.titre_desc_top}>

@@ -64,52 +64,49 @@ export default function Contact() {
        //emailjs.sendForm("service_f9b84ft","template_54sxywe",e.target,"eYc5_rW7DCei_jHAY");
     };
     return (
-        <div className={`${styles.bob} text-white`}>
-            <div>g</div> {/*a corriger pour je ne sais quel raison la bar noir disparait uniquement si il y'a un ecrit ici*/}
-            <div className={`${styles.pageContact} container`}>
+        <div className={`${styles.bob} text-black`}>
+            <h2 className={styles.titre}>Envoyez-nous un message</h2>
+            <div className={`${styles.pageContact} `}>
                 {/* Affichage conditionnel du message de succès */}
                 {showSuccessMessage && (
                     <div className="alert alert-success" role="alert" style={{ position: 'fixed', top: '10px', left: '50%', transform: 'translateX(-50%)', zIndex: 1050 }}>
                         Votre message a été soumis avec succès.
                     </div>
                 )}
-                <div className="row mt-5">
-                    <div className="col-md-6">
-                        <div className="text-black p-4 rounded">
-                            <h2 className={`mb-5 h1`}>Envoyez-nous un message</h2>
+              <div>
+                        {/* Informations de contact */}
+                       <div className={styles.coordonee}>
+                            <p className={`h4 ${styles.text_color}`}>Vous pouvez nous joindre avec ces coordonées :</p>
+                            <ul className={styles.list}>
+                                <li>Téléphone : (613) 291-7607</li>
+                                <li>Email : godislovecenter@gmail.com</li>
+                            </ul>
+                        </div>
+              </div>
+                <div className={`${styles.formulaire}`}>
+                    <div className={styles.style_formulaire}>
+                        <div className="text-black">                          
                             <form onSubmit={handleSubmit}>
                                 {/* Champs du formulaire avec gestion des erreurs */}
-                                <div className={`mb-3 ${styles.forumId}`}>
+                                <div className={`${styles.forumId}`}>
                                     <label htmlFor="nom" className={`form-label h4 ${styles.text_color}`}>Nom</label>
-                                    <input name="nom_mail" type="text" className={`form-control text-black bg-white ${errorNom ? 'is-invalid' : ''}`} id="nom" value={nom} onChange={(e) => { setNom(e.target.value); validateField('nom', e.target.value); }} />
+                                    <input name="nom_mail" type="text" className={`${styles.form_group} ${errorNom ? 'is-invalid' : ''}`} id="nom" value={nom} onChange={(e) => { setNom(e.target.value); validateField('nom', e.target.value); }} />
                                     {errorNom && <div className="invalid-feedback">{errorNom}</div>}
                                 </div>
-                                <div className={`mb-3 ${styles.forumId}`}>
+                                <div className={`${styles.forumId}`}>
                                     <label htmlFor="email" className={`form-label h4 ${styles.text_color}`}>Adresse e-mail</label>
-                                    <input name="email_mail" type="email" className={`form-control text-black bg-white ${errorEmail ? 'is-invalid' : ''}`} id="email" value={email} onChange={(e) => { setEmail(e.target.value); validateField('email', e.target.value); }} />
+                                    <input name="email_mail" type="email" className={`${styles.form_group} ${errorEmail ? 'is-invalid' : ''}`} id="email" value={email} onChange={(e) => { setEmail(e.target.value); validateField('email', e.target.value); }} />
                                     {errorEmail && <div className="invalid-feedback">{errorEmail}</div>}
                                 </div>
-                                <div className={`mb-3 ${styles.forumMessage}`}>
+                                <div className={`${styles.forumMessage}`}>
                                     <label htmlFor="message" className={`form-label h4 ${styles.text_color}`}>Message</label>
-                                    <textarea name="message_mail" className={`form-control bg-white ${errorMessage ? 'is-invalid' : ''}`} id="message" rows="5" value={message} onChange={(e) => { setMessage(e.target.value); validateField('message', e.target.value); }}></textarea>
+                                    <textarea name="message_mail" className={`${errorMessage ? 'is-invalid' : ''}`} id="message" rows="5" value={message} onChange={(e) => { setMessage(e.target.value); validateField('message', e.target.value); }}></textarea>
                                     {errorMessage && <div className="invalid-feedback">{errorMessage}</div>}
                                 </div>
                                 <button type="submit" className={`${styles.btn_envoyer}`}>Envoyer</button>
                             </form>
                         </div>
-                    </div>
-                    
-                    <div className="col-md-6 d-flex">
-                        {/* Informations de contact */}
-                        <div className={styles.line}></div>
-                       <div className={styles.coordonee}>
-                            <p className={`h4 ${styles.text_color}`}>Vous pouvez nous joindre avec ces coordonées :</p>
-                            <ul>
-                                <li>Téléphone : (613) 291-7607</li>
-                                <li>Email : godislovecenter@gmail.com</li>
-                            </ul>
-                        </div>
-                    </div>
+                    </div>                   
                 </div>
             </div>
         </div>

@@ -42,6 +42,10 @@ return(
                 </div>
                 </div>
         </div>
+        <div className={styles.don_materiel}>
+                <p>Si vous souhaitez faire un don vestimentaire ou alimentaire veillez nous contacter a ce numero:</p>
+                <div className={`${styles.mail}`}>+1 (613) 291-7607</div>
+        </div>       
         </div>
     </div>
 );
