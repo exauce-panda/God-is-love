@@ -30,6 +30,22 @@ export default function Description() {
      <div className={styles.bob}>
         <div className={styles.image}>
           <div className={styles.image_bg}></div>
+          <div className={`${styles.desc_mobile}`}>
+        <div className={styles.titre_n_deux}>        
+        <div className={styles.desc}>
+            <div className={styles.titre_mobile}>UNE SEULE GRANDE FAMILLE </div> 
+            <div>
+            À l&apos;église God is Love Center (GILC), nous sommes une seule et grande famille. Nous expérimentons l&apos;amour de Dieu, car il nous aime plus que tout. Nous reconnaissons que Jésus-Christ est Dieu et qu&apos;il est mort pour nos péchés. 
+            </div>
+            <div className={`${styles.verset}`}>Ephesiens 3:15</div>
+        <Link href="/nos_eglises">
+          <div>
+          <div className={`${styles.rejoindre} h6`}>Nos Eglises</div>
+          </div>
+        </Link>
+        </div>  
+        </div>               
+          </div>
           <div className={styles.image_content}>
                 <Image src={logo} alt="logo GILC"width={280}height={30}/>   
                 <div className={styles.tritre_n_un}>
@@ -38,7 +54,7 @@ export default function Description() {
         </div>          
         </div>
         <div className={styles.titre}>
-        <div className={`${styles.mini_titre}`}>UNE SEUL GRANDE FAMILLE</div> 
+        <div className={`${styles.mini_titre}`}>UNE SEULE GRANDE FAMILLE</div> 
         <div className={styles.titre_n_deux}>           
         <div className={styles.desc}>
             <div>
@@ -66,16 +82,16 @@ export default function Description() {
         <div>
                 <div className={styles.lien}>
                 <a className={styles.sousLien} href="https://www.facebook.com/Godislovecenter?locale=fr_CA" target="_blank">
-                <Image src={logo_un} alt="logo facebook" width={60} height={60} /> <div className={`d-flex align-items-center`}>FaceBook</div>
+                <Image src={logo_un} alt="logo facebook" width={60} height={60} /> <p >FaceBook</p>
                 </a>
                 <a className={styles.sousLien} href="https://www.instagram.com/god_is_lovecenter?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                <Image src={logo_deux} alt="logo instagram" width={60} height={60} /> <div className={`d-flex align-items-center`}>Instagram</div>
+                <Image src={logo_deux} alt="logo instagram" width={60} height={60} /> <p >Instagram</p>
                 </a>
                 <a className={styles.sousLien} href="https://youtube.com/@gilctv4549?si=l13vyKqNc89xk2_T" target="_blank">
-                <Image src={logo_trois} alt="logo youtube" width={60} height={60} /> <div className={`d-flex align-items-center`}>Youtube</div>
+                <Image src={logo_trois} alt="logo youtube" width={60} height={60} /> <p >Youtube</p>
                 </a>
                 <a className={styles.sousLien} href="https://www.tiktok.com/@gilc_ottawa?_t=ZM-8so4Bh7Mcx4&_r=1" target="_blank">
-                <Image src={logo_quatre} alt="logo TIKTOK" width={60} height={60} /> <div className={`d-flex align-items-center`}>TikTok</div>
+                <Image src={logo_quatre} alt="logo TIKTOK" width={60} height={60} /> <p>TikTok</p>
                 </a>
                 </div>
         </div>

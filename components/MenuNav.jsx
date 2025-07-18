@@ -3,6 +3,8 @@ import styles from "./menuNav.module.css"
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
+import Image from "next/legacy/image";
+import logo_gilc from "@/public/logos/logo_gilc_removebg.png"
 
 export default function MenuNav() {
     const pathname = usePathname()
@@ -15,7 +17,12 @@ export default function MenuNav() {
 
     return (
         <div className={styles.bob}>
-            {/* Bouton burger mobile */}
+
+           <div className={styles.mobile_top}>
+            <div className={styles.logo}>
+            <Image src={logo_gilc} alt="logo GILC"width={250}height={66}></Image>
+            </div>
+             {/* Bouton burger mobile */}
            <button
             className={`${styles.burger} ${isOpen ? styles.open : ''}`}
             onClick={() => setIsOpen(!isOpen)}
@@ -23,7 +30,8 @@ export default function MenuNav() {
            <span></span>
            <span></span>
            <span></span>
-           </button>
+           </button>           
+
 
             {/* Menu navigation */}
             <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
@@ -53,6 +61,7 @@ export default function MenuNav() {
                     </li>
                 </ul>
             </nav>
+            </div>
         </div>
     )
 }

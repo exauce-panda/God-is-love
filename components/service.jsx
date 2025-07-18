@@ -24,70 +24,73 @@ export default function  Service(){
         Réjoignez une équipe
       </div>
       <div className={styles.text_primaire}>
-        Vous pouvez servir dans différents groupes, choisissez celui qui vous conviendra le mieux.
+        Contactez nous pour vos differentes questions concernant les differents departements de l'eglise 
       </div>
+
       <div className={`${styles.contenant}`}>
       <div className={styles.type_service}>
-      <div className={styles.titre_desc_top}>
-      <Image className={styles.titre_desc}src={logo_media} alt="logo media" width={230} height={230}/> 
-      </div>
-      <div className="d-block p-5 text-start">
-      <div className={`${styles.mini_titre}`}>MEDIA</div> 
-      <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
-      <Link href="/medias" className={pathname === '/medias' ? `${styles.text}` : ''}>
-        {/* lien des liens de navigation */}
-        <div className={`${styles.lien}`}>
-          <div>REJOINDRE</div>
-          </div>  
-          </Link>
-          </div>
+        <div className={styles.logo_top}>
+        <Image className={styles.logo}src={logo_media} alt="logo media" width={230} height={230}/> 
         </div>
+         <div className="d-block p-5 text-start">
+         <div className={`${styles.mini_titre}`}>MEDIA</div> 
+         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
+         <Link href="/medias" className={pathname === '/medias' ? `${styles.text}` : ''}>
+         <div className={`${styles.boutton}`}>
+          <div>CONTACTEZ</div>
+         </div>  
+        </Link>
+        </div>
+      </div>
 
-        <div className={styles.type_service}> 
-        <div className={styles.titre_desc_top}>
-        <Image className={styles.titre_desc}src={logo_protocola} alt="logo protocola" width={230} height={230}/> 
+      <div className={styles.type_service}>
+        <div className={styles.logo_top}>
+        <Image className={styles.logo}src={logo_protocola} alt="logo protocola" width={230} height={230}/> 
         </div>
         <div className="d-block p-5 text-start">
         <div className={`${styles.mini_titre}`}>PROTOCOLA</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
         <Link href="/protocola" className={pathname === '/protocola' ? `${styles.text}` : ''}>
-        <div className={`${styles.lien}`}>
-          <div>REJOINDRE</div>
+        <div className={`${styles.boutton}`}>
+          <div>CONTACTEZ</div>
           </div>
-          </Link>
-          </div>
-          </div>
+        </Link>
+        </div>          
+      </div>
+      </div>
 
-        <div className={styles.type_service}>
-        <div className={styles.titre_desc_top}>
-        <Image className={styles.titre_desc}src={logo_chorale} alt="logo chorale" width={230} height={230}/> 
+      <div className={`${styles.contenant}`}>
+      <div className={styles.type_service}>
+        <div className={styles.logo_top}>
+        <Image className={styles.logo}src={logo_jeunesse} alt="logo jeunesse" width={230} height={230}/> 
+        </div>
+         <div className="d-block p-5 text-start">
+         <div className={`${styles.mini_titre}`}>JEUNESSE</div> 
+         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
+         <Link href="/jeunesse" className={pathname === '/jeunesse' ? `${styles.text}` : ''}>
+         <div className={`${styles.boutton}`}>
+          <div>CONTACTEZ</div>
+         </div>  
+        </Link>
+        </div>
+      </div>
+
+      <div className={styles.type_service}>
+        <div className={styles.logo_top}>
+        <Image className={styles.logo}src={logo_chorale} alt="logo chorale" width={230} height={230}/> 
         </div>
         <div className="d-block p-5 text-start">
         <div className={`${styles.mini_titre}`}>CHORALE</div> 
         <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
         <Link href="/musique" className={pathname === '/musique' ? `${styles.text}` : ''}>
-          <div className={`${styles.lien}`}>
-          <div>REJOINDRE</div>
+        <div className={`${styles.boutton}`}>
+          <div>CONTACTEZ</div>
           </div>
-          </Link>       
-          </div>
-        </div>
-        
-        <div className={styles.type_service}>
-        <div className={styles.titre_desc_top}>
-        <Image className={styles.titre_desc}src={logo_jeunesse} alt="logo jeunesse" width={230} height={230}/> 
-        </div>
-        <div className="d-block p-5 text-start">
-        <div className={`${styles.mini_titre}`}>JEUNESSE</div> 
-        <div className={styles.description}>text text text text text text text text text text text text text text text text text text text text text text text text </div>
-          <Link href="/jeunesse" className={pathname === '/jeunesse' ? `${styles.text}` : 'nav-item'}>
-          <div className={`${styles.lien}`}>
-          <div>REJOINDRE</div>
-          </div>
-          </Link>
-          </div>
-        </div>
-        </div>
-        </div>
+        </Link>
+        </div>          
+      </div>
+      </div>  
+
+    </div>
 )
 }
