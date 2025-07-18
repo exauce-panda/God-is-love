@@ -4,7 +4,7 @@
   }
 .desc_mobile{
   position: relative;
-  display: flex;
+  display: none;
   justify-content: center;
   z-index: 1;
   color: white;
@@ -96,7 +96,7 @@
   padding-bottom: 30px; 
   overflow:hidden;
   border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;   
+  border-bottom-right-radius: 50px;
 }
 .image_bg{
   position: absolute;
@@ -219,6 +219,9 @@
     }
     .desc_eglise{
       font-size: large;
+    }
+    .desc_mobile{
+      display: flex;
     }
     .description{
     text-align:center;

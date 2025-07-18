@@ -36,10 +36,12 @@
 }
 
 .mobile_top{
-    display: none;
+    display: flex;
+    justify-content: center;
 }
 
 .logo{
+   display: none;
    padding-right: 10rem;
    padding-top: 13px;
    padding-bottom: 10px;   
