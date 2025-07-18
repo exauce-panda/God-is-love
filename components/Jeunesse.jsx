@@ -76,7 +76,7 @@ export default function Jeunesse() {
               <div>
                         {/* Informations de Jeunesse */}
                        <div className={styles.coordonee}>
-                            <p className={`h4 ${styles.text_color}`}>Pour d'autre questions plus global vous pouvez nous joindre avec ces coordonées :</p>
+                            <p className={`h4 ${styles.text_color}`}>Pour d&apos;autre questions plus global vous pouvez nous joindre avec ces coordonées :</p>
                             <ul className={styles.list}>
                                 <li>Téléphone : (613) 291-7607</li>
                                 <li>Email : godislovecenter@gmail.com</li>
