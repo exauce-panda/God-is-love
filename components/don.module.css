@@ -90,6 +90,7 @@
     font-size: x-large;
 }
 .ligne{
+    display: none;
     background-color: rgb(241, 121, 121);
     width: 100%;
     height: 4px;
@@ -101,6 +102,9 @@
         padding: 0px;
         background-color: rgb(250, 142, 142);
         border-radius: 20px;      
+    }
+    .ligne{
+        display: block;
     }
     .interac{
         padding-top: 30px;

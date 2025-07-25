@@ -48,7 +48,7 @@
 }
 
 /* BOUTON BURGER */
-.bob button {
+.bob .burger {
     padding: 2px;
 }
 .burger {
@@ -60,6 +60,7 @@
     cursor: pointer;
     background: none;
     padding: 0px;
+    color: black;
     z-index: 1001;
       /* Positionnement fixe en haut à droite */
     position: fixed;
@@ -74,20 +75,24 @@
     display: block;
     height: 4px;
     width: 100%;
-    color: rgb(201, 145, 61);
+    background-color: rgb(197, 177, 0);
     border-radius: 2px;
     transition: all 0.4s ease;
     transform-origin: center;
   }
   
   .burger.open span:nth-child(1) {
-    transform: rotate(48deg) translateY(6px) translateX(7px);
+    transform: rotate(46deg) translateY(7px) translateX(7px);
   }
   .burger.open span:nth-child(2) {
     opacity: 0;
   }
   .burger.open span:nth-child(3) {
-    transform: rotate(-48deg) translateY(-6px) translateX(6px);
+    transform: rotate(-45deg) translateY(-7px) translateX(7px);
+  }
+  .burger.open{
+    border: solid 1px rgb(197, 177, 0);
+    border-radius: 4px;
   }
   
 .ligne{
