@@ -1,6 +1,6 @@
 .bob{
-    color: white;
-    background-color: rgb(255, 240, 208);
+  color: white;
+  background-color: rgb(255, 240, 208);
   }
 .desc_mobile{
   position: relative;
@@ -10,32 +10,32 @@
   color: white;
 }
 .titre{
-    color: black;
-    opacity: 100%;
-    padding: 20px;
-    font-size: x-large;
-    background-color: rgb(255, 240, 208);
-    /*background-image: url('/images/bg_image_un.jpg');
-    background-size: cover;
-    background-position: center;*/
+  color: black;
+  opacity: 100%;
+  padding: 20px;
+  font-size: x-large;
+  background-color: rgb(255, 240, 208);
+  /*background-image: url('/images/bg_image_un.jpg');
+  background-size: cover;
+  background-position: center;*/
 }
 .tritre_n_un {
-    text-align: center;
-    font-size: 70px;
-    display: flex;
-    justify-content: center;
-    padding-left: 80px;
-    color: rgba(209,145,44,255);
+  text-align: center;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  padding-left: 80px;
+  color: rgba(209,145,44,255);
   }
 .titre_n_deux{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 .mini_titre{
-    display: flex;
-    padding: 20px;
-    justify-content: center;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
 }
 .desc{
   text-align: center;
@@ -159,7 +159,17 @@
   font-size: x-large;
   font-weight: bold;
 }
-  @media (max-width: 670px) {
+@media (max-width:470px) {
+  .image{
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 30px; 
+    overflow:hidden;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+}
+  @media (max-width: 670px) and (min-width: 470px){
     /* Ajustement des styles sur des écrans très étroits */
     .tritre_n_un{
     text-align: center;
