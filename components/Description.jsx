@@ -85,7 +85,7 @@ export default function Description() {
                 <Image src={logo_un} alt="logo facebook" width={60} height={60} /> <p >FaceBook</p>
                 </a>
                 <a className={styles.sousLien} href="https://www.instagram.com/god_is_lovecenter?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                <Image src={logo_deux} alt="logo instagram" width={60} height={60} /> <p >Instagram</p>
+                <Image className={styles.image_mobile} src={logo_deux} alt="logo instagram" width={60} height={60} /> <p >Instagram</p>
                 </a>
                 <a className={styles.sousLien} href="https://youtube.com/@gilctv4549?si=l13vyKqNc89xk2_T" target="_blank">
                 <Image src={logo_trois} alt="logo youtube" width={60} height={60} /> <p >Youtube</p>

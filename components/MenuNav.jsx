@@ -23,14 +23,14 @@ export default function MenuNav() {
             <Image src={logo_gilc} alt="logo GILC"width={250}height={66}></Image>
             </div>
              {/* Bouton burger mobile */}
-           <button
+           <div
             className={`${styles.burger} ${isOpen ? styles.open : ''}`}
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Menu">
            <span></span>
            <span></span>
            <span></span>
-           </button>           
+           </div>           
 
 
             {/* Menu navigation */}

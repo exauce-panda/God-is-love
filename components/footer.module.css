@@ -8,14 +8,7 @@
     justify-content: center;
     gap: 160px;
 }
-@media (max-width: 960px){
-    .foot {
-      text-align: justify;
-    }
-    .image {
-    display: none;
-    }
-}
+
 .logo {
     display: flex;
     gap: 30px;
@@ -29,4 +22,8 @@
 }
 .icon {
     text-decoration: underline;
+}
+.adresse{
+    text-align: justify;
+    padding-left: 100px;
 }
