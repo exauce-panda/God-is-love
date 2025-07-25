@@ -89,6 +89,12 @@
     padding-top: 30px;
     font-size: x-large;
 }
+.ligne{
+    background-color: rgb(241, 121, 121);
+    width: 100%;
+    height: 4px;
+    margin: 3px 0;
+}
 @media (max-width:670px) {
     .m_paiement{
         display: block;

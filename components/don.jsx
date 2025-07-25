@@ -29,12 +29,14 @@ return(
         <div className={`${styles.mail}`}>GODISLOVE084@GMAIL.COM</div>
                 </div>
                 </div>
+                <div className={styles.ligne}></div>
                 <div className={styles.interac}>
                 <div>   
         <div>Si vous souhaitez nous soutenir pour l&apos;agrandissement de l&apos;eglise</div>
         <div className={`${styles.mail}`}>GILCBATISSE@GMAIL.COM</div>        
                 </div>
                 </div>
+                <div className={styles.ligne}></div>                
                 <div className={styles.interac}>
                 <div>
         <div>Pour tout vos don pour la banque alimentaire</div>                    
