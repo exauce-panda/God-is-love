@@ -130,7 +130,7 @@
 .img_pasteur{
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 0px;
+  padding-left: 150px;
   padding-right: 50px;
 }
 .img_content{
@@ -178,12 +178,12 @@
     }
     .image_content{
       display: none;
+      padding-right: 70px;
     }
     .img_pasteur{
       padding-top: 100px;
       padding-bottom: 100px;
-      padding-left: 0px;
-      padding-right: 70px;
+      margin-right: 50px;
     }
     .image_content .mini_titre{
       display: block;
