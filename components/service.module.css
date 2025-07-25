@@ -6,7 +6,7 @@
 .text_primaire{
     font-size:large;
     padding-top: 60px;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
 }
 .text{
     color:rgb(255, 63, 4);
@@ -71,4 +71,29 @@
     .logo_top{
         display: none;
     }
+}
+@media (max-width: 650px){
+    .contenant{
+        display: block;
+    }
+    .mini_titre{
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+    }
+    .titre{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    z-index: 2;
+    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
+}
 }

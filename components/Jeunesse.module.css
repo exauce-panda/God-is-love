@@ -74,7 +74,7 @@
     background-color: black;
     border: 2px solid rgb(122, 122, 122);
     border-radius: 30px;
-    width: 400px;
+    width: 200px;
     padding: 9px;
     transition: transform 0.1s ease;
 }
@@ -112,4 +112,26 @@
   background-color: #9e9e9e0e;
   outline: none;
   box-shadow: inset 0 0 0 transparent;
+}
+@media (max-width:650px){
+    .titre{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-weight: bold;
+    z-index: 2;
+    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);    
+}
+    .form_group{
+    width: 300px;
+    }
+    .forumMessage textarea {
+    width: 300px;
+    }
 }
