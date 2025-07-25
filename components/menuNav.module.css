@@ -100,7 +100,7 @@
 }
 
 /* RESPONSIVE */
-@media (min-width: 464px) {
+@media (max-width: 464px) {
     .bob{
         position: fixed;
         background-color: white;  
