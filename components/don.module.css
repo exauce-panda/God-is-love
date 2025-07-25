@@ -89,3 +89,31 @@
     padding-top: 30px;
     font-size: x-large;
 }
+@media (max-width:670px) {
+    .m_paiement{
+        display: block;
+        padding: 20px;
+        background-color: rgb(250, 142, 142);
+        border-radius: 20px;        
+    }
+    .interac{
+        padding-top: 30px;
+    }
+    .verset{
+        padding: 30px;
+    }
+    .merci{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    z-index: 2;
+    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
+}
+}
