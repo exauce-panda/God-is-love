@@ -92,9 +92,9 @@
 @media (max-width:670px) {
     .m_paiement{
         display: block;
-        padding: 20px;
+        padding: 0px;
         background-color: rgb(250, 142, 142);
-        border-radius: 20px;        
+        border-radius: 20px;      
     }
     .interac{
         padding-top: 30px;
