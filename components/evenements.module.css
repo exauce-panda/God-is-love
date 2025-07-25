@@ -99,8 +99,8 @@
         place-items: center;
     }
      .imgEv{
-        width: 200px;
-        height: 400px;
+        width: 350px;
+        height: 550px;
     }   
     .lien{
         gap:40px
@@ -129,8 +129,8 @@
 }
 @media(max-width : 570px) {
     .imgEv{
-        width: 200px;
-        height: 400px;
+        width: 350px;
+        height: 550px;
     }
     .lien{
         gap:40px
