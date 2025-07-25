@@ -95,6 +95,10 @@
         display: grid;
         place-items: center;
     }
+     .imgEv{
+        width: 200px;
+        height: 400px;
+    }   
     .lien{
         gap:40px
     }
@@ -119,8 +123,8 @@
 }
 @media(max-width : 570px) {
     .imgEv{
-        width: 400px;
-        height: 600px;
+        width: 200px;
+        height: 400px;
     }
     .lien{
         gap:40px
