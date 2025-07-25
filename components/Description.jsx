@@ -95,8 +95,7 @@ export default function Description() {
                 </a>
                 </div>
         </div>
-        <div>
-              
+        <div>              
                 <div className={styles.eglise_content}>
                 <div className={styles.img_content}>
                 <div className={styles.img_pasteur}>
