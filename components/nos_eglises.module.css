@@ -147,6 +147,9 @@
         display: block;
         padding-bottom: 40px;
     }
+    .img{
+        display: none;
+    }    
     .bob{
         padding-left: 0px;
     }
@@ -158,6 +161,9 @@
     .slogan{
     margin-right: 14px;
     padding-left: 17px;
+    }
+    .histoire img {
+        display: none;
     }
     .pasteur{
         margin-right: 120px;

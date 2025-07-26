@@ -213,7 +213,7 @@
       display: block;
     }
     .img_pasteur{
-      padding-left: 50px;
+      padding-left: 55px;
       padding-right: 0px;  
       padding-top: 40px; 
       padding-bottom: 0px;              
@@ -289,7 +289,7 @@
       display: block;
     }
     .img_pasteur{
-      padding-left: 40px;
+      padding-left: 55px;
       padding-right: 0px;  
       padding-top: 40px; 
       padding-bottom: 0px;              
@@ -303,6 +303,7 @@
     }
     .desc_mobile{
       display: flex;
+      margin-top: 40px;
     }
     .description{
     text-align:center;

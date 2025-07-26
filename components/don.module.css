@@ -108,9 +108,14 @@
     }
     .interac{
         padding-top: 30px;
+        text-align: center;
+        max-width: 400px;
     }
     .verset{
         padding: 30px;
+    }
+    .mail{
+        font-size: large;
     }
     .merci{
     color: rgb(0, 0, 0);

@@ -27,3 +27,15 @@
     text-align: justify;
     padding-left: 150px;
 }
+@media (max-width: 650px){
+    .auteur{
+        text-align: center;
+    }
+    .adresse{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .logo{
+        display: none;
+    }
+}

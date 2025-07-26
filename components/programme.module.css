@@ -11,30 +11,6 @@
     padding: 20px;
     color: black;
 }
-@media (max-width: 670px) {
-    /* Ajustement des styles sur des écrans très étroits */
-    .bob h1{
-        font-size: xx-large;
-  }
-}
-.table_pg{
-    display: flex;
-    justify-content: center;
-}
-@media (max-width: 970px) {
-    /* Ajustement des styles sur des écrans très étroits */
-    .table_pg{
-        display: block;
-        margin-left: 90px;
-  }
-}
-@media (max-width: 670px) {
-    /* Ajustement des styles sur des écrans très étroits */
-    .table_pg{
-        display: block;
-        margin-right: 90px;
-  }
-}
 .pg_un{
     background-color: rgb(252, 250, 237);
     color:rgb(35, 34, 53);
@@ -96,4 +72,75 @@
     font-weight: bold;
     padding-top:10px;
     color:rgb(62, 60, 83);
+}
+@media (max-width: 670px) {
+    /* Ajustement des styles sur des écrans très étroits */
+    .bob h1{
+        font-size: xx-large;
+  }
+}
+.table_pg{
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 970px) {
+    /* Ajustement des styles sur des écrans très étroits */
+    .table_pg{
+        display: block;
+        margin-left: 90px;
+  }
+}
+@media (max-width: 670px) {
+    /* Ajustement des styles sur des écrans très étroits */
+    .table_pg{
+        display: block;
+        margin-right: 90px;
+  }
+  .p_1{
+    display: flex;
+    justify-content: center; 
+    font-weight: bolder;
+}
+.p_2{
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 70px;
+}
+.p_3{
+    font-weight: bold;
+    margin-left: 0px;
+    text-align: center;    
+    padding: 10px;
+    margin-bottom: 69px;
+}
+.p_4{
+    font-weight: bold;
+    padding-top:10px;
+    text-align: center;    
+    color:rgb(255, 63, 4);
+}
+.p1{
+    display: flex;
+    justify-content: center; 
+    text-align: center;    
+    font-weight: bolder;
+}
+.p2{
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;    
+}
+.p3{
+    font-weight: bold;
+    margin-left: 0px;
+    padding: 10px;
+    text-align: center;    
+}
+.p4{
+    font-weight: bold;
+    padding-top:10px;
+    color:rgb(62, 60, 83);
+    text-align: center;    
+}
 }
