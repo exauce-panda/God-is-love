@@ -15,7 +15,10 @@ export default function Nos_eglises(){
     <div className={styles.slogan}>&quot; Transfomer par l&apos;amour de Dieu pour transfomer le monde, car il n&apos;y a que l&apos;amour qui transforme.&quot;</div>            
         <div className={styles.composant}>
             <div className={styles.histoire}>
-                <Image className={styles.img} src={eglise_story} alt="Images representant l'histoire de l'Eglise" width={800} height={500} />
+                <div className={styles.img} >
+                    <Image src={eglise_story} alt="Images representant l'histoire de l'Eglise" width={800} height={500} />
+                </div>
+                
                 <div className={styles.description}>
                 <div className={`${styles.pasteur}`}>Notre histoire</div>
                 <div className={styles.type_eglise}>
