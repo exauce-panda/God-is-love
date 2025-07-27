@@ -96,7 +96,7 @@
     height: 4px;
     margin: 3px 0;
 }
-@media (max-width:670px) {
+@media (max-width:850px) {
     .m_paiement{
         display: block;
         padding: 0px;

@@ -2,7 +2,7 @@
     display: flex;
     gap: 4px;
 }
-@media (max-width: 670px) {
+@media (max-width: 870px) {
     /* Ajustement des styles sur des écrans très étroits */
     .affichage{
         display: block;

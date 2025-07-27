@@ -32,7 +32,7 @@ export default function  Service(){
         <div className={styles.logo_top}>
         <Image className={styles.logo}src={logo_media} alt="logo media" width={230} height={230}/> 
         </div>
-         <div className="d-block p-5 text-start">
+         <div className="d-block text-start">
          <div className={`${styles.mini_titre}`}>MEDIA</div> 
          <div className={styles.description}>Tu as un intérêt pour la photo, la vidéo, le son ou les réseaux sociaux ? Tu veux mettre tes talents au service de Dieu tout en apprenant de nouvelles compétences techniques ? Alors l&apos;équipe média est faite pour toi!</div>
          <Link href="/medias" className={pathname === '/medias' ? `${styles.text}` : ''}>
@@ -47,7 +47,7 @@ export default function  Service(){
         <div className={styles.logo_top}>
         <Image className={styles.logo}src={logo_protocola} alt="logo protocola" width={230} height={230}/> 
         </div>
-        <div className="d-block p-5 text-start">
+        <div className="d-block text-start">
         <div className={`${styles.mini_titre}`}>PROTOCOLA</div> 
         <div className={styles.description}>Sois le premier sourire que les gens voient en arrivant ! L&apos;équipe de protocole accueille, oriente et crée une atmosphère chaleureuse et respectueuse pour tous. Si tu aimes le contact humain et servir avec joie, cette équipe est pour toi.</div>
         <Link href="/protocola" className={pathname === '/protocola' ? `${styles.text}` : ''}>
@@ -64,7 +64,7 @@ export default function  Service(){
         <div className={styles.logo_top}>
         <Image className={styles.logo}src={logo_jeunesse} alt="logo jeunesse" width={230} height={230}/> 
         </div>
-         <div className="d-block p-5 text-start">
+         <div className="d-block text-start">
          <div className={`${styles.mini_titre}`}>JEUNESSE</div> 
          <div className={styles.description}>Tu es jeune et tu veux vivre ta foi dans une ambiance dynamique ? Rejoins le groupe jeunesse ! Enseignements, activités, partages, sorties : grandis dans ta relation avec Dieu entouré.e de gens de ton âge.</div>
          <Link href="/jeunesse" className={pathname === '/jeunesse' ? `${styles.text}` : ''}>
@@ -79,7 +79,7 @@ export default function  Service(){
         <div className={styles.logo_top}>
         <Image className={styles.logo}src={logo_chorale} alt="logo chorale" width={230} height={230}/> 
         </div>
-        <div className="d-block p-5 text-start">
+        <div className="d-block text-start">
         <div className={`${styles.mini_titre}`}>CHORALE</div> 
         <div className={styles.description}>Tu chantes ou joues d&apos;un instrument ? Rejoins la chorale et fais partie de ceux qui conduisent l&apos;église dans la louange et l&apos;adoration. Plus qu&apos;un talent, c&apos;est un cœur qui adore que nous recherchons !</div>
         <Link href="/musique" className={pathname === '/musique' ? `${styles.text}` : ''}>

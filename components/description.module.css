@@ -236,7 +236,7 @@
 }    
 }
 
-  @media (max-width: 670px) and (min-width: 470px){
+  @media (max-width: 850px) and (min-width: 470px){
     /* Ajustement des styles sur des écrans très étroits */
     .tritre_n_un{
     text-align: center;
@@ -289,7 +289,7 @@
       display: block;
     }
     .img_pasteur{
-      padding-left: 55px;
+      padding-left: 60px;
       padding-right: 0px;  
       padding-top: 40px; 
       padding-bottom: 0px;              

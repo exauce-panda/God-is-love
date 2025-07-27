@@ -28,13 +28,15 @@
 }
 .contenant{
     display: flex;
-    gap: 5px;
+    gap: 10px;
     background-color: white;
     padding-left: 90px;
     padding-right: 80px;    
 }
 .type_service{
     display: flex;
+    padding: 50px;
+    gap: 30px;
 }
 .boutton {
     display: flex;
@@ -51,7 +53,7 @@
 }
 .logo_top{
     display: block;
-    margin-top: 60px;    
+    margin-top: 10px;    
 }
 .logo{
     margin-left: 20px;
@@ -68,15 +70,14 @@
     font-weight: bold;
     font-size: x-large;
 }
-@media (max-width: 760px){
+@media (max-width: 850px){
     .logo_top{
         display: none;
     }
-}
-@media (max-width: 650px){
     .contenant{
         display: block;
         justify-content: center;
+        padding: 40px;
         padding-right: 0px;
         gap: 0px;
     }

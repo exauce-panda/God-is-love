@@ -232,7 +232,7 @@
         margin-top: 30px;
     }    
 }   
-@media (max-width: 760px ) and (min-width : 664px) {
+@media (max-width: 860px ) and (min-width : 664px) {
     .bob{
         position: fixed;
         background-color: white;   

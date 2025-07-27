@@ -73,12 +73,6 @@
     padding-top:10px;
     color:rgb(62, 60, 83);
 }
-@media (max-width: 670px) {
-    /* Ajustement des styles sur des écrans très étroits */
-    .bob h1{
-        font-size: xx-large;
-  }
-}
 .table_pg{
     display: flex;
     justify-content: center;
@@ -90,13 +84,17 @@
         margin-left: 90px;
   }
 }
-@media (max-width: 670px) {
+@media (max-width: 870px) {
+
+.bob h1{
+        font-size: xx-large;
+  }    
     /* Ajustement des styles sur des écrans très étroits */
-    .table_pg{
+.table_pg{
         display: block;
         margin-right: 90px;
   }
-  .p_1{
+.p_1{
     display: flex;
     justify-content: center; 
     font-weight: bolder;

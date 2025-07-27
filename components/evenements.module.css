@@ -56,11 +56,13 @@
  display: flex;
  justify-content: center;
 }
+/*tablette*/
 @media(max-width : 860px) {
     .affichage_img{
         gap:1px;
     }
 }
+/*tablette*/
 @media (max-width : 860px) and (min-width : 664px) {
     .affichage_img{
         gap: 1px;
@@ -92,6 +94,7 @@
         padding: 20px;
     }
 }
+/*telephone*/
 @media (max-width : 663px) and (min-width : 570px) {
     .divEvent{
         padding-left: 60px;
@@ -127,6 +130,7 @@
         padding: 20px;
     }
 }
+/*format samsung fold ou flip*/
 @media(max-width : 570px) {
     .imgEv{
         width: 350px;
