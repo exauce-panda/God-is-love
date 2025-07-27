@@ -20,7 +20,7 @@ export default function MenuNav() {
 
            <div className={styles.mobile_top}>
             <div className={styles.logo}>
-            <Image src={logo_gilc} alt="logo GILC"width={250}height={66}></Image>
+            <Image src={logo_gilc} alt="logo GILC"width={270}height={86}></Image>
             </div>
              {/* Bouton burger mobile */}
            <div

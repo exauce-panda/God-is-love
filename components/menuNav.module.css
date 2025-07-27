@@ -13,6 +13,7 @@
     align-items: center;
     padding: 17px;
     border-radius: 12px;
+    padding-top: 20px;
 }
 .navigation {
     display: flex;
