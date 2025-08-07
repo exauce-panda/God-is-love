@@ -160,81 +160,6 @@
   font-size: x-large;
   font-weight: bold;
 }
-@media (max-width:470px) {
-  .image{
-    padding-top: 50px;
-    padding-bottom: 70px; 
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-    .tritre_n_un{
-    text-align: center;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    color: rgba(209,145,44,255);
-    }
-    .image_bg{
-     filter: contrast(20px) blur(1px);
-    }
-    .image_content{
-      display: none;
-    }
-    .img_pasteur{
-      padding-top: 100px;
-      padding-bottom: 100px;
-      margin-right: 80px;
-    }
-    .image_content .mini_titre{
-      display: block;
-    }
-    .titre{
-      display: none;
-    }
-    .reseaux_deux{
-      display: none;
-    }
-    .desc{
-      max-width: 300px;
-    }
-    .rejoindre{
-    color: rgb(0, 0, 0);
-    text-decoration:none;
-    border: 10px solid rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
-    }
-    .lien{
-      gap:40px;
-    }
-    .sousLien p {
-       display: none;
-    }
-    .eglise_content{
-      display: block;
-    }
-    .img_pasteur{
-      padding-left: 55px;
-      padding-right: 0px;  
-      padding-top: 40px; 
-      padding-bottom: 0px;              
-    }
-    .nom_pasteur{
-      font-size: xx-large;
-      text-align: center;
-    }
-    .desc_eglise{
-      font-size: large;
-    }
-    .desc_mobile{
-      display: flex;
-    }
-    .description{
-    text-align:center;
-    padding-top: 0px;
-    padding-left: 40px;
-    padding-right: 20px;
-}    
-}
 
   @media (max-width: 850px) and (min-width: 470px){
     /* Ajustement des styles sur des écrans très étroits */
@@ -289,7 +214,7 @@
       display: block;
     }
     .img_pasteur{
-      padding-left: 60px;
+      padding-left: 80px;
       padding-right: 0px;  
       padding-top: 40px; 
       padding-bottom: 0px;              
@@ -312,6 +237,82 @@
     padding-right: 20px;
 }
   }
+
+  @media (max-width:470px) {
+  .image{
+    padding-top: 50px;
+    padding-bottom: 70px; 
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+    .tritre_n_un{
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgba(209,145,44,255);
+    }
+    .image_bg{
+     filter: contrast(20px) blur(1px);
+    }
+    .image_content{
+      display: none;
+    }
+    .img_pasteur{
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-right: 80px;
+    }
+    .image_content .mini_titre{
+      display: block;
+    }
+    .titre{
+      display: none;
+    }
+    .reseaux_deux{
+      display: none;
+    }
+    .desc{
+      max-width: 300px;
+    }
+    .rejoindre{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+    border: 10px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    }
+    .lien{
+      gap:40px;
+    }
+    .sousLien p {
+       display: none;
+    }
+    .eglise_content{
+      display: block;
+    }
+    .img_pasteur{
+      padding-left: 79px;
+      padding-right: 0px;  
+      padding-top: 40px; 
+      padding-bottom: 0px;              
+    }
+    .nom_pasteur{
+      font-size: xx-large;
+      text-align: center;
+    }
+    .desc_eglise{
+      font-size: large;
+    }
+    .desc_mobile{
+      display: flex;
+    }
+    .description{
+    text-align:center;
+    padding-top: 0px;
+    padding-left: 40px;
+    padding-right: 20px;
+}    
+}
 
 
  
