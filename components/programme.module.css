@@ -77,14 +77,8 @@
     display: flex;
     justify-content: center;
 }
-@media (max-width: 970px) {
-    /* Ajustement des styles sur des écrans très étroits */
-    .table_pg{
-        display: block;
-        margin-left: 90px;
-  }
-}
-@media (max-width: 870px) {
+
+@media (max-width: 1024px) {
 
 .bob h1{
         font-size: xx-large;
@@ -92,7 +86,7 @@
     /* Ajustement des styles sur des écrans très étroits */
 .table_pg{
         display: block;
-        margin-right: 90px;
+        margin-left: 0px;
   }
 .p_1{
     display: flex;

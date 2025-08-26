@@ -4,6 +4,7 @@
     background-color: rgb(243, 243, 243);
 }
 
+/* --- HEADER MERCI --- */
 .merci{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 240, 208);
@@ -18,6 +19,8 @@
     z-index: 2;
     box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
 }
+
+/* --- VERSET --- */
 .verset{
     color: rgb(255, 97, 97);
     padding-top: 60px;
@@ -31,6 +34,11 @@
     font-size: x-large;
     padding-bottom: 20px;
 }
+.txt{
+    color: rgb(250, 0, 0);
+}
+
+/* --- PAIEMENTS --- */
 .paiements{
     display: flex;
     flex-direction: column;
@@ -38,6 +46,16 @@
     gap: 1.5rem;
     padding: 20px;
     background-color: white;
+}
+.batiment{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.image{
+    padding-left: 12px;
 }
 .m_paiement{
     color: white;
@@ -52,22 +70,7 @@
     border-radius: 20px;
     background-color: rgb(250, 142, 142);
     max-width: 450px;
-    max-height: 800px;
-    padding-top: 50px;
     padding: 30px;
-}
-.image{
-    padding-left: 12px;
-}
-.txt{
-    color: rgb(250, 0, 0);
-}
-.batiment{
-    display: flex;
-    justify-content: center;
-    font-size: x-large;
-    margin-top: 20px;
-    padding-bottom: 20px;
 }
 .mail{
     font-size: x-large;
@@ -76,19 +79,22 @@
     padding-bottom: 50px;
     text-decoration: underline;
 }
+
+/* --- DON MATÉRIEL --- */
 .don_materiel{
     justify-content: center;
     border-radius: 20px;
     background-color: rgb(255, 240, 208);
     max-width: 500px;
     min-height: 300px;
-    padding-top: 50px;
     padding: 30px;    
 }
 .don_materiel p {
     padding-top: 30px;
     font-size: x-large;
 }
+
+/* --- SÉPARATEUR --- */
 .ligne{
     display: none;
     background-color: rgb(241, 121, 121);
@@ -96,39 +102,98 @@
     height: 4px;
     margin: 3px 0;
 }
-@media (max-width:850px) {
+
+/* --- TABLETTES (jusqu'à 1024px) --- */
+@media (max-width:1024px) {
+    .merci {
+        padding-top: 120px;
+        padding-bottom: 40px;
+        font-size: x-large;
+    }
+
+    .verset {
+        padding: 40px 20px;
+    }
+
+    .text {
+        font-size: large;
+    }
+
+    .m_paiement {
+        font-size: x-large;
+        gap: 20px;
+    }
+
+    .interac {
+        max-width: 400px;
+        font-size: large;
+    }
+
+    .mail {
+        font-size: large;
+    }
+
+    .don_materiel {
+        max-width: 400px;
+        font-size: large;
+    }
+}
+
+/* --- MOBILES (jusqu'à 768px) --- */
+@media (max-width:768px) {
+    .merci{
+        background-color: white;
+        padding-top: 90px;
+        padding-bottom: 20px;
+        font-size: large;
+    }
+
+    .verset {
+        padding: 20px;
+    }
+
+    .titre_verset {
+        font-size: large;
+    }
+
+    .text {
+        font-size: medium;
+        line-height: 1.4;
+    }
+
     .m_paiement{
         display: block;
-        padding: 0px;
+        padding: 0;
         background-color: rgb(250, 142, 142);
         border-radius: 20px;      
     }
+
     .ligne{
         display: block;
     }
+
     .interac{
-        padding-top: 30px;
+        flex-direction: column;
         text-align: center;
-        max-width: 400px;
+        padding: 20px;
+        max-width: 100%;
     }
-    .verset{
-        padding: 30px;
-    }
+
     .mail{
-        font-size: large;
+        font-size: medium;
+        margin-top: 15px;
+        padding-bottom: 20px;
     }
-    .merci{
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    display: flex;
-    justify-content: center;
-    padding-top: 90px;
-    padding-bottom: 20px;
-    font-size: xx-large;
-    font-weight: bold;
-    z-index: 2;
-    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
-}
+
+    .don_materiel {
+        max-width: 100%;
+        min-height: auto;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .don_materiel p {
+        font-size: medium;
+        padding-top: 10px;
+    }
 }

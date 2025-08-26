@@ -52,7 +52,7 @@ export default function Evenements() {
       <div className={`row ${styles.affichage_img}`}>
         {/* Mapping sur la liste d'événements pour les afficher */}
         {currentEvents.map((event) => (
-          <div className={`col-sm-6 mb-5 text-center ${styles.divEvent}`} key={event.id}>
+          <div className={`mb-5 text-center ${styles.divEvent}`} key={event.id}>
             <div className={` ${styles.imgDiv} mx-auto`}>
                   <Image src={event.image} alt={`Image for ${event.title}`} className={`mb-5 ${styles.imgEv}`} priority={event.priority} width="550" height="700" sizes="(max-width: 425px) 400px"  />
             </div>

@@ -129,37 +129,100 @@
     font-weight: bold;
 }
 
-@media (max-width:860px){
-    .slogan{
-    margin-right: 14px;
-    padding-left: 17px;
-    }
-    .histoire Image {
-        display: none;
-    }
-    .type_eglise{
-        max-width: 300px;
-    }
-    .img{
-      display: none;
-    }
-    .description{
-    text-align: center;
-    
-    }
-    .titre{
-    display: flex;
-    justify-content: center;   
-    color: rgb(0, 0, 0);
-    text-align: center;
-    background-color: white;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    font-size: xx-large;
-    font-weight: bold;
-    z-index: 2;
-    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
+/* 📱 Mobile (moins de 768px) */
+@media (max-width: 768px) {
+  .histoire {
+    flex-direction: column;   /* image au-dessus du texte */
+    align-items: center;      /* centre horizontalement */
+    padding: 20px;
+    text-align: center;       /* texte centré */
+  }
+  .titre {
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 100px 30px 50px;
+  }
+
+  .img {
+    display: block;
+    width: 100%;              /* image prend toute la largeur */
+    max-width: 400px;         /* limite la taille */
+    margin-bottom: 20px;
+  }
+
+  .description {
+    padding: 0;
+    text-align: center;       /* centre le texte */
+    max-width: 90%;           /* limite la largeur du paragraphe */
+  }
+
+  .pasteur {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+
+  .type_eglise {
+    width: auto;              /* supprime la largeur fixe de 500px */
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
+
+
+/* 💻 Tablette (768px à 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .titre {
+    background-color: rgb(255, 240, 208);
+    font-size: 2rem;
+    padding: 100px 30px 50px;
+  }
+
+  .slogan {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .histoire {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .img {
+    width: 90%;
+    margin: auto;
+  }
+
+  .description {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .pasteur {
+    font-size: 2rem;
+    padding-top: 30px;
+  }
+
+  .type_eglise {
+    max-width: 90%;
+    font-size: 1rem;
+  }
+
+  .eglises {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 20px;
+    font-size: 2rem;
+  }
+
+  .titre_eglise {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
 }

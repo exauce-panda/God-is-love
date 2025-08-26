@@ -63,7 +63,7 @@
     }
 }
 /*tablette*/
-@media (max-width : 860px) and (min-width : 664px) {
+@media (max-width : 1024px) and (min-width : 664px) {
     .affichage_img{
         gap: 1px;
     }
@@ -72,7 +72,7 @@
         height: 800px;
     }
    .lien{
-        gap:40px
+        gap:20px
     }    
     .sousLien p {
         display: none;
@@ -95,7 +95,7 @@
     font-weight: bold;    
     box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);   
     color: black;
-    background-color: white;
+    background-color: rgb(255, 240, 208);
 }
     .sous_top{
         padding: 20px;
@@ -113,7 +113,7 @@
         height: 550px;
     }   
     .lien{
-        gap:40px
+        gap:10px
     }
     .sousLien p {
         display: none;

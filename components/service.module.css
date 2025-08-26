@@ -70,78 +70,62 @@
     font-weight: bold;
     font-size: x-large;
 }
-@media (max-width: 850px) and (min-width: 550px){
-    .logo_top{
-        display: none;
-    }
-    .contenant{
-        display: block;
-        justify-content: center;
-        padding: 40px;
-        padding-right: 0px;
-        gap: 0px;
-    }
+
+/* Tablette : entre 550px et 1024px */
+@media (max-width: 1024px) and (min-width: 550px){
     .type_service{
+        flex: 1 1 45%; /* largeur flexible */
+        max-width: 400px;
+        padding: 20px;
         display: flex;
-        padding: 30px;
-        padding-left: 130px;
+        flex-direction: column; /* logo + titre + texte + bouton empilés */
+        align-items: center; /* centrer le contenu */
+        text-align: center; /* texte centré pour uniformité */
+    }
+    .description{
+        text-align: center; /* pour tablette, centrage plus joli */
     }
     .mini_titre{
         text-align: center;
     }
-    .description{
-        text-align: justify;
+    .boutton{
+        margin-top: 10px; /* espace au-dessus du bouton */
+        justify-content: center;
     }
-    .titre{
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    font-size: xx-large;
-    font-weight: bold;
-    z-index: 2;
-    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
-}
 }
 
+/* Mobile : moins de 550px */
 @media (max-width: 550px){
     .logo_top{
         display: none;
     }
     .contenant{
-        display: block;
-        justify-content: center;
-        padding: 40px;
-        padding-right: 0px;
-        gap: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
     }
     .type_service{
-        display: flex;
+        width: 100%;
+        max-width: 350px;
         padding: 10px;
-        padding-right: 20px;
     }
     .mini_titre{
         text-align: center;
+        font-size: large;
     }
     .description{
-        text-align: justify;
+        text-align: center;
+        font-size: small;
     }
     .titre{
-    color: rgb(0, 0, 0);
-    background-color: white;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    display: flex;
-    justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    font-size: xx-large;
-    font-weight: bold;
-    z-index: 2;
-    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
-}
+        padding-top: 80px;
+        padding-bottom: 20px;
+        background-color: white;
+        font-size: xx-large;
+    }
+    .logo{
+        margin: 0 auto;
+        display: block;
+    }
 }

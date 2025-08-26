@@ -190,6 +190,7 @@
     }
     .logo{
         display: flex;
+        height: 40px;
     }
     .burger {
         display: flex;

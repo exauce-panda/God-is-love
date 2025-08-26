@@ -20,7 +20,10 @@ export default function MenuNav() {
 
            <div className={styles.mobile_top}>
             <div className={styles.logo}>
+            
+            <Link href="/" onClick={handleLinkClick} className={pathname === '/' ? styles.test : ''}>
             <Image src={logo_gilc} alt="logo GILC"width={300}height={83}></Image>
+            </Link>
             </div>
              {/* Bouton burger mobile */}
            <div

@@ -30,7 +30,13 @@ export default function Description() {
      <div className={styles.bob}>
         <div className={styles.image}>
           <div className={styles.image_bg}></div>
-          <div className={`${styles.desc_mobile}`}>
+          <div className={styles.image_content}>
+                <Image src={logo} alt="logo GILC"width={280}height={30}/>   
+                <div className={styles.tritre_n_un}>
+        <div className={`text-center`}><div className={`h2`}>BIENVENUE A</div><div className={`text-center`}>GOD IS LOVE</div><div className={`text-center`}>CENTER</div></div>
+        </div>  
+        </div>  
+                <div className={`${styles.desc_mobile}`}>
         <div className={styles.titre_n_deux}>        
         <div className={styles.desc}>
             <div className={styles.titre_mobile}>UNE SEULE GRANDE FAMILLE </div> 
@@ -45,13 +51,7 @@ export default function Description() {
             </Link>
         </div>  
         </div>               
-          </div>
-          <div className={styles.image_content}>
-                <Image src={logo} alt="logo GILC"width={280}height={30}/>   
-                <div className={styles.tritre_n_un}>
-        <div className={`text-center`}><div className={`h2`}>BIENVENUE A</div><div className={`text-center`}>GOD IS LOVE</div><div className={`text-center`}>CENTER</div></div>
-        </div>  
-        </div>          
+          </div>          
         </div>
         <div className={styles.titre}>
         <div className={`${styles.mini_titre}`}>UNE SEULE GRANDE FAMILLE</div> 
