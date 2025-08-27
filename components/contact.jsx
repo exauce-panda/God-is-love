@@ -2,6 +2,7 @@
 // Assure que ce composant s'exécute uniquement côté client, permettant l'accès à des APIs telles que localStorage.
 import { useState } from 'react'; // Importe useState de React pour créer des états locaux.
 import styles from './contact.module.css'; // Importe les styles spécifiques au composant Contact.
+import emailjs from '@emailjs/browser';
 //import { EB_Garamond } from 'next/font/google';
 
 /*const ebGaramond = EB_Garamond({
@@ -9,7 +10,6 @@ import styles from './contact.module.css'; // Importe les styles spécifiques au
   weight: ['400', '700'], // facultatif
   variable: '--font-eb-garamond', // optionnel pour CSS variable
 })*/
-//import emailjs from '@emailjs/browser';
 export default function Contact() {
     // Déclaration des états pour stocker les valeurs des champs du formulaire et les messages d'erreur/validation.
     const [nom, setNom] = useState('');
@@ -61,7 +61,7 @@ export default function Contact() {
             validateField('email', email);
             validateField('message', message);
         }
-       //emailjs.sendForm("service_f9b84ft","template_54sxywe",e.target,"eYc5_rW7DCei_jHAY");
+       emailjs.sendForm("service_f9b84ft","template_54sxywe",e.target,"eYc5_rW7DCei_jHAY");
     };
     return (
         <div className={`${styles.bob} text-black`}>
