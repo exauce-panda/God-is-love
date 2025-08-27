@@ -33,25 +33,22 @@ export default function Nos_eglises(){
      <div className={styles.eglise_un}>
         <div className={styles.eglise_un_bg}></div>
         <div className={styles.eglise_un_content}>
-        Ottawa
-        <div>pasteur</div>
-        <div>adresse</div>        
+       <div className="text-white text-decoration-underline">OTTAWA</div>
+        <div> 2285 St. Laurent Blvd Unit D-18, Ottawa, ON K1G 4Z5, Canada</div>        
         </div>
      </div>     
      <div className={styles.eglise_deux}>
         <div className={styles.eglise_deux_bg}></div>
         <div className={styles.eglise_deux_content}>
-        Montreal
-        <div>pasteur</div>
-        <div>adresse</div>       
+       <div className="text-white text-decoration-underline">MONTREAL</div>
+        <div>9697 Saint-laurent locale 403b, Montreal, Quebec, Canada</div>       
         </div>
      </div>    
      <div className={styles.eglise_trois}>
         <div className={styles.eglise_trois_bg}></div>
         <div className={styles.eglise_trois_content}>
-        Chelsea
-        <div>pasteur</div>
-        <div>adresse</div>
+       <div className="text-white text-decoration-underline">CHELSEA</div> 
+        <div>2923 Gibbon Road, Charlotte, NC, United States, 28269</div>
         </div>
      </div>          
     </div>                   

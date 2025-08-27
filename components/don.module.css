@@ -35,7 +35,7 @@
     padding-bottom: 20px;
 }
 .txt{
-    color: rgb(250, 0, 0);
+    color: rgb(187, 143, 0);
 }
 
 /* --- PAIEMENTS --- */
@@ -84,7 +84,7 @@
 .don_materiel{
     justify-content: center;
     border-radius: 20px;
-    background-color: rgb(255, 240, 208);
+    background-color: rgb(226, 173, 0);
     max-width: 500px;
     min-height: 300px;
     padding: 30px;    

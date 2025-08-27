@@ -29,7 +29,7 @@
 }
 
 .lien a:hover {
-    color: rgb(248, 179, 52);
+    color: rgb(199, 152, 0);
 }
 
 .test {
@@ -76,7 +76,7 @@
     display: block;
     height: 4px;
     width: 100%;
-    background-color: rgb(197, 177, 0);
+    background-color: rgb(201, 134, 34);
     border-radius: 2px;
     transition: all 0.4s ease;
     transform-origin: center;
@@ -92,7 +92,7 @@
     transform: rotate(-45deg) translateY(-7px) translateX(7px);
   }
   .burger.open{
-    border: solid 1px rgb(197, 177, 0);
+    border: solid 1px rgb(199, 152, 0);
     border-radius: 4px;
   }
   
