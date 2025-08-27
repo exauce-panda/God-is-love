@@ -1,29 +1,29 @@
 [
     {
       "id": 1,
-      "image": "/MainEventImage/kcx.webp",
+      "image": "/MainEventImage/affiche_un.jpg",
       "priority": true,
-      "title": "KCX KCORP VS THE WORLD",
-      "date": "Jeudi 8 Février 2024"
+      "title": "3 eme edition - La puissance de l'amour",
+      "date": "Samedi 20 Septembre 2025"
     },
     {
       "id": 2,
-      "image": "/MainEventImage/elevenallstar.webp",
+      "image": "/MainEventImage/affiche_deux.jpg",
       "priority": true,
-      "title": "ELEVEN ALL STARS",
-      "date": "Samedi 19 Novembre 2024"
+      "title": "31 jours de prières",
+      "date": "Du 20 Aout au 19 Septembre"
     },
     {
       "id": 3,
-      "image": "/MainEventImage/superBall.webp",
-      "title": "CANADA VS POLAND BOX",
-      "date": "Jeudi 8 Février 2024"
+      "image": "/MainEventImage/affiche_trois.jpg",
+      "title": "Nuit de prière spécial",
+      "date": "Vendredi 29 Aout 202529 Aout 2025"
     },
     {
       "id": 4,
-      "image": "/MainEventImage/superBall.webp",
-      "title": "SUPERBOWL FINAL",
-      "date": "Samedi 19 Novembre 2024"
+      "image": "/MainEventImage/affiche_trois.jpg",
+      "title": "Nuit de prière spécial",
+      "date": "Vendredi 29 Aout 2025"
     }
   ]
   
