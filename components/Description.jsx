@@ -24,6 +24,20 @@ const ebGaramond = EB_Garamond({
   weight: ['400', '700'], // facultatif
   variable: '--font-eb-garamond', // optionnel pour CSS variable
 })*/
+
+/* css pour les derniere videos youtube
+         
+        <div className={styles.reseaux}>
+          <div className={styles.reseaux_bg}></div>
+          <div className={styles.reseaux_content}>
+            <div className={`${styles.reseaux_deux} gap-4`}>
+                <div>
+                    <div>Nos derniers lives</div>
+            </div>
+            </div>
+          </div>
+        </div> 
+ */
 export default function Description() {
     const pathname = usePathname(); // Utilisation de usePathname pour déterminer le chemin d'accès actif
     return(
@@ -68,17 +82,7 @@ export default function Description() {
         </Link>
         </div>  
         </div>              
-        </div>     
-        <div className={styles.reseaux}>
-          <div className={styles.reseaux_bg}></div>
-          <div className={styles.reseaux_content}>
-            <div className={`${styles.reseaux_deux} gap-4`}>
-                <div>
-                    <div>Nos derniers lives</div>
-            </div>
-            </div>
-          </div>
-        </div> 
+        </div>    
         <div>
                 <div className={styles.lien}>
                 <a className={styles.sousLien} href="https://www.facebook.com/Godislovecenter?locale=fr_CA" target="_blank">
