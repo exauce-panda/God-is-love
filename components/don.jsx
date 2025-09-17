@@ -25,27 +25,27 @@ return(
         <div className={styles.m_paiement}>
                 <div className={styles.interac}>
                 <div>
-        <div>Pour toutes vos offrandes</div>
+        <div>Pour toutes vos offrandes:</div>
         <div className={`${styles.mail}`}>GODISLOVE084@GMAIL.COM</div>
                 </div>
                 </div>
                 <div className={styles.ligne}></div>
                 <div className={styles.interac}>
                 <div>   
-        <div>Si vous souhaitez nous soutenir pour l&apos;agrandissement de l&apos;eglise</div>
-        <div className={`${styles.mail}`}>GILCBATISSE@GMAIL.COM</div>        
+        <div>Si vous souhaitez nous soutenir dans le cadre de l&apos;agrandissement de l&apos;Église : </div>
+        <div className={`${styles.mail}`}>GILCBATISSE@GMAIL.COM</div>    
                 </div>
                 </div>
                 <div className={styles.ligne}></div>                
                 <div className={styles.interac}>
                 <div>
-        <div>Pour tout vos don pour la banque alimentaire</div>                    
+        <div>Pour tous vos dons destinés à la banque alimentaire : </div>                    
         <div className={`${styles.mail}`}>GILCBATISSE@GMAIL.COM</div>
                 </div>
                 </div>
         </div>
         <div className={styles.don_materiel}>
-                <p>Si vous souhaitez faire un don vestimentaire ou alimentaire veillez nous contacter a ce numero:</p>
+                <p>Si vous souhaitez faire un don vestimentaire ou alimentaire, veuillez nous contacter à ce numéro :</p>
                 <div className={`${styles.mail}`}>+1 (613) 291-7607</div>
         </div>       
         </div>

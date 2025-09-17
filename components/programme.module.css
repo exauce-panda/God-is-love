@@ -18,6 +18,7 @@
     padding: 20px;
     min-width: 400px;
     max-width: 400px;
+    text-align: center;
 }
 .pg_deux{
     background-color:rgb(62, 60, 83);
@@ -25,6 +26,7 @@
     font-size:x-large;
     min-width: 400px;
     max-width: 400px;
+    text-align: center;
 }
 .pg_trois{
     background-color:rgb(255, 63, 4);
@@ -32,22 +34,23 @@
     font-size:x-large;
     min-width: 400px;
     max-width: 400px;
+    text-align: center;
 }
-.p_1{
+.p_1{    
     display: flex;
     justify-content: center; 
     font-weight: bolder;
 }
 .p_2{
     font-weight: bold;
+    text-decoration: underline;    
     padding: 12px;
-    margin-bottom: 70px;
+    color:rgb(255, 63, 4);
 }
 .p_3{
     font-weight: bold;
-    margin-left: 12px;
     padding: 10px;
-    margin-bottom: 69px;
+    margin-bottom: 20px;
 }
 .p_4{
     font-weight: bold;
@@ -61,7 +64,9 @@
 }
 .p2{
     font-weight: bold;
+    text-decoration: underline;
     padding: 12px;
+    color:rgb(62, 60, 83);
 }
 .p3{
     font-weight: bold;
@@ -70,7 +75,7 @@
 }
 .p4{
     font-weight: bold;
-    padding-top:10px;
+    padding-top:30px;
     color:rgb(62, 60, 83);
 }
 .table_pg{

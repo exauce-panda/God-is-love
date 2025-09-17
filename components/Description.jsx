@@ -83,22 +83,7 @@ export default function Description() {
         </div>  
         </div>              
         </div>    
-        <div>
-                <div className={styles.lien}>
-                <a className={styles.sousLien} href="https://www.facebook.com/Godislovecenter?locale=fr_CA" target="_blank">
-                <Image src={logo_un} alt="logo facebook" width={60} height={60} /> <p >FaceBook</p>
-                </a>
-                <a className={styles.sousLien} href="https://www.instagram.com/god_is_lovecenter?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
-                <Image className={styles.image_mobile} src={logo_deux} alt="logo instagram" width={60} height={60} /> <p >Instagram</p>
-                </a>
-                <a className={styles.sousLien} href="https://youtube.com/@gilctv4549?si=l13vyKqNc89xk2_T" target="_blank">
-                <Image src={logo_trois} alt="logo youtube" width={60} height={60} /> <p >Youtube</p>
-                </a>
-                <a className={styles.sousLien} href="https://www.tiktok.com/@gilc_ottawa?_t=ZM-8so4Bh7Mcx4&_r=1" target="_blank">
-                <Image src={logo_quatre} alt="logo TIKTOK" width={60} height={60} /> <p>TikTok</p>
-                </a>
-                </div>
-        </div>
+
         <div>              
                 <div className={styles.eglise_content}>
                 <div className={styles.img_content}>
@@ -116,6 +101,22 @@ export default function Description() {
         <div>
             <Programme/>
         </div>
+        <div>
+                <div className={styles.lien}>
+                <a className={styles.sousLien} href="https://www.facebook.com/Godislovecenter?locale=fr_CA" target="_blank">
+                <Image src={logo_un} alt="logo facebook" width={60} height={60} /> <p >FaceBook</p>
+                </a>
+                <a className={styles.sousLien} href="https://www.instagram.com/god_is_lovecenter?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <Image className={styles.image_mobile} src={logo_deux} alt="logo instagram" width={60} height={60} /> <p >Instagram</p>
+                </a>
+                <a className={styles.sousLien} href="https://youtube.com/@gilctv4549?si=l13vyKqNc89xk2_T" target="_blank">
+                <Image src={logo_trois} alt="logo youtube" width={60} height={60} /> <p >Youtube</p>
+                </a>
+                <a className={styles.sousLien} href="https://www.tiktok.com/@gilc_ottawa?_t=ZM-8so4Bh7Mcx4&_r=1" target="_blank">
+                <Image src={logo_quatre} alt="logo TIKTOK" width={60} height={60} /> <p>TikTok</p>
+                </a>
+                </div>
+        </div>        
      </div>
     );
 }

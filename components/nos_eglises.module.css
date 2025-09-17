@@ -77,7 +77,7 @@
 .eglise_un_content{
   position: relative;
   justify-content: center;
-  color:rgb(199, 152, 0);  
+  color:antiquewhite;  
   text-shadow: 1px 1px 2px black;
   z-index: 1;
 }
