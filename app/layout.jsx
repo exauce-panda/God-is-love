@@ -15,16 +15,13 @@ export const metadata = {
   title: "Eglise God is love center",
   description: "nous sommes une église qui expérimente l'amour de Dieu, car il nous aime plus que tout. ",
   icons: {
-    icon:"/favicon.png"
-  },
+    icon: "/favicon.png", // Mets ton favicon dans /public/favicon.png
+  },  
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-       <head>
-         <link rel="icon" type="image/png" href="/favicon.png" />
-      </head>
       <body className={`${lexend.className} d-flex flex-column`}>
       <div className={styles.principal}>
           <Header /> {/* Inclusion de l'entête */}
