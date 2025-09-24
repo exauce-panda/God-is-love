@@ -14,6 +14,9 @@ const lexend = Lexend({
 export const metadata = {
   title: "Eglis God is love center",
   description: "nous sommes une église qui expérimente l'amour de Dieu, car il nous aime plus que tout. ",
+  icons: {
+    icon:"/favicon.png"
+  },
 };
 
 export default function RootLayout({ children }) {
