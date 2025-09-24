@@ -12,7 +12,7 @@ const lexend = Lexend({
 })
 
 export const metadata = {
-  title: "Eglis God is love center",
+  title: "Eglise God is love center",
   description: "nous sommes une église qui expérimente l'amour de Dieu, car il nous aime plus que tout. ",
   icons: {
     icon:"/favicon.png"
@@ -22,6 +22,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
+       <head>
+         <link rel="icon" type="image/png" href="/favicon.png" />
+      </head>
       <body className={`${lexend.className} d-flex flex-column`}>
       <div className={styles.principal}>
           <Header /> {/* Inclusion de l'entête */}
