@@ -188,12 +188,12 @@
     filter: contrast(1) blur(4px);
   }
 
-    .titre{
+  .titre{
       display: none;
-    }
-    .reseaux_deux{
+  }
+  .reseaux_deux{
       display: none;
-    }
+  }
 
   /* TEXTE PRINCIPAL */
   .desc {
@@ -270,23 +270,21 @@
     max-width: 100%;
   }
 
-  .description {
-    text-align: center;
-    padding: 10px 20px;
-  }
-
   .nom_pasteur {
     font-size: 28px;
     text-align: center;
     margin-bottom: 10px;
   }
-
-  .desc_eglise {
-    font-size: 18px;
-    align-items: center;
-    padding-left: 20px;
-    max-width: 100%;
+  .desc_eglise{
+      text-align: justify;
+      padding: 27px;
   }
+  .description {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-right: 0px;
+  } 
 }
 
 
@@ -360,13 +358,14 @@
     }
     .desc_eglise{
       text-align: justify;
+      padding: 27px;
     }
-    .description{
-    text-align:center;
-    padding-top: 0px;
-    padding-left: 40px;
-    padding-right: 20px;
-}    
+    .description {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-right: 0px;
+    } 
 }
 
 

@@ -28,14 +28,6 @@
     height: 14rem; /* Définit une hauteur plus grande pour le conteneur du champ de texte du message, permettant d'accueillir un texte plus long */
     text-align: center;    
 }
-/* Styles pour les appareils de petite taille */
-@media (max-width: 374px) {
-    /* Ajustement des styles pour la page de contact sur des écrans très étroits */
-    .pageContact {
-        min-width: 24rem; /* Assure une largeur minimale pour le contenu, évitant ainsi qu'il ne devienne trop compact */
-        height: 100rem;
-    } 
-}
 .bgcolor{/* la couleur qui recouvre l'element */
     color: gold;
 }
@@ -137,4 +129,12 @@
     .list{
     padding-left: 10px;
     }    
+}
+/* Styles pour les appareils de petite taille */
+@media (max-width: 374px) {
+    /* Ajustement des styles pour la page de contact sur des écrans très étroits */
+    .pageContact {
+        min-width: 24rem; /* Assure une largeur minimale pour le contenu, évitant ainsi qu'il ne devienne trop compact */
+        height: 100rem;
+    } 
 }

@@ -31,8 +31,8 @@ export default function Evenements() {
 
   return (
     <div className={styles.bob}>
-      <div className={`${styles.top}`}>Nos evenements actuelle et a venir</div>
-      <div className={styles.sous_top}>N&apos;hesitez pas a nous suivre sur nos reseaux pour etre au courant des futurs annonces</div>
+      <div className={`${styles.top}`}>Nos événements actuelle et à venir</div>
+      <div className={styles.sous_top}>N&apos;hesitez pas à nous suivre sur nos réseaux pour être au courant des nos futurs annonces</div>
               <div>
                 <div className={styles.lien}>
                 <a className={styles.sousLien} href="https://www.facebook.com/Godislovecenter?locale=fr_CA" target="_blank">

@@ -24,7 +24,7 @@ export default function  Service(){
         Réjoignez une équipe
       </div>
       <div className={styles.text_primaire}>
-        Contactez nous pour vos differentes questions concernant les differents departements de l&apos;eglise 
+        Contactez nous pour vos différentes questions concernant les divers départements de l&apos;église 
       </div>
 
       <div className={`${styles.contenant}`}>
