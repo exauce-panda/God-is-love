@@ -1,7 +1,9 @@
 'use client'
 // Assure que ce composant s'exécute uniquement côté client, permettant l'accès à des APIs telles que localStorage.
 import { useState } from 'react'; // Importe useState de React pour créer des états locaux.
+import { useRef } from 'react';
 import styles from './Jeunesse.module.css'; // Importe les styles spécifiques au composant Jeunesse.
+import emailjs from "@emailjs/browser";
 //import { EB_Garamond } from 'next/font/google';
 
 /*const ebGaramond = EB_Garamond({
@@ -11,6 +13,7 @@ import styles from './Jeunesse.module.css'; // Importe les styles spécifiques a
 })*/
 //import emailjs from '@emailjs/browser';
 export default function Jeunesse() {
+    const form = useRef();
     // Déclaration des états pour stocker les valeurs des champs du formulaire et les messages d'erreur/validation.
     const [nom, setNom] = useState('');
     const [email, setEmail] = useState('');
@@ -61,7 +64,8 @@ export default function Jeunesse() {
             validateField('email', email);
             validateField('message', message);
         }
-       //emailjs.sendForm("service_f9b84ft","template_54sxywe",e.target,"eYc5_rW7DCei_jHAY");
+        //cofiguration des id pour envoi du mail
+        emailjs.sendForm( "service_atwxmyi", "template_lajkevh", form.current, "HL5hjTCYUDstTT1YM")  
     };
     return (
         <div className={`${styles.bob} text-black`}>

@@ -7,9 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build":"npm run build"
+    "vercel-build": "npm run build"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "bootstrap": "^5.3.3",
     "next": "15.0.4",
     "react": "^19.0.0",

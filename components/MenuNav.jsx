@@ -62,6 +62,9 @@ export default function MenuNav() {
                     <li className={styles.lien}>
                         <Link href="/contact" onClick={handleLinkClick} className={pathname === '/contact' ? styles.test : ''}>Contactez-nous</Link>
                     </li>
+                    <li className={styles.lien}>
+                        <Link href="/comiteSocial" onClick={handleLinkClick} className={pathname === '/comiteSocial' ? styles.test : ''}>Comité Social</Link>
+                    </li>               
                 </ul>
             </nav>
             </div>

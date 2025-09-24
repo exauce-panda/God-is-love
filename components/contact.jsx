@@ -1,15 +1,12 @@
 'use client'
 // Assure que ce composant s'exécute uniquement côté client, permettant l'accès à des APIs telles que localStorage.
 import { useState } from 'react'; // Importe useState de React pour créer des états locaux.
+import { useRef } from 'react';
 import styles from './contact.module.css'; // Importe les styles spécifiques au composant Contact.
-//import { EB_Garamond } from 'next/font/google';
+import emailjs from "@emailjs/browser";
 
-/*const ebGaramond = EB_Garamond({
-  subsets: ['latin'],
-  weight: ['400', '700'], // facultatif
-  variable: '--font-eb-garamond', // optionnel pour CSS variable
-})*/
 export default function Contact() {
+    const form = useRef();
     // Déclaration des états pour stocker les valeurs des champs du formulaire et les messages d'erreur/validation.
     const [nom, setNom] = useState('');
     const [email, setEmail] = useState('');
@@ -60,6 +57,8 @@ export default function Contact() {
             validateField('email', email);
             validateField('message', message);
         }
+        //cofiguration des id pour envoi du mail
+        emailjs.sendForm( "service_atwxmyi", "template_lajkevh", form.current, "HL5hjTCYUDstTT1YM")   
     };
     return (
         <div className={`${styles.bob} text-black`}>
@@ -84,7 +83,7 @@ export default function Contact() {
                 <div className={`${styles.formulaire}`}>
                     <div className={styles.style_formulaire}>
                         <div className="text-black">                          
-                            <form onSubmit={handleSubmit}>
+                            <form ref={form} onSubmit={handleSubmit}>
                                 {/* Champs du formulaire avec gestion des erreurs */}
                                 <div className={`${styles.forumId}`}>
                                     <label htmlFor="nom" className={`form-label h4 ${styles.text_color}`}>Nom</label>

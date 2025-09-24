@@ -1,9 +1,12 @@
 'use client'
 // Assure que ce composant s'exécute uniquement côté client, permettant l'accès à des APIs telles que localStorage.
 import { useState } from 'react'; // Importe useState de React pour créer des états locaux.
+import { useRef } from 'react';
 import styles from './Protocola.module.css'; // Importe les styles spécifiques au composant Protocola.
+import emailjs from "@emailjs/browser";
 //import emailjs from '@emailjs/browser';
 export default function Protocola() {
+    const form = useRef();    
    // Déclaration des états pour stocker les valeurs des champs du formulaire et les messages d'erreur/validation.
     const [nom, setNom] = useState('');
     const [email, setEmail] = useState('');
@@ -54,7 +57,8 @@ export default function Protocola() {
             validateField('email', email);
             validateField('message', message);
         }
-       //emailjs.sendForm("service_f9b84ft","template_54sxywe",e.target,"eYc5_rW7DCei_jHAY");
+        //cofiguration des id pour envoi du mail
+        emailjs.sendForm( "service_atwxmyi", "template_lajkevh", form.current, "HL5hjTCYUDstTT1YM")  
     };
     return (
         <div className={`${styles.bob} text-black`}>
