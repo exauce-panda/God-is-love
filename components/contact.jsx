@@ -3,7 +3,7 @@
 import { useState } from 'react'; // Importe useState de React pour créer des états locaux.
 import { useRef } from 'react';
 import styles from './contact.module.css'; // Importe les styles spécifiques au composant Contact.
-import emailjs from "@emailjs/browser";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
     const form = useRef();

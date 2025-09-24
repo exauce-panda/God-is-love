@@ -14,7 +14,7 @@ return(
     <div className={styles.merci}>Merci pour votre don</div>
         <div className={styles.verset}>
         <div className={styles.titre_verset}>2 Corinthiens 9:7</div>
-        <div className={styles.text}><span className={styles.txt}>"</span> Que chacun donne comme il l&apos;a résolu en son coeur, sans tristesse ni contrainte; car Dieu aime celui qui donne avec joie. <span className={styles.txt}>"</span></div>
+        <div className={styles.text}><span className={styles.txt}>&quot;</span> Que chacun donne comme il l&apos;a résolu en son coeur, sans tristesse ni contrainte; car Dieu aime celui qui donne avec joie. <span className={styles.txt}>&quot;</span></div>
         </div>
         <div className={styles.paiements}>
         <div className={styles.batiment}>PAR INTERACT
