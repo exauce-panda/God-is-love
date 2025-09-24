@@ -3,10 +3,10 @@ export default function ComiteSocial(){
     return(
         <div className={styles.bob}>
   <h1>1. À propos de nous</h1>
-  <p>Le Comité social et culturel du God is Love Center est un pilier de notre mission d&apos;amour, de solidarité et d&apos;intégration communautaire. Basé à Ottawa, il vise à répondre aux besoins concrets des jeunes et des familles, particulièrement francophones, dans un esprit de compassion chrétienne.</p>
+  <p>Le Comité social et culturel du God is Love Center est un pilier de notre mission d&apos;amour, de solidarité et d&apos;intégration communautaire. Basé à Ottawa, il vise à répondre aux besoins concrets des jeunes et des familles, particulièrement francophones, &apos; dans un esprit de compassion chrétienne.</p>
 
   <h1>2. Historique</h1>
-  <p>Fondé en Mai 2024, le Comité social et culturel de God is Love Center est né d'une vision évangélique chrétienne de soutien spirituel et social. Avec le temps, le comité social et culturel a été structuré pour mieux répondre aux réalités locales des nouveaux arrivants, des familles en difficulté et de la jeunesse.</p>
+  <p>Fondé en Mai 2024, le Comité social et culturel de God is Love Center est né d&apos;une vision évangélique chrétienne de soutien spirituel et social. Avec le temps, le comité social et culturel a été structuré pour mieux répondre aux réalités locales des nouveaux arrivants, des familles en difficulté et de la jeunesse.</p>
 
   <h1>3. Motivation</h1>
   <p>Animé par l&apos;amour de Dieu et le service aux autres, notre comité se donne pour mission de bâtir une communauté plus solidaire, accueillante et résiliente, où chacun peut s&apos;épanouir.</p>
