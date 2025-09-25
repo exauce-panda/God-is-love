@@ -48,7 +48,7 @@ export default function  Service(){
         <Image className={styles.logo}src={logo_protocola} alt="logo protocola" width={230} height={230}/> 
         </div>
         <div className="d-block text-start">
-        <div className={`${styles.mini_titre}`}>PROTOCOLA</div> 
+        <div className={`${styles.mini_titre}`}>PROTOCOLE</div> 
         <div className={styles.description}>Sois le premier sourire que les gens voient en arrivant ! L&apos;équipe de protocole accueille, oriente et crée une atmosphère chaleureuse et respectueuse pour tous. Si tu aimes le contact humain et servir avec joie, cette équipe est pour toi.</div>
         <Link href="/protocola" className={pathname === '/protocola' ? `${styles.text}` : ''}>
         <div className={`${styles.boutton}`}>

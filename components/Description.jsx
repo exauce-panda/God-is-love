@@ -58,7 +58,7 @@ export default function Description() {
             À l&apos;église God is Love Center (GILC), nous sommes une seule et grande famille. Nous expérimentons l&apos;amour de Dieu, car il nous aime plus que tout. Nous reconnaissons que Jésus-Christ est Dieu et qu&apos;il est mort pour nos péchés. 
             </div>
             <div className={`${styles.verset}`}>Ephesiens 3:15</div>
-            <Link href="/nos_eglises">
+            <Link href="/ministere">
           <div>
           <div className={`${styles.rejoindre} h6`}>Nos Eglises</div>
           </div>
@@ -75,7 +75,7 @@ export default function Description() {
             À l&apos;église God is Love Center (GILC), nous sommes une seule et grande famille. Nous expérimentons l&apos;amour de Dieu, car il nous aime plus que tout. Nous reconnaissons que Jésus-Christ est Dieu et qu&apos;il est mort pour nos péchés. 
             </div>
             <div className={`${styles.verset}`}>Ephesiens 3:15</div>
-        <Link href="/nos_eglises">
+        <Link href="/ministere">
           <div>
           <div className={`${styles.rejoindre} h6`}>Nos Eglises</div>
           </div>

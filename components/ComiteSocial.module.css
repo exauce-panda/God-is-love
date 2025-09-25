@@ -1,8 +1,59 @@
 .bob{
-  padding-top:60px;
   color:black;
   font-size: large;
+  width: 60%;             
+  margin: 0 auto;         
+  text-align: left; 
+  padding-bottom: 20px;
+}
+.merci{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 240, 208);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    font-size: xx-large;
+    font-weight: bold;
+    z-index: 2;
+    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
 }
 .bob h1 {
-    text-align: center;
+  text-align: justify;
+  color: rgb(199, 152, 0);
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size:xx-large;
+  font-weight: bolder;
 }
+
+.bob h2{
+  text-align: justify;
+  color: rgb(244, 28, 28);
+  padding-top: 30px;  
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.bob h3{
+  text-align: justify;
+  font-size: larger;
+  font-weight: 600;
+}
+/* --- MOBILES (jusqu'à 768px) --- */
+@media (max-width:768px) {
+  .bob{
+  width: 70%;             
+  margin: 0 auto;         
+  text-align:left; 
+}
+.merci{
+    background-color: white;
+}
+}
+
+
+
