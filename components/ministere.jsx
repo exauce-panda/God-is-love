@@ -12,7 +12,7 @@ export default function Ministere(){
     return(
     <div className={styles.bob}>
     <div className={`${styles.titre}`}>Notre ministère</div>
-    <div className={styles.slogan}>&quot; Transfomer par l&apos;amour de Dieu pour transfomer le monde, car il n&apos;y a que l&apos;amour qui transforme.&quot;</div>            
+    <div className={styles.slogan}><span className="text-black">&quot;</span> Transfomer par l&apos;amour de Dieu pour transfomer le monde, car il n&apos;y a que l&apos;amour qui transforme.<span className="text-black">&quot;</span></div>            
         <div className={styles.composant}>
             <div className={styles.histoire}>
                 <div className={styles.img} >

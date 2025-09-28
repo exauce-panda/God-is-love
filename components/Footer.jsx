@@ -48,8 +48,7 @@ export default function Footer(){
             Copyright &copy; {new Date().getFullYear()} by GILC-MEDIA, All rights reserved. <br/>
         </div>
         <div className={styles.auteur}>
-         icons by&nbsp;
-        <a href="https://icones8.fr/app/figma" className={styles.icon}> icons8</a>
+        {/* icons by&nbsp; <a href="https://icones8.fr/app/figma" className={styles.icon}> icons8</a>*/} 
         </div>
         </div>
     )

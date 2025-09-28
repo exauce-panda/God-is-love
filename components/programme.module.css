@@ -15,14 +15,14 @@
     background-color: rgb(252, 250, 237);
     color:rgb(35, 34, 53);
     font-size:x-large;
-    padding: 20px;
+    padding: 40px;
     min-width: 400px;
     max-width: 400px;
     text-align: center;
 }
 .pg_deux{
     background-color:rgb(62, 60, 83);
-    padding: 20px;
+    padding: 40px;
     font-size:x-large;
     min-width: 400px;
     max-width: 400px;
@@ -30,7 +30,7 @@
 }
 .pg_trois{
     background-color:rgb(255, 63, 4);
-    padding: 20px;
+    padding: 40px;
     font-size:x-large;
     min-width: 400px;
     max-width: 400px;

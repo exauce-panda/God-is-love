@@ -67,7 +67,7 @@ export default function Description() {
         </div>               
           </div>          
         </div>
-        <div className={styles.titre}>
+        <div className={styles.desc_ordi}>
         <div className={`${styles.mini_titre}`}>UNE SEULE GRANDE FAMILLE</div> 
         <div className={styles.titre_n_deux}>           
         <div className={styles.desc}>

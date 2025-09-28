@@ -12,7 +12,7 @@
 .desc_mob{
   text-shadow: 1px 1px 2px rgb(78, 51, 1);
 }
-.titre{
+.desc_ordi{
   color: black;
   opacity: 100%;
   padding: 20px;
@@ -34,11 +34,13 @@
 .titre_n_deux{
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .mini_titre{
   display: flex;
   padding: 20px;
+  font-weight: bolder;
   justify-content: center;
 }
 .desc{
@@ -49,7 +51,7 @@
   display: flex;
   padding: 20px;
   justify-content: center;
-  text-shadow: 1px 1px 2px black;
+  font-weight: bolder;
 }
 .reseaux{
   position: relative;
@@ -120,10 +122,11 @@
   z-index: 1;
 }
 .rejoindre{
-  color: aliceblue;
-  text-decoration:underline;
+  color: rgb(255, 240, 208);
+  width:200px;
   border: 10px solid black;
   border-radius: 60px;
+  margin: 60px auto;
   background-color: rgb(0, 0, 0);
 }
 .eglise_content{
