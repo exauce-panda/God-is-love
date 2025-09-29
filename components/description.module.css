@@ -178,13 +178,19 @@
   .image_content{
     height: 250px;
   }
+  .desc_ordi{
+      display: none;
+  }
+  .titre_n_deux{
+    padding-bottom: 0px;
+  }
 
   /* IMAGE HEADER */
   .image {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     margin-top: 0px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
   }
 
   .image_bg {
@@ -292,18 +298,24 @@
 
 
   @media (max-width:470px) {
-  .image{
+    .image{
     padding-top: 50px;
-    padding-bottom: 70px; 
+    padding-bottom: 0px; 
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-  }
+    }
+    .desc_ordi{
+      display: none;
+    }
     .tritre_n_un{
     text-align: center;
     font-size: 40px;
     display: flex;
     justify-content: center;
     color: rgba(209,145,44,255);
+    }
+    .titre_n_deux{
+    padding-bottom: 0px;
     }
     .image_bg{
      filter: contrast(20px) blur(1px);
@@ -358,6 +370,7 @@
     }
     .desc_mobile{
       display: flex;
+      padding-bottom: 0px;
     }
     .desc_eglise{
       text-align: justify;

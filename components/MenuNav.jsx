@@ -51,7 +51,7 @@ export default function MenuNav() {
                         <div className={styles.ligne}></div>
                     </li>
                     <li className={styles.lien}>
-                        <Link href="/ministere" onClick={handleLinkClick} className={pathname === '/ministere' ? styles.test : ''}>Ministere</Link>
+                        <Link href="/ministere" onClick={handleLinkClick} className={pathname === '/ministere' ? styles.test : ''}>Ministère</Link>
                         <div className={styles.ligne}></div>
                     </li>
                     <li className={styles.lien}>

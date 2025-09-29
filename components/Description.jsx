@@ -50,7 +50,7 @@ export default function Description() {
         <div className={`text-center`}><div className={`h2`}>BIENVENUE A</div><div className={`text-center`}>GOD IS LOVE</div><div className={`text-center`}>CENTER</div></div>
         </div>  
         </div>  
-                <div className={`${styles.desc_mobile}`}>
+        <div className={`${styles.desc_mobile}`}>
         <div className={styles.titre_n_deux}>        
         <div className={styles.desc}>
             <div className={styles.titre_mobile}>UNE SEULE GRANDE FAMILLE </div> 
@@ -59,9 +59,7 @@ export default function Description() {
             </div>
             <div className={`${styles.verset}`}>Ephesiens 3:15</div>
             <Link href="/ministere">
-          <div>
-          <div className={`${styles.rejoindre} h6`}>Nos Eglises</div>
-          </div>
+        <div><div className={`${styles.rejoindre} h6`}>Nos Eglises</div></div>
             </Link>
         </div>  
         </div>               
