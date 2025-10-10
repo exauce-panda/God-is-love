@@ -4,26 +4,30 @@
       "image": "/MainEventImage/affiche_un.jpg",
       "priority": true,
       "title": "3 eme edition - La puissance de l'amour",
-      "date": "Samedi 20 Septembre 2025"
+      "date": "Samedi 20 Septembre 2025",
+      "description": "description de l'evenement description de l'evenement description de l'evenement description de l'evenement  description de l'evenement description de l'evenement"
     },
     {
       "id": 2,
       "image": "/MainEventImage/affiche_deux.jpg",
       "priority": true,
       "title": "31 jours de prières",
-      "date": "Du 20 Aout au 19 Septembre"
+      "date": "Du 20 Aout au 19 Septembre",
+      "description": "description de l'evenement description de l'evenement description de l'evenement description de l'evenement  description de l'evenement description de l'evenement"
     },
     {
       "id": 3,
       "image": "/MainEventImage/affiche_trois.jpg",
       "title": "Nuit de prière spécial",
-      "date": "Vendredi 29 Aout 2025"
+      "date": "Vendredi 29 Aout 2025",
+      "description": "description de l'evenement description de l'evenement description de l'evenement description de l'evenement  description de l'evenement description de l'evenement"
     },
     {
       "id": 4,
       "image": "/MainEventImage/affiche_trois.jpg",
       "title": "Nuit de prière spécial",
-      "date": "Vendredi 29 Aout 2025"
+      "date": "Vendredi 29 Aout 2025",
+      "description": "description de l'evenement description de l'evenement description de l'evenement description de l'evenement  description de l'evenement description de l'evenement"
     }
   ]
   

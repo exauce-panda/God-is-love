@@ -120,10 +120,15 @@
         font-size: small;
     }
     .titre{
-        padding-top: 80px;
+        padding: 20px;  
+        text-align: center;  
+        padding-top: 90px;
         padding-bottom: 20px;
+        font-size: x-large;
+        font-weight: bold;    
+        box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);   
+        color: black;
         background-color: white;
-        font-size: xx-large;
     }
     .logo{
         margin: 0 auto;

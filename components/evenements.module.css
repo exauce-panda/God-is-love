@@ -1,5 +1,4 @@
 .bob{
-    color: rgba(209,145,44,255);
     background-color: rgb(243, 243, 243);
 }
 .affichage_img{
@@ -10,7 +9,9 @@
 .titre{
     color: rgb(0, 0, 0);
 }
-
+.dateEven{
+    color:rgba(209,145,44,255);
+}
 .top{
     display: flex;
     justify-content: center;
@@ -42,16 +43,7 @@
   justify-content: center;
   gap: 10px;
 }
-.imgDiv{
-    max-width: 100%;
-    height: auto;
-}
-.imgEv {
-    border-radius: 20px;
-    width: 500px;
-    height: 700px;
-    object-fit: cover; /* Garde une bonne mise en page */
-}
+
 .nom_reseaux{
  display: flex;
  justify-content: center;
