@@ -67,7 +67,6 @@
     position: fixed;
     top: 1.5rem;
     right: 1rem;
-
     /* Optionnel : ajout de marge */
     margin-right: 2rem;
   }
@@ -76,7 +75,7 @@
     display: block;
     height: 4px;
     width: 100%;
-    background-color: rgb(201, 134, 34);
+    background-color: #c39445;
     border-radius: 2px;
     transition: all 0.4s ease;
     transform-origin: center;

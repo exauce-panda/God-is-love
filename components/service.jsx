@@ -89,6 +89,42 @@ export default function  Service(){
         </Link>
         </div>          
       </div>
+
+      <div className={styles.type_service}>
+        <div className={styles.logo_top}>
+        <Image className={styles.logo}src={logo_chorale} alt="logo chorale" width={230} height={230}/> 
+        </div>
+        <div className="d-block text-start">
+        <div className={`${styles.mini_titre}`}>ECODIM</div> 
+        <div className={styles.description}>
+          Servir à l&apos;Écodim, c&apos;est répondre à un appel : celui de semer la parole de Dieu dans le cœur des plus jeunes. Si tu as à cœur d&apos;encourager, d&apos;enseigner et de transmettre l&apos;amour du Christ,
+           rejoins notre équipe et deviens un instrument de transformation pour la nouvelle génération.
+        </div>
+        <Link href="/ecodim" className={pathname === '/ecodim' ? `${styles.text}` : ''}>
+        <div className={`${styles.boutton}`}>
+          <div>CONTACTEZ</div>
+          </div>
+        </Link>
+        </div>          
+      </div>
+
+      <div className={styles.type_service}>
+        <div className={styles.logo_top}>
+        <Image className={styles.logo}src={logo_chorale} alt="logo chorale" width={230} height={230}/> 
+        </div>
+        <div className="d-block text-start">
+        <div className={`${styles.mini_titre}`}>EVANGELISATION</div> 
+        <div className={styles.description}>
+Matthieu 28:19 : « Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit. » 
+Le département d&apos;évangélisation rassemble des hommes et des femmes passionnés par Dieu et désireux de partager Sa parole. Rejoins-nous et participe à des actions qui changent des vies.
+        </div>
+        <Link href="/evangelisation" className={pathname === '/evangelisation' ? `${styles.text}` : ''}>
+        <div className={`${styles.boutton}`}>
+          <div>CONTACTEZ</div>
+          </div>
+        </Link>
+        </div>          
+      </div>            
       </div>  
 
     </div>
