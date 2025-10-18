@@ -58,7 +58,7 @@ export default function Contact() {
             validateField('message', message);
         }
         //cofiguration des id pour envoi du mail
-        emailjs.sendForm( "service_atwxmyi", "template_lajkevh", form.current, "HL5hjTCYUDstTT1YM")   
+        emailjs.sendForm( "service_a5qy6tx", "template_v28cozs", form.current, "U_htpjrJ65AIlCqHX")   
     };
     return (
         <div className={`${styles.bob} text-black`}>
@@ -76,7 +76,7 @@ export default function Contact() {
                             <p className={`h4 ${styles.text_color}`}>Vous pouvez nous joindre avec ces coordonées :</p>
                             <ul className={styles.list}>
                                 <li>Téléphone : +1 (343) 553-4491</li>
-                                <li>Email : godislovecenter@gmail.com</li>
+                                <li>Email : contact@godislovecenter.com</li>
                             </ul>
                         </div>
               </div>

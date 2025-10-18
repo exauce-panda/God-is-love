@@ -7,6 +7,8 @@ import logo_media from "@/public/images/service/logo_media.png"
 import logo_chorale from "@/public/images/service/logo_chorale.png"
 import logo_jeunesse from "@/public/images/service/logo_jeunesse.png"
 import logo_protocola from "@/public/images/service/logo_protocola.png"
+import logo_ecodim from "@/public/images/service/logo_ecodim.png"
+import logo_evangelisation from "@/public/images/service/logo_evangelisation.png"
 //import { EB_Garamond } from 'next/font/google';
 
 /*const ebGaramond = EB_Garamond({
@@ -24,9 +26,10 @@ export default function  Service(){
         Réjoignez une équipe
       </div>
       <div className={styles.text_primaire}>
-        Contactez nous pour vos différentes questions concernant les divers départements de l&apos;église 
+        Contactez nous pour vos différentes questions concernant les divers départements de l&apos;église.
       </div>
 
+      <div className={styles.contenant_principale}>
       <div className={`${styles.contenant}`}>
       <div className={styles.type_service}>
         <div className={styles.logo_top}>
@@ -35,7 +38,7 @@ export default function  Service(){
          <div className="d-block text-start">
          <div className={`${styles.mini_titre}`}>MEDIA</div> 
          <div className={styles.description}>Tu as un intérêt pour la photo, la vidéo, le son ou les réseaux sociaux ? Tu veux mettre tes talents au service de Dieu tout en apprenant de nouvelles compétences techniques ? Alors l&apos;équipe média est faite pour toi!</div>
-         <Link href="/medias" className={pathname === '/medias' ? `${styles.text}` : ''}>
+         <Link href="/contact" className={pathname === '/contact' ? `${styles.text}` : ''}>
          <div className={`${styles.boutton}`}>
           <div>CONTACTEZ</div>
          </div>  
@@ -50,7 +53,7 @@ export default function  Service(){
         <div className="d-block text-start">
         <div className={`${styles.mini_titre}`}>PROTOCOLE</div> 
         <div className={styles.description}>Sois le premier sourire que les gens voient en arrivant ! L&apos;équipe de protocole accueille, oriente et crée une atmosphère chaleureuse et respectueuse pour tous. Si tu aimes le contact humain et servir avec joie, cette équipe est pour toi.</div>
-        <Link href="/protocola" className={pathname === '/protocola' ? `${styles.text}` : ''}>
+        <Link href="/contact" className={pathname === '/contact' ? `${styles.text}` : ''}>
         <div className={`${styles.boutton}`}>
           <div>CONTACTEZ</div>
           </div>
@@ -67,7 +70,7 @@ export default function  Service(){
          <div className="d-block text-start">
          <div className={`${styles.mini_titre}`}>JEUNESSE</div> 
          <div className={styles.description}>Tu es jeune et tu veux vivre ta foi dans une ambiance dynamique ? Rejoins le groupe jeunesse ! Enseignements, activités, partages, sorties : grandis dans ta relation avec Dieu entouré.e de gens de ton âge.</div>
-         <Link href="/jeunesse" className={pathname === '/jeunesse' ? `${styles.text}` : ''}>
+         <Link href="/contact" className={pathname === '/contact' ? `${styles.text}` : ''}>
          <div className={`${styles.boutton}`}>
           <div>CONTACTEZ</div>
          </div>  
@@ -82,17 +85,19 @@ export default function  Service(){
         <div className="d-block text-start">
         <div className={`${styles.mini_titre}`}>CHORALE</div> 
         <div className={styles.description}>Tu chantes ou joues d&apos;un instrument ? Rejoins la chorale et fais partie de ceux qui conduisent l&apos;église dans la louange et l&apos;adoration. Plus qu&apos;un talent, c&apos;est un cœur qui adore que nous recherchons !</div>
-        <Link href="/musique" className={pathname === '/musique' ? `${styles.text}` : ''}>
+        <Link href="/contact" className={pathname === '/contact' ? `${styles.text}` : ''}>
         <div className={`${styles.boutton}`}>
           <div>CONTACTEZ</div>
           </div>
         </Link>
         </div>          
       </div>
+      </div>  
 
+      <div className={`${styles.contenant}`}>
       <div className={styles.type_service}>
         <div className={styles.logo_top}>
-        <Image className={styles.logo}src={logo_chorale} alt="logo chorale" width={230} height={230}/> 
+        <Image className={styles.logo}src={logo_ecodim} alt="logo ecodim" width={230} height={230}/> 
         </div>
         <div className="d-block text-start">
         <div className={`${styles.mini_titre}`}>ECODIM</div> 
@@ -100,7 +105,7 @@ export default function  Service(){
           Servir à l&apos;Écodim, c&apos;est répondre à un appel : celui de semer la parole de Dieu dans le cœur des plus jeunes. Si tu as à cœur d&apos;encourager, d&apos;enseigner et de transmettre l&apos;amour du Christ,
            rejoins notre équipe et deviens un instrument de transformation pour la nouvelle génération.
         </div>
-        <Link href="/ecodim" className={pathname === '/ecodim' ? `${styles.text}` : ''}>
+        <Link href="/contact" className={pathname === '/contact' ? `${styles.text}` : ''}>
         <div className={`${styles.boutton}`}>
           <div>CONTACTEZ</div>
           </div>
@@ -110,7 +115,7 @@ export default function  Service(){
 
       <div className={styles.type_service}>
         <div className={styles.logo_top}>
-        <Image className={styles.logo}src={logo_chorale} alt="logo chorale" width={230} height={230}/> 
+        <Image className={styles.logo}src={logo_evangelisation} alt="logo evangelisation" width={230} height={230}/> 
         </div>
         <div className="d-block text-start">
         <div className={`${styles.mini_titre}`}>EVANGELISATION</div> 
@@ -118,14 +123,16 @@ export default function  Service(){
 Matthieu 28:19 : « Allez, faites de toutes les nations des disciples, les baptisant au nom du Père, du Fils et du Saint-Esprit. » 
 Le département d&apos;évangélisation rassemble des hommes et des femmes passionnés par Dieu et désireux de partager Sa parole. Rejoins-nous et participe à des actions qui changent des vies.
         </div>
-        <Link href="/evangelisation" className={pathname === '/evangelisation' ? `${styles.text}` : ''}>
+        <Link href="/contact" className={pathname === '/contact' ? `${styles.text}` : ''}>
         <div className={`${styles.boutton}`}>
           <div>CONTACTEZ</div>
           </div>
         </Link>
         </div>          
       </div>            
-      </div>  
+    </div>
+
+    </div>
 
     </div>
 )

@@ -27,12 +27,12 @@
     z-index: 2;
     box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);
 }
+
 .contenant{
     display: flex;
     gap: 10px;
     background-color: white;
-    padding-left: 90px;
-    padding-right: 80px;    
+    padding-left: 250px;  
 }
 .type_service{
     display: flex;
@@ -89,6 +89,10 @@
     .mini_titre{
         text-align: center;
     }
+    .contenant{
+        padding-left: 90px;
+        padding-right: 80px;    
+    }
     .boutton{
         margin-top: 10px; /* espace au-dessus du bouton */
         justify-content: center;
@@ -129,6 +133,10 @@
         box-shadow:1px 1px 7px rgba(0, 0, 0, 0.3);   
         color: black;
         background-color: white;
+    }
+    .contenant{
+        padding-left: 90px;
+        padding-right: 80px;    
     }
     .logo{
         margin: 0 auto;
