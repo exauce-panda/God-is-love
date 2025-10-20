@@ -32,7 +32,7 @@
     display: flex;
     gap: 10px;
     background-color: white;
-    padding-left: 250px;  
+    padding-left: 100px;  
 }
 .type_service{
     display: flex;
@@ -71,6 +71,14 @@
     font-weight: bold;
     font-size: x-large;
 }
+.ligne{
+    display: none;
+    width: 80px;  /* Modifier la longueur en pourcentage ou pixels */
+    height: 1.5px;  /* Épaisseur de la ligne */
+    background-color: rgba(209,145,44,255); /* Couleur de la ligne */
+    border: none; /* Supprime la bordure par défaut */
+    margin: 20px auto; /* Centrer la ligne */
+}
 
 /* Tablette : entre 550px et 1024px */
 @media (max-width: 1024px) and (min-width: 550px){
@@ -108,20 +116,32 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+    }
+    .ligne{
+        display: block;
+    }
+    .text_primaire{
+        padding: 20px;
     }
     .type_service{
         width: 100%;
         max-width: 350px;
         padding: 10px;
+        gap: 0px;
     }
     .mini_titre{
         text-align: center;
         font-size: large;
     }
+    .btn{
+        padding-top: 10px;
+        padding-bottom: 27px;
+    }
     .description{
         text-align: center;
         font-size: small;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .titre{
         padding: 20px;  
