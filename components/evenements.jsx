@@ -6,14 +6,11 @@ import logo_un from "@/public/logos/facebook.png";
 import logo_deux from "@/public/logos/instagram.png";
 import logo_trois from "@/public/logos/youtube.png";
 import logo_quatre from "@/public/logos/tiktok.png";
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 
 // Définition du composant fonctionnel Events.
 export default function Evenements() {
   //me permet de recuperer les elements du json allEvents
   const currentEvents = allEvents;
-  const pathname = usePathname;
   return (
     <div className={styles.bob}>
       <div className={`${styles.top}`}>Nos événements actuelle et à venir</div>
@@ -39,9 +36,15 @@ export default function Evenements() {
         {currentEvents.map((event) => (
           <div className={`mb-5 text-center ${styles.divEvent}`} key={event.id}>
             <div className={` ${styles.imgDiv} mx-auto`}>
-              <Link href="/event" className={pathname === '/event'}>   
-                  <Image src={event.image} alt={`Image for ${event.title}`} className={`mb-5 ${styles.imgEv}`} priority={event.priority} width="550" height="700" sizes="(max-width: 425px) 400px" />
-              </Link>
+                  <Image 
+                  src={event.image} 
+                  alt={`Image for ${event.title}`} 
+                  className={`mb-5 ${styles.imgEv}`} 
+                  priority={event.priority} 
+                  width="50" 
+                  height="70" 
+                  sizes="(max-width: 45px) 40px" 
+                  />
             </div>
             <h2 className={`${styles.titre}`}>
                 {event.title}

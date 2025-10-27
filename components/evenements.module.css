@@ -9,6 +9,7 @@
 .titre{
     color: rgb(0, 0, 0);
 }
+
 .dateEven{
     color:rgba(209,145,44,255);
 }
@@ -48,6 +49,18 @@
  display: flex;
  justify-content: center;
 }
+.imgDiv {
+  position: relative;
+  width: 300px;      /* largeur souhaitée */
+  height: 200px;     /* hauteur souhaitée */
+  margin: 0 auto;    /* centre l’image horizontalement */
+  overflow: hidden;
+  border-radius: 10px; /* optionnel */
+}
+
+.imgEv {
+  object-fit: cover;  /* recadre l’image au lieu de l’étirer */
+}
 /*tablette*/
 @media(max-width : 860px) {
     .affichage_img{
@@ -60,7 +73,7 @@
         gap: 1px;
     }
     .imgEv{
-        width: 600px;
+        width: 800px;
         height: 800px;
     }
    .lien{

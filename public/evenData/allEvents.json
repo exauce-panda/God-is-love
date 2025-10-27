@@ -9,11 +9,18 @@
     },
     {
       "id": 2,
-      "image": "/MainEventImage/affiche_deux.jpg",
+      "image": "/MainEventImage/affiche_trois.jpg",
       "priority": true,
       "title": "Samedi natte",
-      "date": "Samedi 25 Octobre 2025 à 18h00",
+      "date": "Samedi 01 Novembre 2025 à 18h00",
       "description": "Rejoins-nous pour une journée d’intercession entre jeunes ! Ensemble, assis sur des nattes dans une atmosphère de prière et d’humilité, nous vivrons un temps puissant dans la présence de Dieu."
+    },
+    {
+      "id": 3,
+      "image": "/MainEventImage/affiche_deux.jpg",
+      "title": "Dieu cherche un intercesseur",
+      "date": "26 Octobre / 2 Novembre / 9 Novembre",
+      "description": "Rejoins-nous pendant ces trois dimanches où nous parlerons de l’importance d’intercéder les uns pour les autres."
     }
   ]
   
