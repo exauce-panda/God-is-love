@@ -132,12 +132,12 @@ Le département d&apos;évangélisation rassemble des hommes et des femmes passi
         <Link href="/contact" className={pathname === '/contact' ? `${styles.text}` : ''}>
          <div className={styles.btn}>
           <div className={`${styles.boutton}`}>CONTACTEZ</div>
-         </div>       
+         </div>   
+          <div className={styles.ligne}></div>             
         </Link>
         </div>          
       </div>            
     </div>
-         <div className={styles.ligne}></div> 
           <div className={`${styles.contenant}`}>
       <div className={styles.type_service}>
         <div className={styles.logo_top}>
